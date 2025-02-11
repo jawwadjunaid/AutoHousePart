@@ -1,0 +1,66 @@
+/* Full-width banner */
+.hero-container {
+    background-image: url("/your-background.jpg"); /* Change to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  /* Content Wrapper */
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  /* Left Image Box */
+  .hero-image img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  .hero-component-heading{
+    color: black;
+  }
+  /* Right Heading Section */
+  .hero-text {
+    max-width: 50%;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .hero-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .hero-image img {
+      width: 250px;
+    }
+  
+    .hero-text {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  }
+  
