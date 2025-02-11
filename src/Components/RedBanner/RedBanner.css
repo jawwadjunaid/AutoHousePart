@@ -1,0 +1,62 @@
+.red-banner {
+    background-color: red;
+    padding: 40px 15%; /* Pehle 10% tha, ab 15% kar diya */
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px; /* Pehle 1200px tha, ab 1000px kar diya */
+  }
+  
+  .stat-item {
+    display: flex;
+    align-items: center; /* Image aur text ko same line pe lane ke liye */
+    text-align: left;
+    gap: 15px; /* Image aur text ke beech ka distance */
+  }
+  
+  .stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  .stat-text-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stat-number {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+  }
+  
+  .stat-text {
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .stats-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .stat-item {
+      flex-direction: row; /* Mobile pe bhi image left aur text right hi rahe */
+      justify-content: start;
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+  }
+  
