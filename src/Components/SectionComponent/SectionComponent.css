@@ -1,0 +1,76 @@
+.section-container {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  /* Zigzag Image Grid */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .small-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+  }
+  
+  .big-img {
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+  }
+  
+  /* Right Side - Text */
+  .section-text {
+    max-width: 50%;
+  }
+  
+  .section-text h2 {
+    font-size: 2rem;
+    color: black;
+  }
+  
+  .read-more-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .section-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .image-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .section-text {
+      max-width: 100%;
+      margin-top: 20px;
+    }
+  
+    .small-img, .big-img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
