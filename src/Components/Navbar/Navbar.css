@@ -1,77 +1,102 @@
 /* Navbar Styling */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #f8f9fa;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    position: relative;
-  }
-  
-  /* Logo */
-  .logo {
-    height: 40px;
-  }
-  
-  /* Navigation Links */
-  .nav-links {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .appointment-btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 8px 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  /* Hamburger Menu (Hidden on Desktop) */
+  display: flex;
+  justify-content: space-between; /* Space between sections */
+  align-items: center;
+  padding: 15px 40px;
+  background-color: #C00104;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo */
+.logo {
+  height: 50px;
+}
+
+/* Center Navigation Links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex: 1; /* Make the navigation links fill the center space */
+  gap: 50px; /* Equal spacing between links */
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffc107; /* Yellow hover effect */
+}
+
+/* Appointment Button */
+.appointment-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.appointment-btn:hover {
+  background-color: #fff;
+  color: #C00104;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none; /* Hidden by default for larger screens */
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  /* Show hamburger menu */
   .hamburger {
+    display: block;
+  }
+
+  /* Hide navigation links by default */
+  .nav-links {
     display: none;
-    font-size: 24px;
-    cursor: pointer;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #C00104;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
   }
-  
-  /* Mobile Responsiveness */
-  @media (max-width: 768px) {
-    .hamburger {
-      display: block;
-    }
-  
-    .nav-links {
-      display: none;
-      flex-direction: column;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      width: 100%;
-      background-color: white;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      padding: 10px 0;
-      text-align: center;
-    }
-  
-    .nav-links.open {
-      display: flex;
-    }
-  
-    .nav-links a,
-    .appointment-btn {
-      padding: 10px;
-      width: 100%;
-      display: block;
-    }
+
+  /* Show navigation links when open */
+  .nav-links.open {
+    display: flex;
   }
-  
+
+  .nav-links a {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .appointment-btn {
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+  }
+}
