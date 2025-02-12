@@ -11,7 +11,7 @@ const HeroComponent = () => {
           <div className="hero-buttons">
             <button className="btn btn-red">Let's Get Started</button>
             {/* Appointment Button */}
-      <button className="appointment-btn">Book Appointment</button>
+            <button className="appointment-btns">Book Appointment</button>
           </div>
         </div>
 

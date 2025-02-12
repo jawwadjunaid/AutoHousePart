@@ -1,0 +1,103 @@
+/* Navbar Styling */
+.navbar1 {
+    display: flex;
+    justify-content: space-between; /* Space between sections */
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #C00104;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo */
+  .Navlogo {
+    height: 50px;
+  }
+  
+  /* Center Navigation Links */
+  .nav1-links {
+    display: flex;
+    justify-content: center;
+    flex: 1; /* Make the navigation links fill the center space */
+    gap: 50px; /* Equal spacing between links */
+    list-style: none;
+  }
+  
+  .nav1-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav1-links a:hover {
+    color: #ffc107; /* Yellow hover effect */
+  }
+  
+  /* Appointment Button */
+  .appointment-btns {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .appointment-btns:hover {
+    background-color: #fff;
+    color: #C00104;
+  }
+  
+  /* Hamburger Menu */
+  .hamburgers {
+    display: none; /* Hidden by default for larger screens */
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    /* Show hamburger menu */
+    .hamburgers {
+      display: block;
+    }
+  
+    /* Hide navigation links by default */
+    .nav1-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 100%;
+      background-color: #C00104;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 100;
+    }
+  
+    /* Show navigation links when open */
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .nav-links a {
+      padding: 10px 20px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .appointment-btn {
+      padding: 10px 20px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

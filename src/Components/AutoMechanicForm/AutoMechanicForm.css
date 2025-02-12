@@ -1,110 +1,122 @@
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    padding: 40px 10%;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 40px 10%;
+}
+
+.left-content {
+  flex: 1;
+  max-width: 450px;
+}
+
+.help-text {
+  color: #C00104;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h2 span {
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Poppins";
+}
+
+.description {
+  color: #555;
+  font-size: 16px;
+  font-family: "Poppins";
   
-  .left-content {
-    flex: 1;
-    max-width: 450px;
-  }
-  
-  .help-text {
-    color: red;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 14px;
-  }
-  
-  h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 10px 0;
-  }
-  
-  h2 span {
-    color: black;
-  }
-  
-  .description {
-    color: #555;
-    font-size: 16px;
-  }
-  
-  .right-form {
-    flex: 1;
-    background: red;
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .right-form h3 {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-  
-  form {
-    width: 100%;
-  }
-  
-  form input,
-  form select,
-  form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  form .flex {
-    display: flex;
-    gap: 10px;
-  }
-  
-  form button {
-    width: 100%;
-    padding: 12px;
-    background: black;
-    color: white;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  /* Centered Logo */
-  .logo-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;
-  }
-  
-  .logo {
-    width: 80px; /* Adjust size */
-    height: 20px;
-  }
-  
-  @media (max-width: 768px) {
-    .container {
+}
+
+.right-form {
+  flex: 1;
+  background: #C00104;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-form h3 {
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+form {
+  width: 100%;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Fixing the textarea overflow issue */
+form textarea {
+  resize: none; /* Disable resize option */
+  overflow: auto; /* Add scroll only when necessary */
+}
+
+form .flex {
+  display: flex;
+  gap: 10px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Centered Logo */
+.logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.logo {
+  width: 80px; /* Adjust size */
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
       flex-direction: column;
       text-align: center;
-    }
-  
-    .right-form {
-      width: 100%;
-    }
-  
-    form .flex {
-      flex-direction: column;
-    }
   }
-  
+
+  .right-form {
+      width: 100%;
+  }
+
+  form .flex {
+      flex-direction: column;
+  }
+}

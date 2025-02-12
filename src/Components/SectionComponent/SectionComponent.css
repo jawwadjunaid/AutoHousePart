@@ -4,55 +4,65 @@
   gap: 2rem;
   padding: 2rem;
   background-color: #f8f8f8;
-}
-
-.section-content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 2rem;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .image-section {
   position: relative;
-  width: 50%;
-  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .badge-img-customers {
-  height: 120px;
-  width: 190px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: #C00104;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+ 
 }
 
 .main-img {
-  width: 45%;
-  height: 170px;
+  position: absolute;
+  top: 0;
+  left: 220px;
+  width: 280px;
+  height: auto;
   object-fit: cover;
 }
 
 .secondary-img {
-  position: relative;
-  width: 55%;
-  height: 180px;
-  margin-top: 20px;
-  align-self: flex-end;
+  position: absolute;
+  top: 220px;
+  left: 50px;
+  width: 300px;
+  height: auto;
+  z-index: 1;
 }
 
 .badge-img-year {
-  width: 120px;
-  height: auto;
-  margin-top: 20px;
-  align-self: flex-start;
+  position: absolute;
+  top: 230px;
+  left: 230px;
+  width: 200px;
+  height: 150px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 5px;
   z-index: 3;
 }
 
 .text-section {
-  width: 45%;
+  margin-top: 350px;
 }
 
 .text-section h1 {

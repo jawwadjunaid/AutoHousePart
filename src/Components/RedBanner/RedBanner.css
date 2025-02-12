@@ -1,62 +1,74 @@
 .red-banner {
-    background-color: red;
-    padding: 40px 15%; /* Pehle 10% tha, ab 15% kar diya */
-    display: flex;
-    justify-content: center;
-    
-  }
-  
+  background-color: #C00104;
+  padding: 30px 5%; /* Compact padding */
+  display: flex;
+  justify-content: center;
+  margin: -50px 0; /* Overlapping effect */
+  width: 70%; /* Narrower banner width */
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2; /* Proper overlapping */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px; /* Slight rounding */
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px; /* Container width reduced */
+}
+
+.stat-item {
+  display: flex;
+  align-items: center; /* Align image and text */
+  text-align: left;
+  gap: 15px; /* Space between image and text */
+}
+
+.stat-image {
+  width: 60px; /* Adjust size for images */
+  height: 60px;
+  border-radius: 10%; /* Optional: Slight rounding for images */
+  object-fit: cover; /* Ensures image doesn't stretch */
+}
+
+.stat-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-number {
+  font-size: 1.8rem;
+  color: white;
+  margin: 0;
+}
+
+.stat-text {
+  font-size: 0.9rem;
+  color: white;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
   .stats-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1000px; /* Pehle 1200px tha, ab 1000px kar diya */
-  }
-  
-  .stat-item {
-    display: flex;
-    align-items: center; /* Image aur text ko same line pe lane ke liye */
-    text-align: left;
-    gap: 15px; /* Image aur text ke beech ka distance */
-  }
-  
-  .stat-icon {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: white;
-    padding: 10px;
-  }
-  
-  .stat-text-container {
-    display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  
-  .stat-number {
-    font-size: 2rem;
-    color: white;
-    margin: 0;
+
+  .stat-item {
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
   }
-  
-  .stat-text {
-    font-size: 1rem;
-    color: white;
-    margin: 0;
+
+  .red-banner {
+    width: 90%; /* Adjust for smaller screens */
+    padding: 20px 5%;
+    margin: -30px 0; /* Adjust overlap for small screens */
   }
-  
-  @media (max-width: 768px) {
-    .stats-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .stat-item {
-      flex-direction: row; /* Mobile pe bhi image left aur text right hi rahe */
-      justify-content: start;
-      width: 100%;
-      max-width: 300px;
-      margin-bottom: 20px;
-    }
-  }
-  
+}

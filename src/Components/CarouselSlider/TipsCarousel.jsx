@@ -4,6 +4,7 @@ import "./TipsCarousel.css"; // ✅ Import CSS file
 import tripycon from "../../assets/images/image6.png"; // ✅ Make sure the path is correct
 
 const tipsData = [
+
   { id: 1, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 2, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 3, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
@@ -13,6 +14,7 @@ const tipsData = [
   { id: 7, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 8, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 9, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+
 ];
 
 const TipsCarousel = () => {

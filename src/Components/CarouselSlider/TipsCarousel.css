@@ -1,5 +1,21 @@
 /* Responsive Tips Carousel */
 .tips-carousel {
+    position: relative;
+    width: 100%;
+    background-color: black;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+    background-image: url('/tipsBackground.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+  
+  /* Ensure Background Adjusts Properly */
+  @media (max-width: 900px) {
+    .tips-carousel {
   position: relative;
   height: 500px;
   background-color: black;
@@ -21,6 +37,7 @@
 /* Ensure Background Adjusts Properly */
 @media (max-width: 900px) {
   .tips-carousel {
+
       background-size: contain; /* Adjust for smaller screens */
   }
 }
