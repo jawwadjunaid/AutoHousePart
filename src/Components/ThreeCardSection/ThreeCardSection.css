@@ -6,9 +6,9 @@
 }
 
 .card {
-  width: 350px; /* Proper box size */
-  height: 450px; /* Bigger size */
-  border: 3px solid #e63946; /* Red border */
+  width: 400px; /* Proper box size */
+  height: 300px; /* Bigger size */
+  /* border: 3px solid #e63946; Red border */
   border-radius: 10px;
   overflow: hidden;
   position: relative;
@@ -41,12 +41,13 @@
   background: transparent; /* No grey overlay */
   color: white;
   padding: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color:black;
+  color: black;
 }
 
 p {
@@ -56,10 +57,12 @@ p {
 }
 
 .red-tag {
-  background: red;
+  background: #C00104;
   color: white;
   padding: 10px 20px;
   border: none;
+  font-size: 15px; /* Font size for button */
+  font-family: "Poppins", sans-serif; /* Poppins font family */
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
