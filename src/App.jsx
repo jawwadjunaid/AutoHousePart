@@ -1,6 +1,7 @@
 import AutoMechanicForm from "./Components/AutoMechanicForm/AutoMechanicForm";
 import CarLogos from "./Components/CarLogos/CarLogos";
 import TipsCarousel from "./Components/CarouselSlider/TipsCarousel";
+import Footer from "./Components/Footer/Footer";
 import HeroComponent from "./Components/heroComponent/HeroComponent";
 import Navbar1 from "./Components/Navbar1/Navbar1";
 import RedBanner from "./Components/RedBanner/RedBanner";
@@ -27,6 +28,7 @@ function App() {
    <TestimonialSlider/>
    <AutoMechanicForm/>
    <CarLogos/>
+   <Footer/>
    </>
   )
 }

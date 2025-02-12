@@ -1,17 +1,20 @@
 import React, { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "./TipsCarousel.css"; // ✅ Import CSS file
+import tripycon from "../../assets/images/image6.png"; // ✅ Make sure the path is correct
 
 const tipsData = [
-  { id: 1, text: "Tip 1: Always check your engine oil levels.", img: "" },
-  { id: 2, text: "Tip 2: Regularly replace your air filters.", icon: "⛽" },
-  { id: 3, text: "Tip 3: Maintain proper tire pressure.", icon: "⛽" },
-  { id: 4, text: "Tip 4: Keep an eye on brake fluid levels.", icon: "⛽" },
-  { id: 5, text: "Tip 5: Change spark plugs periodically.", icon: "⛽" },
-  { id: 6, text: "Tip 6: Don’t ignore warning lights.", icon: "⛽" },
-  { id: 7, text: "Tip 7: Wash your car to prevent rust.", icon: "⛽" },
-  { id: 8, text: "Tip 8: Ensure headlights are clean.", icon: "⛽" },
-  { id: 9, text: "Tip 9: Check battery terminals regularly.", icon: "⛽" },
+
+  { id: 1, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 2, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 3, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 4, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 5, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 6, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 7, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 8, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 9, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+
 ];
 
 const TipsCarousel = () => {
@@ -28,9 +31,7 @@ const TipsCarousel = () => {
   return (
     <div className="tips-carousel">
       <p>Follow these tips to keep your vehicle in top shape.</p>
-      
       <h2>Essential Tips For Vehicle Care</h2>
-      
 
       <div className="carousel-container">
         <button onClick={prevSlide} className="carousel-button left">
@@ -40,7 +41,7 @@ const TipsCarousel = () => {
         <div className="carousel">
           {tipsData.slice(currentIndex, currentIndex + 3).map((tip) => (
             <div key={tip.id} className="tip-card">
-              <div className="tip-icon">{tip.icon}</div>
+              <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" /> {/* ✅ Image added */}
               <p>{tip.text}</p>
             </div>
           ))}

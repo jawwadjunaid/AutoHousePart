@@ -31,9 +31,10 @@
 
 /* Center Image Circle Style */
 .services-image .center-image {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  width: 350px;
+  height: 650px;
+  border-radius: 20%;
+  padding-top: 50px;
 }
 
 .services-list {
