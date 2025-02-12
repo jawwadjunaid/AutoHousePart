@@ -1,0 +1,42 @@
+.car-Frame-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 10%;
+    background: #f8f8f8; /* Light background */
+  }
+  
+  .car-Frame-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .car-Frame {
+    width: 100px; /* Adjust based on your design */
+    height: auto;
+    filter: grayscale(100%); /* Optional: Makes logos black & white */
+    transition: 0.3s ease-in-out;
+  }
+  
+  .car-Frame:hover {
+    filter: grayscale(0%); /* Removes grayscale on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .car-Frame-wrapper {
+      gap: 20px;
+    }
+    .car-Frame {
+      width: 80px; /* Adjust for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .car-Frame {
+      width: 60px; /* Further adjust for mobile */
+    }
+  }
+  

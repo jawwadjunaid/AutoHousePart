@@ -1,98 +1,135 @@
-/* General Section Styling */
-.slider-section {
+/* Responsive Tips Carousel */
+/* Updated Responsive Tips Carousel */
+.tips-carousel {
     position: relative;
     width: 100%;
-    height: auto;
-    padding: 60px 0;
-    background: url('background-image.jpg') no-repeat center center/cover;
+    background-color: black;
+    padding: 50px 20px;
+    color: white;
     text-align: center;
-    color: #fff;
+    background-image: url('/background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
-  /* Heading & Paragraph */
-  .slider-section h2 {
-    font-size: 28px;
+  /* Ensure Background Adjusts Properly */
+  @media (max-width: 900px) {
+    .tips-carousel {
+      background-size: contain; /* Adjust for smaller screens */
+      
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .tips-carousel {
+      background-size: cover;
+      background-position: top center;
+    }
+  }
+  
+  
+  .tips-carousel h2 {
+    font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px;
+    text-transform: uppercase;
   }
   
-  .slider-section p {
-    font-size: 16px;
-    max-width: 600px;
-    margin: 0 auto 30px;
+  .tips-carousel p {
+    color: gray;
+    margin-top: 10px;
   }
   
-  /* Slider Container */
-  .slider-container {
+  .carousel-container {
+    max-width: 800px;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
     position: relative;
-    overflow: hidden;
-    max-width: 80%;
-    margin: auto;
   }
   
-  /* Individual Card Styling */
-  .slider-card {
-    flex: 0 0 30%;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-    backdrop-filter: blur(5px);
-  }
-  
-  .slider-card img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 15px;
-  }
-  
-  .slider-card p {
-    font-size: 14px;
-  }
-  
-  /* Slider Buttons */
-  .slider-btn {
+  /* Navigation Buttons */
+  .carousel-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.2);
+    background-color: gray;
     border: none;
-    width: 40px;
-    height: 40px;
+    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
-    transition: 0.3s;
+  }
+  
+  .carousel-button:hover {
+    background-color: red;
+  }
+  
+  .carousel-button.left {
+    left: -50px; /* Moves outside the cards */
+  }
+  
+  .carousel-button.right {
+    right: -50px;
+  }
+  
+  .carousel {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
   }
   
-  .slider-btn:hover {
-    background: rgba(255, 255, 255, 0.5);
+  .tip-card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+    border: 1px solid gray;
   }
   
-  .slider-btn-left {
-    left: 5%;
+  .tip-icon {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 10px;
   }
   
-  .slider-btn-right {
-    right: 5%;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .slider-container {
+  /* 📱 Responsive Design */
+  @media (max-width: 900px) {
+    .carousel {
       flex-direction: column;
+      gap: 20px;
     }
   
-    .slider-card {
-      flex: 0 0 80%;
+    .tip-card {
+      width: 50%;
+      margin: auto;
+    }
+  
+    .carousel-button {
+      padding: 8px;
+    }
+  
+    .carousel-button.left {
+      left: -20px;
+    }
+  
+    .carousel-button.right {
+      right: -20px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .tips-carousel h2 {
+      font-size: 20px;
+    }
+  
+    .tip-icon {
+      font-size: 30px;
+    }
+  
+    .carousel-button {
+      padding: 6px;
     }
   }
   
