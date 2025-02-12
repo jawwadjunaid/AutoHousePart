@@ -1,3 +1,5 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import AutoMechanicForm from "./Components/AutoMechanicForm/AutoMechanicForm";
 import CarLogos from "./Components/CarLogos/CarLogos";
 import TipsCarousel from "./Components/CarouselSlider/TipsCarousel";
@@ -10,27 +12,36 @@ import ServicesSection from "./Components/ServiceSection/ServicesSection";
 import Subscribe from "./Components/Subscribe/Subscribe";
 import TestimonialSlider from "./Components/TestimonialSlider/TestimonialSlider";
 import ThreeCardSection from "./Components/ThreeCardSection/ThreeCardSection";
+import AboutUs from "./Pages/AboutUs/AboutUs";
+import Services from "./Pages/Services/Services";
+import Contact from './Pages/ContactUs/ContactUs';
 
 function App() {
- 
-
   return (
-   <>
-   
-   <Navbar1/>
-   <HeroComponent/>
-   <SectionComponent/>
-   <RedBanner/>
-   <ServicesSection/>
-   <ThreeCardSection/>
-   <TipsCarousel/>
-   <Subscribe/>
-   <TestimonialSlider/>
-   <AutoMechanicForm/>
-   <CarLogos/>
-   <Footer/>
-   </>
-  )
+    <Router>
+      <Navbar1 />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <HeroComponent />
+            <SectionComponent />
+            <RedBanner />
+            <ServicesSection />
+            <ThreeCardSection />
+            <TipsCarousel />
+            <Subscribe />
+            <TestimonialSlider />
+            <AutoMechanicForm />
+            <CarLogos />
+          </>
+        } />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
+  );
 }
 
-export default App
+export default App;

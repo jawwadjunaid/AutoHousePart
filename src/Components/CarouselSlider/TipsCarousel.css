@@ -18,7 +18,7 @@
     .tips-carousel {
   position: relative;
   height: 500px;
-  background-color: black;
+  
   padding: 50px 20px;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -33,7 +33,7 @@
   justify-content: center; /* Centers vertically */
   align-items: center; /* Centers horizontally */
 }
-
+  }
 /* Ensure Background Adjusts Properly */
 @media (max-width: 900px) {
   .tips-carousel {
