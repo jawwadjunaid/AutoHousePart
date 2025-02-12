@@ -7,7 +7,6 @@ import logo from '../../assets/images/images/logo.png';
 
 
 
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
