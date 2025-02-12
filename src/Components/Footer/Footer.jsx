@@ -13,9 +13,9 @@ const Footer = () => {
         {/* Left Section */}
         <div className="footer-left">
           <div className="logo">
-            <img className="logo-text" src={{FooterLogo}}></img>
+            <img className="logo-text" src={FooterLogo}></img>
           </div>
-          <p>
+          <p className="FooterContentPara">
             We are dedicated to providing an unparalleled automotive experience to our valued customers. 
             With our extensive collection of meticulously handcrafted luxury and exotic vehicles.
           </p>

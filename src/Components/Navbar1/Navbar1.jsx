@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "./Navbar1.css"; // Import CSS file
-
+import { Link } from "react-router-dom";
+import "./Navbar1.css";
+import NavLogo from '../../assets/images/images/Logo.png';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -8,7 +9,9 @@ const Navbar = () => {
     <nav className="navbar1">
       {/* Logo */}
       <div className="navlogo-container">
-        <img src="./assets/images/logo.png" alt="Logo" className="Navlogo" />
+        <Link to="/">
+          <img src={NavLogo} alt="Logo" className="Navlogo" />
+        </Link>
       </div>
 
       {/* Hamburger Menu for Mobile */}
@@ -18,10 +21,10 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <div className={`nav1-links ${isOpen ? "open" : ""}`}>
-        <a href="#home">Home</a>
-        <a href="#about">About Us</a>
-        <a href="#service">Service</a>
-        <a href="#contact">Contact</a>
+        <Link to="/">Home</Link>
+        <Link to="/aboutus">About Us</Link>
+        <Link to="/services">Service</Link>
+        <Link to="/contact">Contact</Link>
       </div>
 
       {/* Appointment Button */}

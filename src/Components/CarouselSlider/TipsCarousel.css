@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
   }
   
   /* Ensure Background Adjusts Properly */
@@ -18,7 +18,7 @@
     .tips-carousel {
   position: relative;
   height: 500px;
-  background-color: black;
+  
   padding: 50px 20px;
   color: rgb(255, 255, 255);
   text-align: center;

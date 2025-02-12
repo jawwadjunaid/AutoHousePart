@@ -4,11 +4,11 @@
   align-items: center;
   justify-content: space-between;
   background-color:#C00104; /* Red background */
-  padding: 40px;
+  padding: 15px;
   border-radius: 10px;
   color: white;
   z-index: 10; /* Layer above other components */
-  margin-top: -140px; /* Overlap upper component */
+  margin-top: -100px; /* Overlap upper component */
    /* Overlap lower component */
   width: 80%; /* Adjusted width to prevent full size */
   margin-left: auto;
