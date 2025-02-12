@@ -1,0 +1,57 @@
+.Aboutushero-section {
+    position: relative;
+    background: url('../../assets/images/Pages/AboutUsBG.png') center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for text readability */
+  }
+  
+  .Aboutushero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+  }
+  
+  .tagline {
+    font-size: 0.9rem;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+  
+  .Aboutushero-content h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.4;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    background: darkred;
+  }
+  

@@ -1,8 +1,9 @@
 import React from 'react'
+import AutoMechanicForm from '../../Components/AutoMechanicForm/AutoMechanicForm'
 
 const ContactUs = () => {
   return (
-    <div>ContactUs</div>
+   <AutoMechanicForm/>
   )
 }
 
