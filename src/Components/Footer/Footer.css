@@ -1,0 +1,200 @@
+/* Footer Styling */
+.footer {
+    background-color: #000;
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Left Section */
+  .footer-left {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .logo-text {
+    display: inline-block;
+    background-color: red;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .footer-left p {
+    margin-top: 10px;
+    color: gray;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icons svg {
+    background: gray;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .social-icons svg:hover {
+    background: red;
+  }
+  
+  /* Middle Section */
+  .footer-middle {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    max-width: 500px;
+  }
+  
+  .footer-column {
+    margin-left: 30px;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  .footer-column ul li:hover {
+    color: red;
+  }
+  
+  /* Right Section */
+  .footer-right {
+    flex: 1;
+    max-width: 250px;
+  }
+  
+  .footer-right p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-right svg {
+    margin-right: 5px;
+  }
+  
+  /* Scroll to Top Button */
+  .scroll-top {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 90px; /* Adjusted for centering */
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .scroll-top:hover {
+    background-color: white;
+    color: red;
+  }
+  
+  /* Bottom Section */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    text-align: right;
+  }
+  
+  .footer-links a {
+    color: gray;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-links a:hover {
+    color: red;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 900px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-middle {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .footer-column {
+      margin-left: 0;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-links {
+      margin-top: 10px;
+    }
+  
+    .scroll-top {
+      bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .footer-left, .footer-middle, .footer-right {
+      text-align: center;
+    }
+  
+    .footer-right p {
+      font-size: 14px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+    }
+  
+    .footer-links {
+      margin-top: 10px;
+    }
+  
+    .scroll-top {
+      bottom: 40px;
+    }
+  }
+  
