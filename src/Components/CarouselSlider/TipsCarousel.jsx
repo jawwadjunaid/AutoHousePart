@@ -3,7 +3,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import "./TipsCarousel.css"; // ✅ Import CSS file
 
 const tipsData = [
-  { id: 1, text: "Tip 1: Always check your engine oil levels.", icon: "⛽" },
+  { id: 1, text: "Tip 1: Always check your engine oil levels.", img: "" },
   { id: 2, text: "Tip 2: Regularly replace your air filters.", icon: "⛽" },
   { id: 3, text: "Tip 3: Maintain proper tire pressure.", icon: "⛽" },
   { id: 4, text: "Tip 4: Keep an eye on brake fluid levels.", icon: "⛽" },

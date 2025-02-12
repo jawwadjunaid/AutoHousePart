@@ -1,5 +1,6 @@
 import React from "react";
 import "./Subscribe.css";
+import subscribe from "../../assets/images/images/subscribeImage.png"
 
 const Subscribe = () => {
   return (
@@ -9,15 +10,19 @@ const Subscribe = () => {
         <p>
           A car repair is a service provided to fix any issues or damages with
           vehicles. It involves diagnosing the problem, repairing, or replacing
-          parts.
+          necessary parts.
         </p>
         <div className="subscribe-form">
-          <input type="email" placeholder="Enter your email" />
+          <input type="email" placeholder="Email" />
           <button>SUBSCRIBE</button>
         </div>
       </div>
       <div className="subscribe-image">
-        <img src="/your-image-path.jpg" alt="Mechanic" />
+        <img
+          src={subscribe}
+          alt="Mechanic"
+          className="mechanic-image"
+        />
       </div>
     </div>
   );

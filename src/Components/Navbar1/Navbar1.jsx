@@ -1,23 +1,23 @@
 import React, { useState } from "react";
-import "./Navbar.css"; // Import CSS file
+import "./Navbar1.css"; // Import CSS file
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="navbar">
+    <nav className="navbar1">
       {/* Logo */}
-      <div className="logo-container">
-        <img src="./assets/images/logo.png" alt="Logo" className="logo" />
+      <div className="navlogo-container">
+        <img src="./assets/images/logo.png" alt="Logo" className="Navlogo" />
       </div>
 
       {/* Hamburger Menu for Mobile */}
-      <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+      <div className="hamburgers" onClick={() => setIsOpen(!isOpen)}>
         ☰
       </div>
 
       {/* Navigation Links */}
-      <div className={`nav-links ${isOpen ? "open" : ""}`}>
+      <div className={`nav1-links ${isOpen ? "open" : ""}`}>
         <a href="#home">Home</a>
         <a href="#about">About Us</a>
         <a href="#service">Service</a>
@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       {/* Appointment Button */}
-      <button className="appointment-btn">Book Appointment</button>
+      <button className="appointment-btns">Book Appointment</button>
     </nav>
   );
 };
