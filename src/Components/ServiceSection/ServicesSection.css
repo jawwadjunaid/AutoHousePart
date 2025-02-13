@@ -3,6 +3,7 @@
   color: white;
   text-align: center;
   padding: 50px 5%;
+ 
 }
 
 /* New Reading Heading Styling */
@@ -11,6 +12,7 @@
   color: red;
   text-transform: uppercase;
   margin-bottom: 20px;
+  margin-top: 35px;
 }
 
 .services-heading {

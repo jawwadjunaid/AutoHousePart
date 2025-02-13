@@ -37,7 +37,6 @@ const ThreeCardSection = () => {
               <h3>{card.title}</h3>
               <button className="red-tag">{card.buttonText}</button>
               <p>{card.text}</p>
-              
             </div>
           </div>
         </div>

@@ -1,74 +1,97 @@
 .red-banner {
   background-color: #C00104;
-  padding: 30px 5%; /* Compact padding */
+  padding: 40px 5%;
   display: flex;
   justify-content: center;
-  margin: -50px 0; /* Overlapping effect */
-  width: 70%; /* Narrower banner width */
-  margin-left: auto;
-  margin-right: auto;
+  margin: -50px auto;
+  width: 80%;
   position: relative;
-  z-index: 2; /* Proper overlapping */
+  z-index: 2;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 10px; /* Slight rounding */
+  border-radius: 10px;
 }
 
 .stats-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap; /* Ensure all items stay in one row */
   width: 100%;
-  max-width: 600px; /* Container width reduced */
+  max-width: 1200px;
 }
 
 .stat-item {
   display: flex;
-  align-items: center; /* Align image and text */
-  text-align: left;
-  gap: 15px; /* Space between image and text */
-}
-
-.stat-image {
-  width: 60px; /* Adjust size for images */
-  height: 60px;
-  border-radius: 10%; /* Optional: Slight rounding for images */
-  object-fit: cover; /* Ensures image doesn't stretch */
-}
-
-.stat-text-container {
-  display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  flex: 1; /* Each item will take equal space */
+}
+
+.stat-image img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
 }
 
 .stat-number {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: white;
   margin: 0;
+  font-weight: bold;
 }
 
 .stat-text {
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: white;
   margin: 0;
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
-  .stats-container {
-    flex-direction: column;
-    align-items: center;
+
+/* For Tablets (iPad) */
+@media (max-width: 1024px) {
+  .red-banner {
+    width: 90%;
+    padding: 30px 5%;
+    margin: -30px auto;
   }
 
   .stat-item {
-    flex-direction: row;
-    justify-content: start;
-    width: 100%;
-    max-width: 300px;
-    margin-bottom: 15px;
+    flex: 1; /* Ensure all items stay in one row */
+  }
+}
+
+/* For Mobile Devices */
+@media (max-width: 768px) {
+  .red-banner {
+    width: 95%;
+    padding: 20px 5%;
+    margin: -20px auto;
   }
 
-  .red-banner {
-    width: 90%; /* Adjust for smaller screens */
-    padding: 20px 5%;
-    margin: -30px 0; /* Adjust overlap for small screens */
+  .stats-container {
+    flex-wrap: nowrap; /* Ensure all items stay in one row */
+    overflow-x: auto; /* Add horizontal scroll if needed */
+  }
+
+  .stat-item {
+    flex: 0 0 auto; /* Prevent wrapping and ensure equal spacing */
+    min-width: 150px; /* Minimum width for each item */
+  }
+}
+
+/* For Smaller Mobile Devices */
+@media (max-width: 480px) {
+  .stat-item {
+    min-width: 120px; /* Adjust width for smaller screens */
+  }
+
+  .stat-number {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+  }
+
+  .stat-text {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
   }
 }
