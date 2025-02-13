@@ -1,9 +1,6 @@
 import React from "react";
 import "./SectionComponent.css"; // Import CSS file
-import mechanicImage from "../../assets/images/images/DSC04344.png";
-import garageImage from "../../assets/images/images/about_2-2.png.png";
-import badgeImage1 from "../../assets/images/images/Group 1.png"; // Badge as image
-import badgeImage2 from "../../assets/images/images/Background+shadow.png"; // Badge as image
+
 import bestChoice from "../../assets/images/images/bestChoice.png"; // Badge as image
 
 const SectionComponent = () => {
