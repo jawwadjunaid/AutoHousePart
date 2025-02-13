@@ -3,14 +3,13 @@
   justify-content: center;
   gap: 30px;
   padding: 40px;
+  flex-wrap: wrap; /* Allow wrapping for responsiveness */
 }
 
 .card {
-  width: 400px; /* Proper box size */
-  height: 300px; /* Bigger size */
-  /* border: 3px solid #e63946; Red border */
+  width: 400px;
+  height: 300px;
   border-radius: 10px;
-  
   position: relative;
   background-color: transparent;
   display: flex;
@@ -31,25 +30,27 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  align-items: center; /* Center content */
-  justify-content: center; /* Center content */
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
   text-align: center;
-  padding: 20px;
- 
+  padding: 50px 20px 30px; /* Push content lower */
   background-repeat: no-repeat;
 }
 
 .content {
-  background: transparent; /* No grey overlay */
+ 
   color: white;
-  padding: 20px;
-  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h3 {
   font-size: 20px;
-  margin-bottom: 10px;
-  color: black;
+  margin-bottom: 0px;
+  color: white;
 }
 
 p {
@@ -63,14 +64,53 @@ p {
   color: white;
   padding: 10px 20px;
   border: none;
-  font-size: 15px; /* Font size for button */
-  font-family: "Poppins", sans-serif; /* Poppins font family */
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
+  margin-bottom: 15px; /* More space below button */
+  position: relative;
+  /* Push button lower */
 }
 
 .red-tag:hover {
   background: darkred;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+.content{
+ margin-top: 80px;
+}
+  .card {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  .card-bg {
+    padding: 50px 15px 40px; /* Adjust for mobile */
+  }
+  .red-tag {
+    background: #C00104;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-bottom: 15px; /* More space below button */
+    position: relative;
+    /* Push button lower */
+  }
 }

@@ -15,22 +15,128 @@
     font-weight: bold;
   }
   
-  .breadcrumb {
+  .breadcrumb {.aboutss-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.aboutss-text {
+  max-width: 500px;
+  text-align: right;
+  margin-right: 150px;
+}
+
+.aboutss-text .tagliness {
+  color: #C00104;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.aboutss-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.aboutss-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #171717;
+}
+
+.btnss {
+  background-color: #C00104;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btnss:hover {
+  background-color: #C00104;
+}
+
+.aboutss-images {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .mainss-img {
+    width: 100%;
+    border-radius: 10px;
+    height: 420px;
+}
+
+
+.overlayss-img {
+    position: absolute;
+    width: 50%;
+    max-width: 200px;
+    border: 5px solid white;
+    border-radius: 10px;
+
+    left: -20%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .aboutss-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .aboutss-text h1 {
+        font-size: 2rem;
+        font-size: 50px;
+    }
+
+    .aboutss-text p {
+        max-width: 100%;
+    }
+
+    .aboutss-images {
+        flex-direction: column;
+    }
+
+    .overlayss-img {
+        position: relative;
+        top: -50px;
+        left: 0;
+        width: 70%;
+    }
+}
+
     margin-top: 10px;
   }
   
   .breadcrumb a {
-    color: rgb(255, 0, 0);
+    color: #C00104(255, 0, 0);
     text-decoration: none;
     font-size: 1rem;
     margin: 0 5px;
     transition: color 0.3s;
   }
   
-  .breadcrumb a:hover {
-    color: red;
-  }
+  /* .breadcrumb a:hover {
+    color: #C00104;
+  } */
   
   .breadcrumb a:last-child:hover {
     color: white;
+  }
+  .btnss{
+    color: #C00104;
+
   }

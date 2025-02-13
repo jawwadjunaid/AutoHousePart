@@ -4,17 +4,12 @@ import "./TipsCarousel.css"; // ✅ Import CSS file
 import tripycon from "../../assets/images/image6.png"; // ✅ Make sure the path is correct
 
 const tipsData = [
-
   { id: 1, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 2, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 3, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 4, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 5, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 6, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
-  { id: 7, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
-  { id: 8, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
-  { id: 9, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
-
 ];
 
 const TipsCarousel = () => {
@@ -41,7 +36,7 @@ const TipsCarousel = () => {
         <div className="carousel">
           {tipsData.slice(currentIndex, currentIndex + 3).map((tip) => (
             <div key={tip.id} className="tip-card">
-              <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" /> {/* ✅ Image added */}
+              <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" />
               <p>{tip.text}</p>
             </div>
           ))}

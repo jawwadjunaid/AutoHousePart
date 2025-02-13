@@ -1,164 +1,104 @@
-/* Responsive Tips Carousel */
 .tips-carousel {
-    position: relative;
-    width: 100%;
-    background-color: black;
-    padding: 50px 20px;
-    color: white;
-    text-align: center;
-    background-image: url('/tipsBackground.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-  }
-  
-  /* Ensure Background Adjusts Properly */
-  @media (max-width: 900px) {
-    .tips-carousel {
   position: relative;
-  height: 500px;
-  
-  padding: 50px 20px;
-  color: rgb(255, 255, 255);
+  width: 100%;
+  background-color: black;
+  padding: 3.125rem 1.25rem; /* 50px 20px */
+  color: white;
   text-align: center;
-  background-image: url('../../assets/images/images/tipibg.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
-  /* Center all content vertically */
+  height: 30rem; /* 480px */
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+.carousel {
   display: flex;
-  flex-direction: column;
-  justify-content: center; /* Centers vertically */
-  align-items: center; /* Centers horizontally */
-}
-  }
-/* Ensure Background Adjusts Properly */
-@media (max-width: 900px) {
-  .tips-carousel {
-
-      background-size: contain; /* Adjust for smaller screens */
-  }
-}
-
-@media (max-width: 600px) {
-  .tips-carousel {
-      background-size: cover;
-      background-position: top center;
-  }
-}
-
-.tips-carousel h2 {
-  font-size: 24px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 10px; /* Adds spacing */
-}
-
-.tips-carousel p {
-  color: gray;
-  margin-bottom: 20px; /* Adds spacing */
-}
-
-/* Center carousel */
-.carousel-container {
-  max-width: 800px;
-  margin: auto;
-  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center; /* Centers horizontally */
-  position: relative;
-  gap: 20px;
+  gap: 1.25rem; /* 20px */
+  flex-wrap: wrap;
 }
 
-/* Navigation Buttons */
+.tip-card {
+  background: #333;
+  padding: 1.25rem; /* 20px */
+  border-radius: 0.625rem; /* 10px */
+  text-align: center;
+  width: 18.75rem; /* 300px */
+  max-width: 90%;
+  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 4px 6px */
+  transition: transform 0.3s ease-in-out;
+}
+
+.tip-card:hover {
+  transform: scale(1.05);
+}
+
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   background-color: gray;
   border: none;
-  padding: 10px;
+  padding: 0.9375rem; /* 15px */
   border-radius: 50%;
   cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  z-index: 10; /* Ensure buttons stay on top */
 }
 
 .carousel-button:hover {
   background-color: red;
+  transform: scale(1.1);
 }
 
 .carousel-button.left {
-  left: -50px; /* Moves outside the cards */
+  left: 0.625rem; /* 10px */
 }
 
 .carousel-button.right {
-  right: -50px;
+  right: 0.625rem; /* 10px */
 }
 
-.carousel {
-  display: flex;
-  gap: 20px;
-  overflow: hidden;
-  width: 100%;
-  justify-content: center; /* Ensures tips are centered */
-}
-
-/* Center the cards */
-.tip-card {
-  background-color: #222;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-  flex: 1;
-  border: 1px solid gray;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centers content inside the card */
-  justify-content: center; /* Centers content inside the card */
-}
-
-.tip-icon {
-  font-size: 40px;
-  color: red;
-  margin-bottom: 10px;
-}
-
-/* 📱 Responsive Design */
-@media (max-width: 900px) {
+/* Tablet View */
+@media (max-width: 56.25rem) { /* 900px */
   .carousel {
-      flex-direction: column;
-      gap: 20px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .tip-card {
-      width: 50%;
-      margin: auto;
+    width: 90%;
   }
 
   .carousel-button {
-      padding: 8px;
-  }
-
-  .carousel-button.left {
-      left: -20px;
-  }
-
-  .carousel-button.right {
-      right: -20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
 
-@media (max-width: 600px) {
+/* Mobile View */
+@media (max-width: 37.5rem) { /* 600px */
   .tips-carousel h2 {
-      font-size: 20px;
+    font-size: 1.25rem; /* 20px */
   }
 
-  .tip-icon {
-      font-size: 30px;
+  .tip-image {
+    width: 3.125rem; /* 50px */
+    height: 3.125rem; /* 50px */
   }
 
   .carousel-button {
-      padding: 6px;
+    padding: 0.625rem; /* 10px */
+  }
+
+  .carousel-button.left {
+    left: 0.3125rem; /* 5px */
+  }
+
+  .carousel-button.right {
+    right: 0.3125rem; /* 5px */
   }
 }
