@@ -13,7 +13,7 @@ const AutoHouseComponent = () => {
       <div className="content">
         {/* Text Section */}
         <div className="text-section">
-          <h2 style={{color:'black', fontSize:'2.81rem', color:'#0A0A0A'}}>Why choose Autohouse of Switzerland Inc</h2>
+          <h2 style={{ fontSize:'2.81rem', color:'#0A0A0A'}}>Why choose Autohouse of Switzerland Inc</h2>
           <p className="subtitle" style={{ fontSize:'1.25rem', color:'#0A0A0A'}}>For All Your Service and Maintenance Needs?</p>
           <p className="description" style={{ fontSize:'1rem', color:'#0A0A0A'}}>
             When it comes to your auto service and maintenance needs, you can never go wrong with AutoHouse of Switzerland Inc. 
