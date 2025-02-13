@@ -1,6 +1,7 @@
 import React from "react";
 import "./ServicesHeroSection.css";
-
+import image1 from '../../assets/images/Pages/ServiceHeroSection1.png';
+import image2 from '../../assets/images/Pages/ServiceHeroSection2.png';
 
 
 
@@ -9,8 +10,8 @@ const ServicesHeroSection = () => {
     <section className="services-hero">
       <div className="services-hero-container">
         <div className="services-hero-images">
-          <img src={""} alt="Service 1" className="service-img" />
-          <img src={"I"} alt="Service 2" className="service-img" />
+          <img src={image1} alt="Service 1" className="service-img" />
+          <img src={image2} alt="Service 2" className="service-img" />
         </div>
         <div className="services-hero-content">
           <h1>Top-Quality Auto Service And Maintenance Solutions In Houston, TX</h1>

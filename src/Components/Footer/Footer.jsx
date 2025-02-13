@@ -137,7 +137,7 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2025 All Rights Reserved Autohouse</p>
         <div className="footer-links">
-          <Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/terms">Terms & Conditions</Link>
+          <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
         </div>
       </div>
     </footer>
