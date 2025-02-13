@@ -1,17 +1,11 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaBehance,
-  FaPhone,
-  FaEnvelope,
-  FaMapMarkerAlt,
-  FaArrowUp,
-  FaArrowRight,
-} from "react-icons/fa";
 import "./Footer.css"; // Import the CSS
-import FooterLogo from "../../assets/images/images/logo.png";
+
+import { Link } from "react-router-dom"; // Import Link for navigation
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaBehance, FaPhone, FaEnvelope, FaArrowUp } from "react-icons/fa";
+import "./Footer.css";
+import FooterLogo from '../../assets/images/images/logo.png';
+
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -23,12 +17,17 @@ const Footer = () => {
       <div className="footer-container">
         {/* Left Section */}
         <div className="footer-left">
+
           <div className="logo-text-wrapper">
             <img className="logo" src={FooterLogo} alt="Logo" />
             <p className="FooterContentPara">
               We are dedicated to providing an unparalleled automotive experience to our valued customers. 
               With our extensive collection of meticulously handcrafted luxury and exotic vehicles.
             </p>
+
+          <div className="logo">
+            <img className="logo-text" src={FooterLogo} alt="Footer Logo" />
+
           </div>
           <div className="social-icons">
             <FaFacebookF />
@@ -58,9 +57,15 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Explore</h3>
             <ul>
+
               <li><FaArrowRight /> About Us</li>
               <li><FaArrowRight /> Services</li>
               <li><FaArrowRight /> Contact Us</li>
+
+              <li><Link to="/aboutus">About Us</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li><Link to="/contact">Contact Us</Link></li>
+
             </ul>
           </div>
         </div>
@@ -87,11 +92,12 @@ const Footer = () => {
       <div className="footer-bottom">
         <p>© 2025 All Rights Reserved Autohouse</p>
         <div className="footer-links">
-          <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+          <Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/terms">Terms & Conditions</Link>
         </div>
       </div>
     </footer>
   );
-};
+}
+;
 
 export default Footer;

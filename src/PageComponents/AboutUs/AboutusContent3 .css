@@ -1,0 +1,94 @@
+.aboutss-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+  }
+  
+  .aboutss-text {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .tagliness {
+    font-size: 0.9rem;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .aboutss-text h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .aboutss-text p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .btnss {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .btnss:hover {
+    background: darkred;
+  }
+  
+  /* Image Section */
+  .aboutss-images {
+    position: relative;
+    width: 350px; /* Slightly increased for proper positioning */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mainss-img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Overlay image positioned on top */
+  .overlayss-img {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    width: 150px;
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .aboutss-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .aboutss-images {
+      width: 280px;
+      height: auto;
+    }
+  
+    .overlayss-img {
+      top: -20px;
+      left: 15px;
+      width: 120px;
+    }
+  }
+  

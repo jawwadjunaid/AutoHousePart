@@ -21,10 +21,10 @@ const Navbar = () => {
 
       {/* Navigation Links */}
       <div className={`nav1-links ${isOpen ? "open" : ""}`}>
-        <Link to="/">Home</Link>
-        <Link to="/aboutus">About Us</Link>
-        <Link to="/services">Service</Link>
-        <Link to="/contact">Contact</Link>
+        <li><Link to="/">Home</Link></li>
+       <li><Link to="/aboutus">About Us</Link></li> 
+       <li><Link to="/services">Service</Link></li> 
+       <li><Link to="/contact">Contact</Link></li> 
       </div>
 
       {/* Appointment Button */}
