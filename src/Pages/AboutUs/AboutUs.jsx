@@ -3,7 +3,7 @@ import AboutUsHeader from '../../PageComponents/AboutUs/AboutUsHeader';
 import SectionComponent from '../../Components/SectionComponent/SectionComponent';
 import AboutUsHeroSection from '../../PageComponents/AboutUs/AboutUsHeroSection';
 import AboutusContent3 from '../../PageComponents/AboutUs/AboutusContent3 ';
-import TestimonialSlider from '../../Components/TestimonialSlider/TestimonialSlider';
+import Testimonials from '../../Components/Reviews/Testimonials ';
 import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox ';
 import CarLogos from '../../Components/CarLogos/CarLogos';
 
@@ -15,7 +15,7 @@ const AboutUs = () => {
     <SectionComponent/>
     <AboutUsHeroSection/>
     <AboutusContent3/>
-    <TestimonialSlider />
+    <Testimonials/>
     <AboutUsSubscriptionBox/>
     <CarLogos/>
     </>

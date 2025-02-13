@@ -8,6 +8,7 @@
   color: white;
   max-width: 80%;  /* Reduced width */
   margin: 0 auto;  /* Centered */
+  margin-bottom: 1rem;
 }
 
 .subscription-content {

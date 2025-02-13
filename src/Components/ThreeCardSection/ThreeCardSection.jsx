@@ -26,16 +26,16 @@ const cardData = [
 
 const ThreeCardSection = () => {
   return (
-    <div className="cards-container">
+    <div className="cards-container3">
       {cardData.map((card, index) => (
-        <div key={index} className="card">
+        <div key={index} className="card3">
           <div
-            className="card-bg"
+            className="card-bg3"
             style={{ backgroundImage: `url(${card.imageUrl})` }}
           >
-            <div className="content">
+            <div className="content3">
               <h3>{card.title}</h3>
-              <button className="red-tag">{card.buttonText}</button>
+              <button className="red-tag3">{card.buttonText}</button>
               <p>{card.text}</p>
             </div>
           </div>
