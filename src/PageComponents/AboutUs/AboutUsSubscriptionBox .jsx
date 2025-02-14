@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUsSubscriptionBox.css";
-import AboutUsIcon from "../../assets/images/Pages/AboutUsIcon.png";
+import AboutUsIcon from '../../assets/images/images/AboutUsIcon.png';
 
 
 
