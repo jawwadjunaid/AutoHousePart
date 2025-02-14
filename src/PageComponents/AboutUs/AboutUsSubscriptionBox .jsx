@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUsSubscriptionBox.css";
-import AboutUsIcon from '../../assets/images/images/AboutUsIcon.png';
+
 
 
 
@@ -9,7 +9,7 @@ const AboutUsSubscriptionBox = () => {
     <div className="subscription-box">
       <div className="subscription-content">
         <img
-          src={AboutUsIcon} // Replace with actual image path
+          src={""} // Replace with actual image path
           alt="Newsletter"
           className="newsletter-icon"
         />
