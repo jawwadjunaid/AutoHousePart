@@ -3,6 +3,7 @@ import "./AboutUsSubscriptionBox.css";
 import AboutUsIcon from "../../assets/images/Pages/AboutUsIcon.png";
 
 
+
 const AboutUsSubscriptionBox = () => {
   return (
     <div className="subscription-box">
