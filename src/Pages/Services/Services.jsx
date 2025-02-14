@@ -1,11 +1,12 @@
 import React from 'react'
-import ServicesHeader from '../../PageComponents/Services/ServicesHeader'
-import ServicesHeroSection from '../../PageComponents/Services/ServicesHeroSection'
-import ServicesBoxWithHeading from '../../PageComponents/Services/ServicesBoxWithHeading'
-import AutoHouseComponent from '../../PageComponents/Services/AutoHouseComponent'
-import ServiceContent3 from '../../PageComponents/Services/ServiceContent3'
-import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox '
-import Testimonials from '../../Components/Reviews/Testimonials '
+import ServicesHeader from '../../PageComponents/Services/ServicesHeader.jsx'
+import ServicesHeroSection from '../../PageComponents/Services/ServicesHeroSection.jsx'
+import ServicesBoxWithHeading from '../../PageComponents/Services/ServicesBoxWithHeading.jsx'
+import AutoHouseComponent from '../../PageComponents/Services/AutoHouseComponent.jsx'
+import ServiceContent3 from '../../PageComponents/Services/ServiceContent3.jsx'
+
+import Testimonials from '../../Components/Reviews/Testimonials.jsx'
+import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox .jsx'
 
 
 const Services = () => {
@@ -17,7 +18,7 @@ const Services = () => {
     <AutoHouseComponent/>
     <ServiceContent3/>
     <Testimonials/>
-   <AboutUsSubscriptionBox/>
+    <AboutUsSubscriptionBox/>
     </>
   )
 }

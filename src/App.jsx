@@ -25,7 +25,7 @@ import ComputerDaignostic from "./ServicePages/ComputerDaignostic/ComputerDaigno
 import AcAndHeater from "./ServicePages/AcAndHeater/AcAndheader";
 import ElectricalProblems from "./ServicePages/ElectricalProblems/ElectricalProblems";
 import BeltRollers from "./ServicePages/BeltAndRoller/BeltAndRoller";
-import Testimonials from "./Components/Reviews/Testimonials ";
+import Testimonials from "./Components/Reviews/Testimonials";
 
 
 function App() {

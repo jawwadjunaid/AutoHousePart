@@ -1,10 +1,11 @@
 import React from 'react'
-import TestimonialSlider from '../../Components/TestimonialSlider/TestimonialSlider'
+
+import Testimonials from '../../Components/Reviews/Testimonials'
 
 const Brakes = () => {
   return (
   <>
-  
+  <Testimonials/>
   </>
   )
 }

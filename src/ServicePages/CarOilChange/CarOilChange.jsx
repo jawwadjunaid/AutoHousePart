@@ -1,13 +1,14 @@
 import React from 'react'
-import CarOilChangeHeader from '../../ServicePagesComponent/CarOilChange/CarOilChangeHeader'
-import CarOilHeroSection from '../../ServicePagesComponent/CarOilChange/CarOilHeroSection'
-import CarOilImportant from '../../ServicePagesComponent/CarOilChange/CarOilImportant'
-import CarOilSummary from '../../ServicePagesComponent/CarOilChange/CarOilSummary'
+import CarOilChangeHeader from '../../ServicePagesComponent/CarOilChange/CarOilChangeHeader.jsx'
+import CarOilHeroSection from '../../ServicePagesComponent/CarOilChange/CarOilHeroSection.jsx'
+import CarOilImportant from '../../ServicePagesComponent/CarOilChange/CarOilImportant.jsx'
+import CarOilSummary from '../../ServicePagesComponent/CarOilChange/CarOilSummary.jsx'
 
-import Testimonials from '../../Components/Reviews/Testimonials '
+import Testimonials from '../../Components/Reviews/Testimonials.jsx'
+
+import CarOilChangeComponent from '../../ServicePagesComponent/CarOilChange/CarOilChangeComponent.jsx'
+import CarOilContent3 from '../../ServicePagesComponent/CarOilChange/CarOilContent3.jsx'
 import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox '
-import CarOilChangeComponent from '../../ServicePagesComponent/CarOilChange/CarOilChangeComponent'
-import CarOilContent3 from '../../ServicePagesComponent/CarOilChange/CarOilContent3'
 
 const CarOilChange = () => {
   return (
@@ -19,7 +20,7 @@ const CarOilChange = () => {
        <CarOilChangeComponent/>
        <CarOilContent3/>
        <Testimonials/>
-       <AboutUsSubscriptionBox/>
+      <AboutUsSubscriptionBox/>
     </>
  
   )
