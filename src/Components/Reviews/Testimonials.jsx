@@ -30,13 +30,7 @@ const testimonials = [
     text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
     rating: 4,
   },
-  {
-    name: "John Smith",
-    role: "Marketing Specialist",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
-    rating: 4,
-  },
+ 
 ];
 
 const Testimonials = () => {
