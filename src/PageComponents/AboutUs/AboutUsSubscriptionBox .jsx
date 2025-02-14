@@ -1,6 +1,6 @@
 import React from "react";
 import "./AboutUsSubscriptionBox.css";
-
+import AutoCan from '../../assets/images/Pages/AboutUsIcon.png';
 
 
 
@@ -9,7 +9,7 @@ const AboutUsSubscriptionBox = () => {
     <div className="subscription-box">
       <div className="subscription-content">
         <img
-          src={""} // Replace with actual image path
+          src={AutoCan} // Replace with actual image path
           alt="Newsletter"
           className="newsletter-icon"
         />
