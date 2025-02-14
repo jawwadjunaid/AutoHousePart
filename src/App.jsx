@@ -4,17 +4,18 @@ import AutoMechanicForm from "./Components/AutoMechanicForm/AutoMechanicForm";
 import CarLogos from "./Components/CarLogos/CarLogos";
 import TipsCarousel from "./Components/CarouselSlider/TipsCarousel";
 import Footer from "./Components/Footer/Footer";
-import HeroComponent from "./Components/heroComponent/HeroComponent";
+import HeroComponent from "./Components/HeroComponent/HeroComponent";
 import Navbar1 from "./Components/Navbar1/Navbar1";
 import RedBanner from "./Components/RedBanner/RedBanner";
 import SectionComponent from "./Components/SectionComponent/SectionComponent";
 import ServicesSection from "./Components/ServiceSection/ServicesSection";
 import Subscribe from "./Components/Subscribe/Subscribe";
-import TestimonialSlider from "./Components/TestimonialSlider/TestimonialSlider";
+
 import ThreeCardSection from "./Components/ThreeCardSection/ThreeCardSection";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Services from "./Pages/Services/Services";
 import Contact from './Pages/ContactUs/ContactUs';
+
 import CarOilChange from './ServicePages/CarOilChange/CarOilChange'
 import Brakes from "./ServicePages/Brakes/Brakes";
 import SteeringAndSuspension from "./ServicePages/SteeringAndSuspension/SteeringAndSuspension";
@@ -24,6 +25,8 @@ import ComputerDaignostic from "./ServicePages/ComputerDaignostic/ComputerDaigno
 import AcAndHeater from "./ServicePages/AcAndHeater/AcAndheader";
 import ElectricalProblems from "./ServicePages/ElectricalProblems/ElectricalProblems";
 import BeltRollers from "./ServicePages/BeltAndRoller/BeltAndRoller";
+import Testimonials from "./Components/Reviews/Testimonials ";
+
 
 function App() {
   return (
@@ -39,7 +42,7 @@ function App() {
             <ThreeCardSection />
             <TipsCarousel />
             <Subscribe />
-            <TestimonialSlider />
+            <Testimonials/>
             <AutoMechanicForm />
             <CarLogos />
           </>
