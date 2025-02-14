@@ -1,0 +1,127 @@
+.CarOil-hero {
+    background-color: #f8f8f8;
+    padding: 50px 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .CarOil-hero-container {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .CarOil-hero-images {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .CarOilservice-img {
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  /* Left Image (Smaller) */
+  .CarOilservice-img:first-child {
+    width: 280px; /* Reduced size */
+    height: 400px;
+    padding-top: 30px;
+    margin-top: 30px;
+  }
+  
+  /* Right Image (Normal) */
+  .CarOilservice-img:last-child {
+    width: 320px;
+  }
+  
+  .CarOilservices-hero-content {
+    max-width: 600px;
+  }
+  
+  .CarOilservices-hero-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .CarOilservices-hero-content p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .CarOilservices-hero-btn {
+    background-color: #C00104;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .CarOilservices-hero-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* RESPONSIVENESS */
+  @media (max-width: 1024px) {
+    .CarOilservices-hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .CarOilservices-hero-images {
+        justify-content: center;
+    }
+  
+    .CarOilservice-img:first-child {
+        width: 140px; /* Adjusted for tablets */
+    }
+  
+    .CarOilservice-img:last-child {
+        width: 180px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .CarOilservices-hero {
+        padding: 30px 3%;
+    }
+  
+    .CarOilservices-hero-content h1 {
+        font-size: 24px;
+    }
+  
+    .CarOilservice-img:first-child {
+        width: 120px; /* Adjusted for mobile */
+    }
+  
+    .CarOilservice-img:last-child {
+        width: 160px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .CarOilservices-hero-content h1 {
+        font-size: 20px;
+    }
+  
+    .CarOilservices-hero-content p {
+        font-size: 14px;
+    }
+  
+    .CarOilservice-img:first-child {
+        width: 100px; /* Smallest on mobile */
+    }
+  
+    .CarOilservice-img:last-child {
+        width: 140px;
+    }
+  }
+  

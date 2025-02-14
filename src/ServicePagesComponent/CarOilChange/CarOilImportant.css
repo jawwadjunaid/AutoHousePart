@@ -1,0 +1,48 @@
+.oil-section {
+    background-color: black;
+    color: white;
+    padding: 40px;
+  }
+  
+  .oil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .oil-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .oil-heading span {
+    color: #ccc; /* Light gray for emphasis */
+  }
+  
+  .oil-text {
+    max-width: 600px;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (min-width: 768px) {
+    .oil-container {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .oil-heading {
+      flex: 1;
+      font-size: 32px;
+    }
+  
+    .oil-text {
+      flex: 2;
+    }
+  }
+  

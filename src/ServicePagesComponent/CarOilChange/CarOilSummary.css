@@ -1,0 +1,30 @@
+.CarOilSummarycontainer {
+    position: relative;
+    background-image: url('../../assets/images/Pages/CarOilSummary.png'); /* Replace with correct image path */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  .CarOilSummaryoverlay {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+   padding: 11rem;
+    
+    
+  }
+  
+  @media (max-width: 768px) {
+    .CarOilSummaryoverlay {
+      max-width: 95%;
+      font-size: 14px;
+    }
+  }
+  
