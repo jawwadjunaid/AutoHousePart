@@ -7,18 +7,21 @@
   padding: 15px;
   border-radius: 10px;
   color: white;
-  z-index: 10; /* Layer above other components */
-  margin-top: -100px; /* Overlap upper component */
+  z-index: 12; /* Layer above other components */
+  margin-top: -150px; /* Overlap upper component */
    /* Overlap lower component */
-  width: 80%; /* Adjusted width to prevent full size */
+  width: 55%; /* Adjusted width to prevent full size */
   margin-left: auto;
   margin-right: auto;
+  
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .subscribe-content {
   flex: 1;
   max-width: 50%;
+  padding-left: 2.1rem;
+  
 }
 
 .subscribe-content h2 {
@@ -31,6 +34,7 @@
   font-size: 16px;
   margin-bottom: 20px;
   color: #FFFFFF;
+  
 }
 
 .subscribe-form {
@@ -85,7 +89,7 @@
       flex-direction: column;
       text-align: center;
       padding: 20px;
-      margin-top: -30px; /* Adjust overlap for small screens */
+      margin-top: -80px; /* Adjust overlap for small screens */
       width: 90%; /* Smaller width for smaller devices */
   }
 
@@ -100,5 +104,40 @@
   .subscribe-image {
       justify-content: center;
       margin-top: 20px;
+  }
+}
+/* Tablet View */
+@media (max-width: 1024px) and (min-width: 601px) {
+  .subscribe-container {
+    flex-direction: column;
+    text-align: center;
+    
+    
+    width: 70%; /* Slightly wider for tablets */
+  }
+
+  .subscribe-content {
+    max-width: 90%;
+    padding-left: 0;
+  }
+
+  .subscribe-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .subscribe-form input {
+    flex: 1;
+    min-width: 60%;
+  }
+
+  .subscribe-image {
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .subscribe-image img {
+    height: 200px; /* Adjust image height */
   }
 }

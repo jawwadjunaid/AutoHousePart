@@ -1,6 +1,6 @@
 /* Full-width banner */
 .hero-container {
-  background-image: url("../../assets/images/heroSectionbg.png"); /* Replace with your background image */
+  background-image: url("../../assets/images/images/JeepHead.png"); /* Replace with your background image */
   background-size: cover;
   background-position: center;
   height: 100vh; /* Full screen */
@@ -19,7 +19,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6); /* Black overlay with transparency */
+  background-color: rgba(0, 0, 0, 0.247); /* Black overlay with transparency */
   z-index: 1;
 }
 

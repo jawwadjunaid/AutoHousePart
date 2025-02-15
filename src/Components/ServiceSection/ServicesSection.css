@@ -3,6 +3,7 @@
   color: white;
   text-align: center;
   padding: 50px 5%;
+
  
 }
 
@@ -35,9 +36,12 @@
 .services-image .center-image {
   width: 350px;
   height: 650px;
-  border-radius: 20%;
+  border-radius: 37%; /* Perfect oval shape */
   padding-top: 50px;
+  object-fit: cover; /* Ensure image fits within the oval */
 }
+
+
 
 .services-list {
   flex: 1;

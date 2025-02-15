@@ -25,7 +25,8 @@ const TipsCarousel = () => {
 
   return (
     <div className="tips-carousel">
-      <p>Follow these tips to keep your vehicle in top shape.</p>
+      <p style={{color:'#C00104'}}>───  &nbsp; VEHICLE TIPS &nbsp; ───
+</p>
       <h2>Essential Tips For Vehicle Care</h2>
 
       <div className="carousel-container">
