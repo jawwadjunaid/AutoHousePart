@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { PopupModal } from "react-calendly"; // Import Calendly modal
 import "./Navbar1.css";
 import NavLogo from '../../assets/images/images/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // For mobile menu
   const [servicesOpen, setServicesOpen] = useState(false); // For Services dropdown
+  const [calendlyOpen, setCalendlyOpen] = useState(false); // Calendly modal state
 
   return (
     <nav className="navbar1">
@@ -50,10 +52,22 @@ const Navbar = () => {
         </li>
 
         <li><Link to="/contact">Contact</Link></li>
+
+        {/* Book Appointment Button */}
         <li className="mobile-appointment">
-          <button className="appointment-btns">Book Appointment</button>
+          <button className="appointment-btns" onClick={() => setCalendlyOpen(true)}>
+            Book Appointment
+          </button>
         </li>
       </div>
+
+      {/* Calendly Popup Modal */}
+      <PopupModal 
+        url="https://calendly.com/YOUR_CALENDLY_LINK" 
+        onModalClose={() => setCalendlyOpen(false)} 
+        open={calendlyOpen} 
+        rootElement={document.getElementById("root")} 
+      />
     </nav>
   );
 };
