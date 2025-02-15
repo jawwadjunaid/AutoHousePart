@@ -1,97 +1,73 @@
-/* Footer Styling */
 .footer {
-  background-color: #000;
+  background: #111;
   color: white;
-  padding: 3.125rem 1.25rem;
-  /* 50px 20px */
-  position: relative;
+  padding: 40px 0;
 }
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 75rem;
-  /* 1200px */
+  justify-content: space-between;
+  max-width: 1200px;
   margin: auto;
+  padding: 20px;
 }
 
-/* Left Section */
 .footer-left {
   flex: 1;
-  max-width: 15.625rem;
-  /* 250px */
-}
-
-.logo-text {
-  width: 340%;
-  display: inline-block;
-  padding: 0.3125rem 0.625rem;
-  /* 5px 10px */
-  font-weight: bold;
-  border-radius: 0.3125rem;
-  /* 5px */
-  font-size: 0.875rem;
-  /* 14px */
+  min-width: 250px;
+  margin-bottom: 20px;
 }
 
 .logo {
-  width: 15.625rem;
-  /* 250px */
-  height: 2.5rem;
-  /* 40px */
+  width: 150px;
+  margin-bottom: 15px;
 }
 
-.footer-left p {
-  color: #FFFFFF;
-  font-size: 1rem;
-  /* 16px */
+.FooterContentPara {
+  font-size: 14px;
+  color: #ccc;
 }
 
 .social-icons {
   display: flex;
-  gap: 0.625rem;
-  /* 10px */
-  margin-top: 0.625rem;
-  /* 10px */
+  gap: 10px;
+  margin-top: 10px;
 }
 
-.social-icons svg {
-  background: gray;
-  padding: 0.5rem;
-  /* 8px */
+.social-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
-  cursor: pointer;
+  background: rgb(80, 76, 76);
+  color: white;
+  transition: background 0.3s ease;
 }
 
-.social-icons svg:hover {
-  background: #C00104;
+.social-icons a:hover {
+  background: red;
 }
 
-/* Middle Section */
+/* Footer Middle - Equal Spacing */
 .footer-middle {
   display: flex;
-  flex: 0.4;
+  flex: 2;
   justify-content: space-between;
-  max-width: 31.25rem;
-  /* 500px */
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .footer-column {
-  margin-left: 1.875rem;
-  /* 30px */
+  flex: 1;
+  min-width: 220px;
 }
 
 .footer-column h3 {
-  color: #FFFFFF;
-  font-size: 1.5rem;
-  /* 24px */
-  font-family: "Anybody";
-  border-bottom: 0.125rem solid red;
-  /* 2px */
-  display: inline-block;
-  margin-bottom: 0.625rem;
-  /* 10px */
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .footer-column ul {
@@ -100,180 +76,101 @@
 }
 
 .footer-column ul li {
-  margin-bottom: 0.5rem;
-  /* 8px */
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 8px;
 }
 
-.footer-column ul li:hover {
-  color: #C00104;
-}
-
-/* Right Section */
-.footer-right {
-  flex: 1;
-  max-width: 13.75rem;
-  /* 220px */
-}
-
-.footer-right p {
-  margin-bottom: 0.625rem;
-  /* 10px */
-  font-size: 0.875rem;
-  /* 14px */
-}
-
-.footer-right h3 {
-  color: #FFFFFF;
-  font-size: 1.5rem;
-  /* 24px */
-  font-family: "Anybody";
-  border-bottom: 0.125rem solid red;
-  /* 2px */
-  display: inline-block;
-  margin-bottom: 0.625rem;
-  /* 10px */
-}
-
-.footer-right svg {
-  margin-right: 0.3125rem;
-  /* 5px */
-}
-
-/* Scroll to Top Button */
-.scroll-top {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 5.625rem;
-  /* 90px */
-  background-color: #C00104;
+.footer-column ul li a {
+  text-decoration: none;
   color: white;
-  padding: 0.5rem;
-  /* 8px */
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
+  margin-left: 8px;
+  transition: color 0.3s ease;
+  display: flex;
+  align-items: center;
 }
 
-.scroll-top:hover {
-  background-color: white;
-  color: #C00104;
+.footer-column ul li a:hover {
+  color: red;
 }
 
-/* Bottom Section */
+.footer-column ul li a:hover svg,
+.footer-column ul li:hover svg {
+  color: red;
+}
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1.25rem;
-  /* 20px */
-  border-top: 0.0625rem solid gray;
-  /* 1px */
-  margin-top: 1.25rem;
-  /* 20px */
-  font-size: 0.875rem;
-  /* 14px */
+  flex-wrap: wrap;
+  padding-top: 15px;
+  border-top: 1px solid #444;
+  position: relative;
+  text-align: center;
 }
 
 .footer-bottom p {
+  font-size: 14px;
   margin: 0;
-  color: #CDCDCD;
 }
 
 .footer-links {
-  text-align: right;
+  display: flex;
+  gap: 15px;
 }
 
 .footer-links a {
-  color: #CDCDCD;
+  color: white;
   text-decoration: none;
-  margin: 0 0.3125rem;
-  /* 5px */
+  transition: color 0.3s ease;
 }
 
 .footer-links a:hover {
   color: #C00104;
 }
 
-.FooterContentPara {
-  padding-top: 2.1875rem;
-  /* 35px */
+/* Centering Scroll to Top Button */
+.scroll-top-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  margin-top: -30px;
 }
 
-/* Responsive Design */
-@media (max-width: 900px) {
+.scroll-top {
+  background: #C00104;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
 
-  /* 900px */
-  .footer-container {
-    flex-direction: column;
-    text-align: center;
-  }
 
-  .footer-middle {
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-bottom {
     flex-direction: column;
     align-items: center;
-    gap: 1.25rem;
-    /* 20px */
+    text-align: center;
+    gap: 10px;
   }
 
-  .footer-column {
-    margin-left: 0;
+  .scroll-top-container {
+    margin-top: -50px;
   }
 
   .footer-bottom {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .footer-links {
-    margin-top: 0.625rem;
-    /* 10px */
-  }
-
-  .scroll-top {
-    bottom: 3.125rem;
-    /* 50px */
-  }
-}
-
-@media (max-width: 600px) {
-
-  /* 600px */
-  .footer-left,
-  .footer-middle,
-  .footer-right {
+    flex-direction: row;
+    justify-content: space-between;
     text-align: left;
-    max-width: 100%;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
-  }
-
-  .logo-text {
-    font-size: 0.75rem;
-    /* 12px */
-    padding: 0.25rem 0.5rem;
-    /* 4px 8px */
-  }
-
-  .footer-right p {
-    font-size: 0.8125rem;
-    /* 13px */
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-  }
-
-  .footer-links {
-    margin-top: 0.625rem;
-    /* 10px */
-  }
-
-  .scroll-top {
-    bottom: 2.5rem;
-    /* 40px */
+    width: 100%;
+    padding: 10px 20px;
   }
 }
