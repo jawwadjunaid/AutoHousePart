@@ -25,8 +25,8 @@ const ServicesBoxWithHeading = () => {
 
     return (
         <div className="services-container">
-            <h2>Our Comprehensive Services For European Vehicles</h2>
-            <p>
+            <h2 className='services-header'>Our Comprehensive Services For European Vehicles</h2>
+            <p className='services-header'>
                 At AutoMasters of Switzerland Inc., we pride ourselves on offering a range of specialized auto services.
                 Here are some of the top-notch services we provide:
             </p>

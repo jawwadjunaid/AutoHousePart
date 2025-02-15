@@ -12,6 +12,7 @@
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing */
 }
 
 .services-header h2 {
@@ -19,6 +20,7 @@
   color: #ffffff;
   text-align: left;
   flex: 1;
+  min-width: 300px;
 }
 
 .services-header p {
@@ -27,7 +29,9 @@
   text-align: right;
   flex: 1;
   max-width: 600px;
+  min-width: 300px;
 }
+
 
 .services-grid {
   display: flex;
