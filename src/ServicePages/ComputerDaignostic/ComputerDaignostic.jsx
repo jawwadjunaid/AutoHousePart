@@ -1,8 +1,24 @@
 import React from 'react'
+import ComputerContent from '../../ServicePagesComponent/ComputerDiagnostic/ComputerContent'
+import Testimonials from '../../Components/Reviews/Testimonials.jsx'
+import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox .jsx'
+import CarLogos from '../../Components/CarLogos/CarLogos';
+import ComputerHeader from '../../ServicePagesComponent/ComputerDiagnostic/ComputerHeader.jsx';
+import ComputerHeroSection from '../../ServicePagesComponent/ComputerDiagnostic/ComputerHeroSection.jsx';
+import ComputerBoxWithHeading from '../../ServicePagesComponent/ComputerDiagnostic/ComputerBoxWithHeading.jsx';
 
 const ComputerDaignostic = () => {
   return (
-    <div>ComputerDaignostic</div>
+    <>
+    <ComputerHeader/>
+    <ComputerHeroSection/>
+    <ComputerBoxWithHeading/>
+    <ComputerContent/> 
+    <Testimonials/>
+    <AboutUsSubscriptionBox/>
+    <CarLogos/>
+
+    </>
   )
 }
 

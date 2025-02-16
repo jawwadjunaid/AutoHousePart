@@ -3,13 +3,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
+  padding: 1rem 2.5rem;
   background-color: #C00104;
   font-family: "Poppins", sans-serif;
   position: relative;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
 }
-
+.navlogo-container{
+  width: 30%;
+}
+.navlogo-container img{
+  width: 100%;
+}
 /* Logo */
 .Navlogo {
   height: 50px;
@@ -64,6 +70,9 @@
 
 
 @media (max-width: 768px) {
+  .navbar1{
+    padding: 1rem 1.5rem;
+  }
   .Navlogo {
     height: 40px; /* Smaller logo size for mobile */
   }
@@ -72,10 +81,12 @@
 /* Center Navigation Links */
 .nav1-links {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   flex: 1;
   gap: 50px;
   list-style: none;
+  /* width: 30%; */
 }
 
 .nav1-links a {
@@ -84,6 +95,7 @@
   font-weight: 500;
   font-size: 14px;
   transition: color 0.3s ease;
+  width: 100%;
 }
 
 .nav1-links a:hover {
@@ -127,7 +139,7 @@
 
   /* Hide navigation links by default */
   .nav1-links {
-    display: none;
+    /* display: none; */
     flex-direction: column;
     position: absolute;
     top: 70px;
@@ -156,4 +168,17 @@
     text-align: center;
     margin-top: 10px;
   }
+  .navlogo-container{
+    width: 65%;
+  }
 }
+
+
+@media (max-width: 992px) {
+  .navbar1 .nav1-links{
+    display: none;
+  }
+  .hamburgers {
+    display: block;
+  }
+  }

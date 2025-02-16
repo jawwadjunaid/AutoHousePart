@@ -1,0 +1,148 @@
+/* Services.css */
+.BeltBox-container {
+    background-color: #111111;
+    padding: 40px 20px;
+    margin-bottom: 10px;
+  }
+  .BeltBox-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .BeltBox-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 430px;
+    margin: 0 auto; */
+    text-align: left;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing */
+  }
+  
+  .BeltBox-header h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: left;
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .BeltBox-header p {
+    font-size: 1rem;
+    color: #cccccc;
+    text-align: right;
+    flex: 1;
+    max-width: 600px;
+    min-width: 300px;
+  }
+  
+  .BeltBox-description{
+    color: #ffffffe8;
+  }
+  .BeltBox-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+    background-color: transparent;
+  }
+  
+  .BeltBox-card {
+    background: #111; /* Fallback color */
+    border-radius: 8px;
+    width: 100%;
+    max-width: 350px;
+    height: 350px; /* Adjust height as per your design */
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+    background-image: url(''); /* Will be replaced by JS */
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .BeltBox-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .BeltBox-card .BeltBox-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: #fff;
+    z-index: 2;
+  }
+  
+  .BeltBox-card .BeltBox-content h3 {
+    font-size: 1.2rem;
+    background-color: #C00104;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .BeltBox-card .BeltBox-content p {
+    font-size: 0.9rem;
+    color: #000000;
+    background-color: #cccccc69;
+  }
+  
+  /* Responsive Design */
+  
+  @media screen and (max-width:992px) {
+    .BeltBox-title{
+      flex-direction: column;
+    }
+  }
+  @media (max-width: 768px) {
+      .BeltBox-title{
+      padding: 0;
+    }
+    .BeltBox-header {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .BeltBox-header h2,
+    .BeltBox-header p {
+      text-align: center;
+      flex: unset;
+      max-width: 100%;
+    }
+  
+    .BeltBox-grid {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .BeltBox-card {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+  
+    .BeltBox-header h2 {
+      font-size: 1.5rem;
+    }
+  
+    .BeltBox-header p {
+      font-size: 0.9rem;
+    }
+  
+    .BeltBox-content h3 {
+      font-size: 1rem;
+    }
+  
+    .BeltBox-content p {
+      font-size: 0.85rem;
+    }
+  }
+  

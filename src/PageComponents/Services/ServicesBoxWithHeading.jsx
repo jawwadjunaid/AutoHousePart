@@ -25,11 +25,13 @@ const ServicesBoxWithHeading = () => {
 
     return (
         <div className="services-container">
+            <div className="service-title">
+
             <h2 className='services-header'>Our Comprehensive Services For European Vehicles</h2>
-            <p className='services-header'>
-                At AutoMasters of Switzerland Inc., we pride ourselves on offering a range of specialized auto services.
-                Here are some of the top-notch services we provide:
+            <p className='services-header service-description'>
+            At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions that are tailored to meet your vehicle’s specific needs. With our unrivaled expertise and commitment to excellence, you can trust us to keep your vehicle running at its best.
             </p>
+            </div>
             <div className="services-grid">
                 {services.map((service, index) => (
                     <div className="service-card" key={index} style={{ backgroundImage: `url(${service.imageUrl})` }}>
