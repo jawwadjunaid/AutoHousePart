@@ -1,0 +1,163 @@
+/* General Section Styles */
+.BeltHero-hero {
+    background-color: #f8f8f8;
+    padding: 3.125rem 5%; /* 50px -> 3.125rem */
+  }
+  
+  .BeltHero-hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    align-items: center;
+    gap: 1.875rem; /* 30px -> 1.875rem */
+    justify-content: center;
+  }
+  
+  .BeltHero-hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Ensures both images are vertically aligned */
+  }
+  
+  .BeltHero-img {
+    border-radius: 0.5rem; /* 8px -> 0.5rem */
+    object-fit: cover;
+    max-width: 100%;
+  }
+  
+  /* Image sizing adjustments */
+  .BeltHero-img {
+    width: 100%;
+    max-width: 40rem; /* 640px -> 40rem */
+    height: 25rem; /* 400px -> 25rem */
+  }
+  
+  /* Adjusting both images to the same height */
+  .BeltHero-img:first-child,
+  .BeltHero-img:last-child {
+    height: 25rem; /* Ensuring both images have the same height */
+  }
+  
+  .BeltHero-hero-content {
+    max-width: 37.5rem; /* 600px -> 37.5rem */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .BeltHero-hero-content h1 {
+    font-size: 1.75rem; /* 28px -> 1.75rem */
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 1.25rem; /* 20px -> 1.25rem */
+  }
+  
+  .BeltHero-hero-content p {
+    font-size: 1rem; /* 16px -> 1rem */
+    color: #333;
+    margin: 0.625rem 0; /* 10px -> 0.625rem */
+  }
+  
+  .BeltHero-hero-btn {
+    background-color: #C00104;
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+    font-size: 1rem; /* 16px -> 1rem */
+    font-weight: bold;
+    border-radius: 0.3125rem; /* 5px -> 0.3125rem */
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 1.25rem; /* 20px -> 1.25rem */
+  }
+  
+  .BeltHero-hero-btn:hover {
+    background-color: darkred;
+  }
+  
+  /* RESPONSIVENESS */
+  @media (max-width: 1024px) { /* 1024px -> 64rem */
+    .BeltHero-hero-container {
+      flex-direction: unset;
+      align-items: flex-start; /* Left-align the content */
+    }
+    .BeltHero-img:first-child, .service-img:last-child{
+      height: unset;
+    }
+    .BeltHero-hero-images{
+      width: 48%;
+    }
+    .BeltHero-img {
+      max-width: 100%; /* Ensure images are responsive */
+      width: 100%; /* 280px -> 17.5rem */
+      height: 20rem; /* 320px -> 20rem */
+    }
+  
+    .BeltHero-hero-content {
+      padding: 0; /* 0 20px -> 0 1.25rem */
+      width: 48%;
+    }
+  
+    .BeltHero-hero-content h1 {
+      font-size: 1.5rem; /* 24px -> 1.5rem */
+    }
+  
+    .BeltHero-hero-content p {
+      font-size: 0.875rem; /* 14px -> 0.875rem */
+    }
+  }
+  
+  @media (max-width: 600px) { /* 768px -> 48rem */
+    .BeltHero-hero-container {
+      flex-direction: column;
+      align-items: flex-start; /* Left-align the content */
+    }
+    .BeltHero-hero {
+      padding: 1.875rem 3%; /* 30px -> 1.875rem */
+    }
+  
+    .BeltHero-hero-content h1 {
+      font-size: 1.375rem; /* 22px -> 1.375rem */
+    }
+    .BeltHero-hero-images{
+      width: 100%;
+    }
+    .BeltHero-img {
+      max-width: 100%;
+      width: 100%; /* Adjust for smaller screens */
+      height: auto; /* Adjust height to keep aspect ratio intact */
+      max-height: 18rem; /* 288px -> 18rem */
+    }
+    .BeltHero-hero-content {
+      padding: 0; /* 0 20px -> 0 1.25rem */
+      width: 100%;
+    }
+  
+    .BeltHero-hero-content p {
+      font-size: 0.875rem; /* 14px -> 0.875rem */
+    }
+  }
+  
+  @media (max-width: 480px) { /* 480px -> 30rem */
+    .BeltHero-hero {
+      padding: 1.25rem 3%; /* 20px -> 1.25rem */
+    }
+  
+    .BeltHero-hero-content h1 {
+      font-size: 1.25rem; /* 20px -> 1.25rem */
+    }
+  
+    .BeltHero-img {
+      width: 100%; /* Ensure the image takes up full width */
+      height: auto; /* Keep the aspect ratio intact */
+      max-height: 18rem; /* 288px -> 18rem */
+    }
+  
+    .BeltHero-hero-content p {
+      font-size: 0.75rem; /* 12px -> 0.75rem */
+    }
+  
+    .BeltHero-hero-btn {
+      font-size: 0.875rem; /* 14px -> 0.875rem */
+      padding: 0.5rem 1rem; /* 8px 16px -> 0.5rem 1rem */
+    }
+  }
+  

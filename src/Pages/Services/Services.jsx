@@ -4,9 +4,9 @@ import ServicesHeroSection from '../../PageComponents/Services/ServicesHeroSecti
 import ServicesBoxWithHeading from '../../PageComponents/Services/ServicesBoxWithHeading.jsx'
 import AutoHouseComponent from '../../PageComponents/Services/AutoHouseComponent.jsx'
 import ServiceContent3 from '../../PageComponents/Services/ServiceContent3.jsx'
-
 import Testimonials from '../../Components/Reviews/Testimonials.jsx'
 import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox .jsx'
+import CarLogos from '../../Components/CarLogos/CarLogos';
 
 
 const Services = () => {
@@ -19,6 +19,7 @@ const Services = () => {
     <ServiceContent3/>
     <Testimonials/>
     <AboutUsSubscriptionBox/>
+    <CarLogos/>
     </>
   )
 }

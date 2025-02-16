@@ -1,0 +1,91 @@
+.BeltContent-containerss {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3.125rem;
+    padding: 3.125rem 6.25rem;
+    background-color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.BeltContent-textss {
+    max-width: 31.25rem;
+    text-align: right;
+}
+
+
+
+.BeltContent-textss h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0.625rem 0;
+}
+
+.BeltContent-textss p {
+    font-size: 1rem;
+    color: #0A0A0A;
+    line-height: 1.6;
+}
+
+.BeltContentbtnssd {
+    display: inline-block;
+    margin-top: 15px;
+    padding: .625rem 1.25rem;
+    background: #C00104;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 0.313rem;
+    transition: background 0.3s ease;
+}
+
+.BeltContentbtnssd:hover {
+    background: darkred;
+}
+
+/* Image Section */
+.BeltContent-imagess {
+    position: relative;
+    width: 31.25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BeltContentmainssd-img {
+    width: 100%;
+    height: 100%;
+    border-radius: .625rem;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .BeltContent-containerss {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .BeltContent-imagess {
+        width: 25.5rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .BeltContent-containerss {
+        flex-direction: column;
+        text-align: center;
+        padding: 2.5rem 1.25rem;
+    }
+
+    .BeltContent-textss {
+        text-align: left;
+    }
+
+    .BeltContent-imagess {
+        width: 20.5rem;
+        height: auto;
+    }
+}
