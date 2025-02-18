@@ -1,8 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Subscribe.css";
-import subscribe from "../../assets/images/images/subscribeImage.png"
+import subscribe from "../../assets/images/images/subscribeImage.png";
 
 const Subscribe = () => {
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Apna Mailchimp ka form action URL yahan replace karo
+    const mailchimpUrl = "YOUR_MAILCHIMP_FORM_URL"; // Replace this
+
+    const formData = new FormData();
+    formData.append("EMAIL", email);
+
+    fetch(mailchimpUrl, {
+      method: "POST",
+      body: formData,
+      mode: "no-cors",
+    })
+      .then(() => {
+        setMessage("Successfully subscribed! ✅ Check your email.");
+        setEmail("");
+      })
+      .catch(() => {
+        setMessage("Subscription failed. ❌ Try again later.");
+      });
+  };
+
   return (
     <div className="subscribe-container">
       <div className="subscribe-content">
@@ -12,17 +38,20 @@ const Subscribe = () => {
           vehicles. It involves diagnosing the problem, repairing, or replacing
           necessary parts.
         </p>
-        <div className="subscribe-form">
-          <input type="email" placeholder="Email" />
-          <button>SUBSCRIBE</button>
-        </div>
+        <form onSubmit={handleSubmit} className="subscribe-form">
+          <input
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <button type="submit">SUBSCRIBE</button>
+        </form>
+        {message && <p className="response-message">{message}</p>}
       </div>
       <div className="subscribe-image">
-        <img
-          src={subscribe}
-          alt="Mechanic"
-          className="mechanic-image"
-        />
+        <img src={subscribe} alt="Mechanic" className="mechanic-image" />
       </div>
     </div>
   );

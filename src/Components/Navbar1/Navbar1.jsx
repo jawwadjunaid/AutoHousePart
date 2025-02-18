@@ -63,7 +63,7 @@ const Navbar = () => {
 
       {/* Calendly Popup Modal */}
       <PopupModal 
-        url="https://calendly.com/YOUR_CALENDLY_LINK" 
+        url="https://calendly.com/swissautohouse/freeestimate" 
         onModalClose={() => setCalendlyOpen(false)} 
         open={calendlyOpen} 
         rootElement={document.getElementById("root")} 
