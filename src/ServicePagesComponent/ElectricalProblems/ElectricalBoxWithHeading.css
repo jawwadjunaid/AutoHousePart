@@ -1,17 +1,17 @@
 /* Services.css */
-.BrakesBox-container {
+.ElectricalBoxWithHeading-container {
     background-color: #111111;
     padding: 40px 20px;
     margin-bottom: 10px;
   }
-  .BrakesBox-title{
+  .ElectricalBoxWithHeading-title{
     display: flex;
     justify-content: space-between;
     padding: 2rem 5rem;
     width: 85%;
     margin: 0 auto;
   }
-  .BrakesBox-header {
+  .ElectricalBoxWithHeading-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,10 +21,9 @@
     width: 100%;
     flex-wrap: wrap;
     gap: 20px; /* Adjust spacing */
-    color: #FFFFFF;
   }
   
-  .BrakesBox-header h2 {
+  .ElectricalBoxWithHeading-header h2 {
     font-size: 2rem;
     color: #ffffff;
     text-align: left;
@@ -32,7 +31,7 @@
     min-width: 300px;
   }
   
-  .BrakesBox-header p {
+  .ElectricalBoxWithHeading-header p {
     font-size: 1rem;
     color: #cccccc;
     text-align: right;
@@ -41,10 +40,10 @@
     min-width: 300px;
   }
   
-  .BrakesBox-description{
+  .ElectricalBoxWithHeading-description{
     color: #ffffffe8;
   }
-  .BrakesBox-grid {
+  .ElectricalBoxWithHeading-grid {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -54,7 +53,7 @@
     background-color: transparent;
   }
   
-  .BrakesBox-card {
+  .ElectricalBoxWithHeading-card {
     background: #111; /* Fallback color */
     border-radius: 8px;
     width: 100%;
@@ -69,11 +68,11 @@
     background-size: cover;
   }
   
-  .BrakesBox-card:hover {
+  .ElectricalBoxWithHeading-card:hover {
     transform: translateY(-5px);
   }
   
-  .BrakesBox-card .BrakesBox-content {
+  .ElectricalBoxWithHeading-card .ElectricalBoxWithHeading-content {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -82,15 +81,17 @@
     z-index: 2;
   }
   
-  .BrakesBox-card .BrakesBox-content h3 {
+  .ElectricalBoxWithHeading-card .ElectricalBoxWithHeading-content h3 {
     font-size: 1.2rem;
     background-color: #C00104;
     color: #fff;
     margin-bottom: 10px;
-    width: 75%;
-    padding: 2%;
+    text-align: center;
   }
-  .BrakesBox-card .BrakesBox-content p {
+  .Ac-box-title{
+    color: #ffffff;
+  }
+  .ElectricalBoxWithHeading-card .ElectricalBoxWithHeading-content p {
     font-size: 0.9rem;
     color: #000000;
     background-color: #cccccc69;
@@ -99,51 +100,51 @@
   /* Responsive Design */
   
   @media screen and (max-width:992px) {
-    .BrakesBox-title{
+    .ElectricalBoxWithHeading-title{
       flex-direction: column;
     }
   }
   @media (max-width: 768px) {
-      .BrakesBox-title{
+    .ElectricalBoxWithHeading-title{
       padding: 0;
     }
-    .BrakesBox-header {
+    .ElectricalBoxWithHeading-header {
       flex-direction: column;
       text-align: center;
     }
   
-    .BrakesBox-header h2,
-    .BrakesBox-header p {
+    .ElectricalBoxWithHeading-header h2,
+    .ElectricalBoxWithHeading-header p {
       text-align: center;
       flex: unset;
       max-width: 100%;
     }
   
-    .BrakesBox-grid {
+    .ElectricalBoxWithHeading-grid {
       flex-direction: column;
       align-items: center;
     }
   
-    .BrakesBox-card {
+    .ElectricalBoxWithHeading-card {
       max-width: 90%;
     }
   }
   
   @media (max-width: 480px) {
   
-    .BrakesBox-header h2 {
+    .ElectricalBoxWithHeading-header h2 {
       font-size: 1.5rem;
     }
   
-    .BrakesBox-header p {
+    .ElectricalBoxWithHeading-header p {
       font-size: 0.9rem;
     }
   
-    .BrakesBox-content h3 {
+    .ElectricalBoxWithHeading-content h3 {
       font-size: 1rem;
     }
   
-    .BrakesBox-content p {
+    .ElectricalBoxWithHeading-content p {
       font-size: 0.85rem;
     }
   }

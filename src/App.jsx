@@ -26,6 +26,7 @@ import AcAndHeater from "./ServicePages/AcAndHeater/AcAndheader";
 import ElectricalProblems from "./ServicePages/ElectricalProblems/ElectricalProblems";
 import BeltRollers from "./ServicePages/BeltAndRoller/BeltAndRoller";
 import Testimonials from "./Components/Reviews/Testimonials";
+import ReviewComponent from "./ReviewComponent/ReviewComponent";
 
 
 function App() {
@@ -59,6 +60,7 @@ function App() {
         <Route path="/ac-heater" element={<AcAndHeater />} />
         <Route path="/electrical-problems" element={<ElectricalProblems />} />
         <Route path="/belt-rollers" element={<BeltRollers />} />
+        <Route path="/Reviews" element={<ReviewComponent/>}/>
       </Routes>
       <Footer />
     </Router>

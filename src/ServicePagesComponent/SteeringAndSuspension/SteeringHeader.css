@@ -1,0 +1,29 @@
+.Steering-section {
+    position: relative;
+    background: url('../../assets/images/Pages/ServicesHeaderBG.png') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+/* Dark Overlay */
+.Steering-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9); /* Adjust darkness */
+    z-index: 1;
+}
+
+/* Ensure text is above overlay */
+.Steering-section * {
+    position: relative;
+    z-index: 2;
+}

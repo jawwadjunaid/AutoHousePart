@@ -1,8 +1,8 @@
 import React from 'react';
 import './BrakesBoxWithHeading.css'; // Import external CSS file
-import Boxwithheading1 from '../../assets/images/Pages/Boxwithheading1.png';
-import Boxwithheading2 from '../../assets/images/Pages/Boxwithheading2.png';
-import Boxwithheading3 from '../../assets/images/Pages/Boxwithheading3.png';
+import Boxwithheading1 from '../../assets/images/images/BrakesBoxWithHeading1.png';
+import Boxwithheading2 from '../../assets/images/images/BrakesBoxWithHeading2.png';
+import Boxwithheading3 from '../../assets/images/images/BrakesBoxWithHeading3.png';
 
 const BrakesBoxWithHeading = () => {
   const services = [

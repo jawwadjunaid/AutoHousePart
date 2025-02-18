@@ -21,6 +21,7 @@
     width: 100%;
     flex-wrap: wrap;
     gap: 20px; /* Adjust spacing */
+    color: #FFFFFF;
   }
   
   .Computerservices-header h2 {
@@ -72,7 +73,7 @@
     transform: translateY(-5px);
   }
   
-  .Computerservice-card .sComputerervice-content {
+  .Computerservice-card .Computerservice-content {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -86,6 +87,8 @@
     background-color: #C00104;
     color: #fff;
     margin-bottom: 10px;
+    width: 75%;
+    padding: 2%;
   }
   
   .Computerservice-card .Computerservice-content p {

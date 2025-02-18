@@ -1,5 +1,6 @@
 import React from "react";
 import "./Testimonials.css";
+import { Link } from "react-router-dom";
 
 const testimonials = [
   {
@@ -30,33 +31,38 @@ const testimonials = [
     text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
     rating: 4,
   },
- 
 ];
 
 const Testimonials = () => {
   return (
     <div className="testimonials-container">
-      
-      <p className="description" style={{color:'#C00104'}}>
-      ---- Testimonial ----
+      <p className="description" style={{ color: "#C00104" }}>
+        ---- Testimonial ----
       </p>
       <h2>What Clients Say About Us</h2>
-      <div className="testimonials-grid" style={{color:"black"}}>
+      <div className="testimonials-grid" style={{ color: "black" }}>
         {testimonials.map((item, index) => (
-          <div key={index} className="testimonial-card" >
-            <img src={item.image} alt={item.name} className="testimonial-img"  />
-            <h3 style={{color:"black"}}>{item.name}</h3>
+          <div key={index} className="testimonial-card">
+            <img src={item.image} alt={item.name} className="testimonial-img" />
+            <h3 style={{ color: "black" }}>{item.name}</h3>
             <p className="role">{item.role}</p>
             <p className="testimonial-text">{item.text}</p>
             <div className="stars">
               {[...Array(5)].map((_, i) => (
-                <span key={i} className={`star ${i < item.rating ? 'filled' : ''}`}>
+                <span key={i} className={`star ${i < item.rating ? "filled" : ""}`}>
                   &#9733;
                 </span>
               ))}
             </div>
           </div>
         ))}
+      </div>
+      
+      {/* Add More Reviews Button */}
+      <div className="reviews-button-container">
+        <Link to="/Reviews" className="reviews-button">
+          More Reviews
+        </Link>
       </div>
     </div>
   );
