@@ -1,4 +1,4 @@
-.ElectricalHeader-section {
+.Steering-section {
     position: relative;
     background: url('../../assets/images/Pages/ServicesHeaderBG.png') center/cover no-repeat;
     height: 300px;
@@ -11,7 +11,7 @@
 }
 
 /* Dark Overlay */
-.ElectricalHeader-section::before {
+.Steering-section::before {
     content: "";
     position: absolute;
     top: 0;
@@ -23,7 +23,7 @@
 }
 
 /* Ensure text is above overlay */
-.ElectricalHeader-section * {
+.Steering-section * {
     position: relative;
     z-index: 2;
 }

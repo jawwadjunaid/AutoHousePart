@@ -38,7 +38,7 @@ const Navbar = () => {
           {servicesOpen && (
             <ul className="dropdown-menu">
               <li><Link to="/car-oil-change">Car Oil Change</Link></li>
-              <li><Link to="/service-maintenance">Service and Maintenance</Link></li>
+              <li><Link to="/services">Service and Maintenance</Link></li>
               <li><Link to="/brakes">Brakes</Link></li>
               <li><Link to="/steering-suspension">Steering & Suspension</Link></li>
               <li><Link to="/coolant-system">Coolant System</Link></li>
