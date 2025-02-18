@@ -2,7 +2,8 @@ import React from 'react';
 import './BeltWithBox.css'; // Import external CSS file
 import Boxwithheading1 from '../../assets/images/images/Belt1.png';
 import Boxwithheading2 from '../../assets/images/images/Belt2.png';
-import Boxwithheading3 from '../../assets/images/images/Belt3.png';
+import Boxwithheading3 from "../../assets/images/Pages/Belt3.png";
+
 
 const BeltWithBox = () => {
 const services = [
