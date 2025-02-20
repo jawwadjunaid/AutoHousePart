@@ -4,9 +4,9 @@ import "./TipsCarousel.css"; // ✅ Import CSS file
 import tripycon from "../../assets/images/image6.png"; // ✅ Make sure the path is correct
 
 const tipsData = [
-  { id: 1, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
-  { id: 2, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
-  { id: 3, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
+  { id: 1, text: "A timely oil change service keeps your engine healthy, improves fuel efficiency, and extends your car’s lifespan.", imageUrl: tripycon },
+  { id: 2, text: "Get brake inspections regularly to ensure safe stopping power and prevent costly repairs.", imageUrl: tripycon },
+  { id: 3, text: "Visit an auto repair shop for proper inflation and rotation to enhance traction, fuel economy, and tire longevity.", imageUrl: tripycon },
   { id: 4, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 5, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },
   { id: 6, text: "Limit your idle time. Turn off the automobile if you think you'll be stopped for longer than a minute. Contrary to what many people think, starting the automobile again burns less fuel than letting it idle.", imageUrl: tripycon },

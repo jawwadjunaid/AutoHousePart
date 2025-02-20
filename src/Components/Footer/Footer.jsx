@@ -66,7 +66,7 @@ const Footer = () => {
               <li><MdKeyboardDoubleArrowRight /> <Link to="/contact">Contact Us</Link></li>
             </ul>
           </div>
-          <div className="footer-column">
+          <div className="footer-column footer-col-contact">
             <h3>Contact Us</h3>
             <p><FaPhone /> (713) 323-3283</p>
             <p><FaEnvelope /> swissautohouse@gmail.com</p>

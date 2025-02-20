@@ -21,7 +21,12 @@
     justify-content: space-between;
     padding: 50px 100px;
 }
-
+.breadCrumb-link-home{
+  color: white !important;
+}
+.breadCrumb-link-about{
+  color: red !important;
+}
 .aboutss-text {
   max-width: 500px;
   text-align: right;

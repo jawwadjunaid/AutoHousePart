@@ -1,27 +1,32 @@
 .cards-container3 {
   display: flex;
   justify-content: center;
-  gap: 30px;
-  padding: 40px;
+  align-items: center;
+  height: 100vh;
+  gap: 1.875rem;
+  padding: 2.5rem;
   flex-wrap: wrap; /* Allow wrapping for responsiveness */
+  background: #F4F4F4;
+  flex-wrap: wrap;
+
 }
 
 .card3 {
-  width: 400px;
-  height: 300px;
-  border-radius: 10px;
+  width: 29.677%;
+  height: 70%;
+  border-radius: 0.625rem;
   position: relative;
   background-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0.375rem 0.75rem rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .card3:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0.625rem 1.2225rem rgba(0, 0, 0, 0.3);
 }
 
 .card-bg3 {
@@ -34,7 +39,7 @@
   align-items: center;
   justify-content: flex-end;
   text-align: center;
-  padding: 50px 20px 30px; /* Push content lower */
+  padding: 3.125rem 1.2225rem 1.875rem; /* Push content lower */
   background-repeat: no-repeat;
 }
 
@@ -48,29 +53,34 @@
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.2225rem;
   margin-bottom: 0px;
   color: white;
 }
 
 p {
-  font-size: 14px;
-  margin-bottom: 15px;
+  font-size: 0.875rem;
+  margin-bottom: 0.938rem;
   color: rgb(255, 255, 255);
+}
+.content3 p {
+  font-size: 1.125rem;
+  max-width: 80%;
+  
 }
 
 .red-tag3 {
   background: #C00104;
   color: white;
-  padding: 10px 20px;
+  padding: 0.625rem 1.2225rem;
   border: none;
-  font-size: 15px;
+  font-size: 0.938rem;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease-in-out;
-  margin-bottom: 15px; /* More space below button */
+  margin-bottom: 0.938rem; /* More space below button */
   position: relative;
   /* Push button lower */
 }
@@ -84,33 +94,40 @@ p {
   .cards-container3 {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1.2225rem;
   }
 .content3{
- margin-top: 80px;
+ margin-top: 5rem;
 }
   .card3 {
-    width: 90%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 25rem;
     height: auto;
   }
 
   .card-bg3 {
-    padding: 50px 15px 40px; /* Adjust for mobile */
+    padding: 3.125rem 0.938rem 2.5rem; /* Adjust for mobile */
   }
   .red-tag3 {
     background: #C00104;
     color: white;
-    padding: 10px 20px;
+    padding: 0.625rem 1.2225rem;
     border: none;
-    font-size: 15px;
+    font-size: 0.938rem;
     font-family: "Poppins", sans-serif;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease-in-out;
-    margin-bottom: 15px; /* More space below button */
+    margin-bottom: 0.938rem; /* More space below button */
     position: relative;
     /* Push button lower */
+  }
+  .content3 p {
+    font-size: 1.125rem;
+    max-width: 100%;
+    
   }
 }

@@ -9,14 +9,14 @@
 }
 
 .CarOilContent3-textss {
-    max-width: 31.25rem;
+    max-width: 34.25rem;
     text-align: right;
 }
 
 
 
 .CarOilContent3-textss h1 {
-    font-size: 2rem;
+    font-size: 3.125rem;
     font-weight: bold;
     margin: 0.625rem 0;
 }
@@ -82,6 +82,9 @@
 
     .CarOilContent3-textss {
         text-align: left;
+    }
+    .CarOilContent3-textss h1{
+        font-size: 2rem;
     }
 
     .CarOilContent3-imagess {

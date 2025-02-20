@@ -2,24 +2,24 @@
   background-color: black;
   color: white;
   text-align: center;
-  padding: 50px 5%;
+  padding: 3.2rem 5%;
 
  
 }
 
 /* New Reading Heading Styling */
 .reading-heading {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: red;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  margin-top: 35px;
+  margin-bottom: 1.25rem;
+  margin-top: 5.375rem;
 }
 
 .services-heading {
-  font-size: 45px;
+  font-size: 2.813rem;
   font-family: Anybody;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 
@@ -27,17 +27,18 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
-  gap: 20px;
+  gap: 1.25rem;
+  padding-bottom: 3rem;
 }
 
 /* Center Image Circle Style */
 .services-image .center-image {
-  width: 350px;
-  height: 650px;
+  width: 21.875rem;
+  height: 40.625rem;
   border-radius: 37%; /* Perfect oval shape */
-  padding-top: 50px;
+  padding-top: 3.125rem;
   object-fit: cover; /* Ensure image fits within the oval */
 }
 
@@ -47,15 +48,15 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .service-item {
   display: flex;
   align-items: center;
-  gap: 15px;
-  padding: 20px;
-  border-radius: 10px;
+  gap: .88rem;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
@@ -65,23 +66,23 @@
 }
 
 .service-item img {
-  width: 50px;
-  height: 50px;
+  width: 3.125erm;
+  height: 3.125rem;
   background-color: #c00104;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 0.625rem;
+  padding: 0.625rem;
 }
 
 .service-item h3 {
   font-family: 'Anybody', sans-serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ffffff;
   margin: 0;
 }
 
 .service-item p {
   font-family: 'Poppins', sans-serif;
-  font-size: 15px;
+  font-size: 0.938rem;
   color: #ffffff;
   margin: 5px 0 0 0;
 }
@@ -94,7 +95,7 @@
   }
 
   .services-image img {
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
   }
 }

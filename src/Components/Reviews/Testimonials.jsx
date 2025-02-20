@@ -4,31 +4,31 @@ import { Link } from "react-router-dom";
 
 const testimonials = [
   {
-    name: "Maria Smantha",
-    role: "Web Developer",
+    name: "John Reynolds ",
+    role: "Auto repair",
     image: "https://randomuser.me/api/portraits/women/1.jpg",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.",
+    text: "Fantastic auto repair shop! Quick oil change near me, friendly staff, and fair prices. Highly recommend!",
     rating: 5,
   },
   {
-    name: "Lisa Cudrow",
-    role: "Graphic Designer",
+    name: "Sarah Mitchell",
+    role: "Brake repair",
     image: "https://randomuser.me/api/portraits/women/2.jpg",
-    text: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.",
+    text: "Needed brake repair near me, and they did a great job. Fast, reliable, and affordable service!",
     rating: 5,
   },
   {
-    name: "John Smith",
-    role: "Marketing Specialist",
+    name: "David Carter ",
+    role: "Air conditioning repair ",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+    text: "Best auto air conditioning repair near me! My AC works perfectly now. Great service and honest pricing.",
     rating: 4,
   },
   {
-    name: "John Smith",
-    role: "Marketing Specialist",
+    name: "Emily Scott ",
+    role: "Tire Shop",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
-    text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+    text: "Found my go-to tire shop! Quick installation and great deals. Will definitely return for future services.",
     rating: 4,
   },
 ];

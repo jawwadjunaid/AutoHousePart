@@ -16,7 +16,7 @@ const AboutusContent3 = () => {
       </div>
 
       <div className="aboutss-images">
-        <img src={trustQuality} alt="trustQuality" className="mainss-img" />
+        <img src={trustQuality} alt="trustQuality" className="mainss-img about-main-img" />
         {/* <img src={trustQuality} alt="trustQuality" className="overlayss-img" /> */}
       </div>
     </div>

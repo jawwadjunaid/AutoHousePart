@@ -21,7 +21,9 @@ const CarLogos = () => {
     <section className="car-Frame-container">
       <div className="car-Frame-wrapper">
         {Clogos.map((Clogo, index) => (
+          <div className="logo-img">
           <img key={index} src={Clogo.src} alt={Clogo.alt} className="car-Frame" />
+          </div>
         ))}
       </div>
     </section>

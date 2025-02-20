@@ -9,6 +9,8 @@ import Testimonials from '../../Components/Reviews/Testimonials.jsx'
 import CarOilChangeComponent from '../../ServicePagesComponent/CarOilChange/CarOilChangeComponent.jsx'
 import CarOilContent3 from '../../ServicePagesComponent/CarOilChange/CarOilContent3.jsx'
 import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox '
+import CarLogos from '../../Components/CarLogos/CarLogos';
+import AutoHouseComponent from '../../PageComponents/Services/AutoHouseComponent.jsx'
 
 const CarOilChange = () => {
   return (
@@ -17,11 +19,13 @@ const CarOilChange = () => {
        <CarOilHeroSection/>
        <CarOilImportant/>
        <CarOilSummary/>
+       <AutoHouseComponent/>
        <CarOilChangeComponent/>
        <CarOilContent3/>
        <Testimonials/>
       <AboutUsSubscriptionBox/>
-    </>
+      <CarLogos/>
+      </>
  
   )
 }

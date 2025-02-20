@@ -2,38 +2,40 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 50px;
-  padding: 40px 10%;
+  gap: 3.125rem;
 }
+.autoMechanicForm{
+  padding: 4.5rem 10% !important;
 
+}
 .left-content {
   flex: 1;
-  max-width: 450px;
+  max-width: 28.125rem;
 }
 
 .help-text {
   color: #C00104;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 0.875rem;
   font-weight: bold;
-  margin: 10px 0;
+  margin: .625rem 0;
 }
 
 h2 span {
   color: black;
-  font-size: 40px;
+  font-size: 0.875rem;
   font-weight: bold;
   font-family: "Poppins";
 }
 
 .description {
   color: #555;
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "Poppins";
   
 }
@@ -41,9 +43,9 @@ h2 span {
 .right-form {
   flex: 1;
   background: #C00104;
-  padding: 30px;
-  border-radius: 10px;
-  max-width: 400px;
+  padding: 1.875rem;
+  border-radius: .625rem;
+  max-width: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,8 +54,8 @@ h2 span {
 .right-form h3 {
   color: white;
   font-family: "Plus Jakarta Sans";
-  font-size: 30px;
-  margin-bottom: 15px;
+  font-size: 1.875rem;
+  margin-bottom: 0.938rem;
 }
 
 form {
@@ -64,8 +66,8 @@ form input,
 form select,
 form textarea {
   width: 100%;
-  padding: 10px;
-  margin: 10px 0;
+  padding: .625rem;
+  margin: .625rem 0;
   border: none;
   border-radius: 5px;
   box-sizing: border-box;
@@ -79,18 +81,18 @@ form textarea {
 
 form .flex {
   display: flex;
-  gap: 10px;
+  gap: .625rem;
 }
 
 form button {
   width: 100%;
-  padding: 12px;
+  padding: 0.75rem;
   background: transparent;
   color: white;
   border: 1px solid white;
   font-weight: bold;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0.313rem;
 }
 
 /* Centered Logo */
@@ -98,12 +100,13 @@ form button {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 25px;
+  margin-bottom: 4.438rem;
+  height: 7.5rem;
 }
 
 .logo {
-  width: 80px; /* Adjust size */
-  height: 20px;
+  width: 5rem; /* Adjust size */
+  height: 100%;
 }
 
 @media (max-width: 768px) {
@@ -118,5 +121,8 @@ form button {
 
   form .flex {
       flex-direction: column;
+  }
+  .logo-container {
+    margin-bottom: 0;
   }
 }

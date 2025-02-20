@@ -4,20 +4,23 @@
   gap: 1rem;
   align-items: center;
   padding: 3.125rem 6.25rem;
-  
   height: 50.3rem;
 }
 
 .image-section {
-  width: 31rem;
   height: auto;
 }
+
 .image-section img{
   width: 100%;
   height: auto;
 }
 .content-section{
   width: 40rem;
+}
+
+.text-section{
+  width: 100% !important;
 }
 
 .text-section h1 {
@@ -57,13 +60,24 @@
   flex-wrap: wrap;
   margin-top: 1.25rem;
 }
+.custom-image-section{
+  width: 31rem !important;
 
+
+}
+.about-text-section{
+  max-width: 100% !important;
+  width: 100% !important;
+}
 /* Tablet Responsiveness */
 @media (max-width: 1024px) and (min-width: 768px) {
   .section-container {
     gap: 1rem;
-    padding: 1.5rem;
+    padding: 3.5rem 2rem;
+    height: auto;
+ 
   }
+
 
   .image-section {
     transform: scale(0.9);
@@ -86,6 +100,7 @@
 /* Mobile Responsiveness */
 @media (max-width: 767px) {
   .section-container {
+    height: auto;
 
 
     

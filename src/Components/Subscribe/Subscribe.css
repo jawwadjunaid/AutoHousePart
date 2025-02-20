@@ -3,53 +3,55 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:#C00104; /* Red background */
-  padding: 15px;
-  border-radius: 10px;
+  background-color: #C00104; /* Red background */
+  padding: 1rem;
+  border-radius: 0.625rem;
   color: white;
   z-index: 12; /* Layer above other components */
-  margin-top: -150px; /* Overlap upper component */
-   /* Overlap lower component */
-  width: 55%; /* Adjusted width to prevent full size */
+  margin-top: -9.375rem; /* Overlap upper component */
+  width: 55%; /* Adjusted width */
   margin-left: auto;
   margin-right: auto;
-  
-  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  box-shadow: 0 0.625rem 0.9375rem rgba(0, 0, 0, 0.2); /* Add shadow for depth */
 }
 
 .subscribe-content {
   flex: 1;
   max-width: 50%;
   padding-left: 2.1rem;
-  
 }
 
 .subscribe-content h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .subscribe-content p {
-  font-size: 16px;
-  margin-bottom: 20px;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
   color: #FFFFFF;
-  
 }
 
 .subscribe-form {
   display: flex;
-  gap: 10px;
+  align-items: center;
+  /* gap: 0.625rem; */
+  width: 100%;
+  max-width: 20rem; /* Prevent stretching */
 }
 
 .subscribe-form input {
   flex: 1;
   padding: 0.7rem;
-  border: 2px solid white;
-  border-radius: 5px;
+  border: 0.125rem solid white;
+  border-radius: 0.3125rem 0 0 0.3125rem;
   background-color: transparent;
   color: white;
   font-size: 1rem;
+  border-right: none;
+  width: 100%;
+  min-width: 12rem;
 }
 
 .subscribe-form input::placeholder {
@@ -58,13 +60,14 @@
 }
 
 .subscribe-form button {
-  padding: 10px 20px;
+  padding: 0.875rem 1.25rem;
   background-color: white;
   color: #c00;
   font-weight: bold;
   border: none;
-  border-radius: 5px;
+  border-radius: 0 0.3125rem 0.3125rem 0;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 .subscribe-form button:hover {
@@ -79,41 +82,55 @@
 
 .subscribe-image img {
   max-width: 100%;
-  height: 250px;
-  border-radius: 10px;
+  height: 15.625rem;
+  border-radius: 0.625rem;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+/* Responsive Design */
+@media (max-width: 600px) {
   .subscribe-container {
       flex-direction: column;
       text-align: center;
-      padding: 20px;
-      margin-top: -80px; /* Adjust overlap for small screens */
-      width: 90%; /* Smaller width for smaller devices */
+      padding: 1.25rem;
+      margin-top: -5rem; /* Adjust overlap for small screens */
+      width: 90%; /* Smaller width */
   }
 
   .subscribe-content {
       max-width: 100%;
+      padding-left: 0;
   }
 
   .subscribe-form {
       flex-direction: column;
+      width: 100%;
+  }
+
+  .subscribe-form input {
+      border-radius: 0.3125rem;
+      border: 0.125rem solid white;
+      border-right: 0.125rem solid white;
+      min-width: unset;
+  }
+
+  .subscribe-form button {
+      border-radius: 0.3125rem;
+      width: 100%;
+      padding: 0.875rem;
   }
 
   .subscribe-image {
       justify-content: center;
-      margin-top: 20px;
+      margin-top: 1.25rem;
   }
 }
+
 /* Tablet View */
 @media (max-width: 1024px) and (min-width: 601px) {
   .subscribe-container {
     flex-direction: column;
     text-align: center;
-    
-    
-    width: 70%; /* Slightly wider for tablets */
+    width: 70%;
   }
 
   .subscribe-content {
@@ -124,7 +141,7 @@
   .subscribe-form {
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    /* gap: 0.625rem; */
   }
 
   .subscribe-form input {
@@ -134,10 +151,20 @@
 
   .subscribe-image {
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 0.9375rem;
   }
 
   .subscribe-image img {
-    height: 200px; /* Adjust image height */
+    height: 12.5rem; /* Adjust image height */
   }
 }
+@media screen and (min-width:600px) and (max-width:1024px) {
+  .subscribe-form {
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 0.625rem; */
+    margin: 0 auto;
+  }
+  .subscribe-form button {
+    padding: 0.65rem 1.25rem;
+  }}

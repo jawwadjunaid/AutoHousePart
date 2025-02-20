@@ -12,7 +12,7 @@ const HeroComponent = () => {
       <div className="hero-content">
         {/* Left Side - Text */}
         <div className="hero-text">
-          <h1 className="hero-heading">Houston's Trusted Auto Repair Shop</h1>
+          <h1 className="hero-heading">Your Trusted Auto Repair Shop in Houston</h1>
           <div className="hero-buttons">
             {/* Contact Page Link */}
             <Link to="/contact">
