@@ -131,3 +131,8 @@ p {
     
   }
 }
+@media screen and (min-width:900px) and (max-width:1200px) {
+  .cards-container3{
+    height: 45rem;
+  }
+}
