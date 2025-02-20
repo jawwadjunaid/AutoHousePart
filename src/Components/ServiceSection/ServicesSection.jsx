@@ -18,7 +18,7 @@ const ServicesSection = () => {
       {/* Added Reading Heading */}
       <h1 className="reading-heading"> WHAT WE DO </h1>
 
-      <h2 className="services-heading">Dependable Car Repair Solutions</h2>
+      <h2 className="services-heading">Reliable Auto Repair Shop</h2>
       <p className="services-description">
         At Autoshow of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions.
       </p>
@@ -28,35 +28,35 @@ const ServicesSection = () => {
           <div className="service-item">
             <div>
               <h3>Service and Maintenance</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Keep your car in peak condition with expert auto repair shop services, from routine check-ups to comprehensive diagnostics.</p>
             </div>
             <img src={maintenance} alt="Service" className="service-icon" />
           </div>
           <div className="service-item">
             <div>
               <h3>Oil Change</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Get a quick and reliable oil change near me in Houston with top-grade motor oil for optimal engine performance.</p>
             </div>
             <img src={oilChange} alt="Oil Change" className="service-icon" />
           </div>
           <div className="service-item">
             <div>
               <h3>Brakes</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Ensure your safety with expert repair brakes services, including brake pad replacement and system diagnostics.</p>
             </div>
             <img src={Brakes} alt="Brakes" className="service-icon" />
           </div>
           <div className="service-item">
             <div>
               <h3>Steering & Suspension</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Smooth out your ride with precision auto repair shop services for shocks, struts, and alignment.</p>
             </div>
             <img src={Steering} alt="Steering" className="service-icon" />
           </div>
           <div className="service-item">
             <div>
               <h3>Coolant System</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Prevent overheating with our auto service shops near me coolant flush and radiator repair services.</p>
             </div>
             <img src={Coolant} alt="Coolant System" className="service-icon" />
           </div>
@@ -73,35 +73,35 @@ const ServicesSection = () => {
             <img src={Engine} alt="Engine" className="service-icon" />
             <div>
               <h3>Engine & Transmission</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Our specialists handle auto shop repair near me needs, from engine tune-ups to full transmission overhauls.</p>
             </div>
           </div>
           <div className="service-item">
             <img src={Electrical} alt="Electrical" className="service-icon" />
             <div>
               <h3>Electrical Problems</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>We diagnose and fix vehicle electrical issues, providing professional auto service solutions.</p>
             </div>
           </div>
           <div className="service-item">
             <img src={Computer} alt="Computer" className="service-icon" />
             <div>
               <h3>Computer Diagnostics</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Using advanced tools, we detect and resolve car issues efficiently at our trusted auto repair shop.</p>
             </div>
           </div>
           <div className="service-item">
             <img src={AC} alt="AC" className="service-icon" />
             <div>
               <h3>AC & Heater</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Stay comfortable year-round with professional auto air conditioning repair for cooling and heating systems.</p>
             </div>
           </div>
           <div className="service-item">
             <img src={Belt} alt="Belt" className="service-icon" />
             <div>
               <h3>Belt and Rollers</h3>
-              <p>At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions</p>
+              <p>Avoid engine failures with timely auto shop repair belt and roller inspections and replacements.</p>
             </div>
           </div>
         </div>

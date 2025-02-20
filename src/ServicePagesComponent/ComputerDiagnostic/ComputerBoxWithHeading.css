@@ -95,6 +95,9 @@
     font-size: 0.9rem;
     color: #000000;
     background-color: #cccccc69;
+    background-color: #ccccccdc;
+    border-radius: 4px;
+  padding: .75rem .5rem;
   }
   
   /* Responsive Design */

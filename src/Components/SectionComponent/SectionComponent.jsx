@@ -6,7 +6,7 @@ import bestChoice from "../../assets/images/images/bestChoice.png"; // Badge as 
 const SectionComponent = () => {
   return (
     <div className="section-container">
-      <div className="image-section">
+      <div className="image-section custom-image-section">
         <img src={bestChoice} className="" alt="" />
        
       </div>
@@ -14,22 +14,16 @@ const SectionComponent = () => {
       {/* Text Section */}
       <div className="content-section">
 
-      <div className="text-section">
-        <h1>Your Best Choice For Auto Repair In Texas</h1>
+      <div className="text-section about-text-section">
+        <h1>Expert Auto Repair Services You Can Trust</h1>
         <p>
-          It can be difficult to find a professional, reliable, and honest
-          mechanic for your European vehicle. How can you be certain that you
-          won’t be taken advantage of? What happens if you don’t have enough
-          time to collect multiple quotes? What if you really only need to drop
-          off your automobile and be ready to leave the following day?
+        When your car needs professional attention, Autohouse of Switzerland is your go-to auto repair shop for quality service and expert care. Whether you're dealing with engine issues, electrical problems, or general wear and tear, our skilled mechanics are here to help.
         </p>
         <p>
-          Fortunately, Autohouse of Switzerland Inc has the answers to these
-          queries. Since 1980, we have offered dependable, reasonable service to
-          the Houston region, and we will keep doing so.
+        We specialize in auto air conditioning repair, ensuring your cooling system works efficiently, especially during hot summers. If you're searching for auto air conditioning repair near me, our team provides fast diagnostics and reliable fixes. Need brake repairs?  For those seeking repair brakes near me services, we are here to keep your vehicle safe on the road with top-quality brake pads and expert installation.
         </p>
-        <p className="warranty">
-          Warranty: 12 months / 12k miles warranty on approved parts and labor.
+        <p >
+        From minor fixes to major overhauls, we handle it all. If you're looking for an auto service shops near me in Houston, Texas, visit Autohouse of Switzerland for professional, efficient, and affordable auto repair solutions.
         </p>
 
         {/* Buttons */}

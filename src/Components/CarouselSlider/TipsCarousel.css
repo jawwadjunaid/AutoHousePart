@@ -9,7 +9,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 37rem; /* 480px */
+  height: 100vh; /* 480px */
   margin-bottom: 1.25rem; /* 20px */
 }
 
@@ -19,6 +19,7 @@
   align-items: center;
   gap: 1.25rem; /* 20px */
   flex-wrap: wrap;
+  margin-top: 8.813rem;
 }
 
 .tip-card {
@@ -61,12 +62,17 @@
 .carousel-button.right {
   right: 0.625rem; /* 10px */
 }
+.tip-card p{
+  text-wrap: wrap;
+}
 
 /* Tablet View */
 @media (max-width: 56.25rem) { /* 900px */
   .carousel {
     flex-direction: column;
     align-items: center;
+    margin-top: 2.813rem;
+
   }
 
   .tip-card {
@@ -83,6 +89,11 @@
 /* Mobile View */
 /* Mobile View */
 @media (max-width: 37.5rem) { /* 600px */
+  .tips-carousel {
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
   .tips-carousel h2 {
     font-size: 1.25rem; /* 20px */
   }
@@ -98,7 +109,7 @@
     overflow-x: auto;
     white-space: nowrap;
     scroll-snap-type: x mandatory;
-    justify-content: flex-start;
+    justify-content: center;
     padding-bottom: 1rem;
     gap: 0.625rem;
   }

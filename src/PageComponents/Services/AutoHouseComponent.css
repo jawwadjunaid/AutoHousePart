@@ -1,9 +1,9 @@
 /* Container */
 .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 75rem;
   margin: auto;
-  padding: 40px 0;
+  padding: 6rem 0;
 }
 
 /* Content Layout */
@@ -16,7 +16,8 @@
 }
 
 .text-section {
-  width: 100%; /* Ensure it takes up full width in mobile */
+  max-width: 47.2% ;
+  width: 100% ;
 }
 
 .text-section h2 {
@@ -70,7 +71,9 @@
 
 /* Image Section */
 .image-section {
-  width: 100%; /* Ensure image section takes full width in mobile */
+  max-width: 47.2% !important;
+  width: 100% ;
+  scale: 0.8;
 }
 
 .image-section img {
@@ -86,7 +89,8 @@
     flex-direction: row;
     align-items: center;
     text-align: left;
-    gap: 70px; /* Space between text and image in desktop view */
+    justify-content: center;
+    gap: 1rem; /* Space between text and image in desktop view */
   }
 
   .text-section {
@@ -95,5 +99,31 @@
 
   .image-section {
     width: 50%; /* Give remaining space to image */
+  }
+}
+@media (max-width: 768px) {
+  .container{
+    padding: 2.5rem 0 ;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    gap: 1rem; /* Space between text and image in desktop view */
+  }
+
+  .text-section {
+    max-width: 100% !important; /* Give more space to text section */
+  }
+  .text-section h2{
+    font-size: 2rem !important;
+  }
+
+  .image-section {
+    max-width: 100% !important; /* Give remaining space to image */
+    scale: 1;
+
   }
 }

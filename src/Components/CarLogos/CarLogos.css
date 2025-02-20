@@ -2,21 +2,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 10%;
-    background: #f8f8f8; /* Light background */
+    padding: 2.5rem 10%;
+    /* background: #f8f8f8; Light background */
   }
   
   .car-Frame-wrapper {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.875rem;
     justify-content: center;
     align-items: center;
   }
-  
+  .logo-img{
+    background: #f8f8f8;
+    height: 5.625rem;
+    width: 13.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
   .car-Frame {
-    width: 100px; /* Adjust based on your design */
-    height: auto;
+    object-fit: contain;
+    width: 70%; /* Adjust based on your design */
+    height: 70%;
     filter: grayscale(100%); /* Optional: Makes logos black & white */
     transition: 0.3s ease-in-out;
   }
@@ -27,16 +36,33 @@
   
   @media (max-width: 768px) {
     .car-Frame-wrapper {
-      gap: 20px;
+      gap: 1.25rem;
     }
     .car-Frame {
-      width: 80px; /* Adjust for smaller screens */
+      width: 5rem; /* Adjust for smaller screens */
     }
   }
   
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     .car-Frame {
-      width: 60px; /* Further adjust for mobile */
+      width: 3.75rem
+      ; /* Further adjust for mobile */
     }
+      .logo-img{
+    background: #f8f8f8;
+    height: 5.625rem;
+    width: 13.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .car-Frame {
+    object-fit: contain;
+    width: 70%; /* Adjust based on your design */
+    height: 70%;
+    filter: grayscale(100%); /* Optional: Makes logos black & white */
+    transition: 0.3s ease-in-out;
+  }
   }
   

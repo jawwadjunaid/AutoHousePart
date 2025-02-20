@@ -1,31 +1,33 @@
 .oil-section {
     background-color: black;
     color: white;
-    padding: 40px;
+    padding: 2.5rem;
   }
   
   .oil-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: auto;
   }
   
   .oil-heading {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
-  
+  .oil-heading h2{
+    font-size: 2.813rem;
+  }
   .oil-heading span {
     color: #ccc; /* Light gray for emphasis */
   }
   
   .oil-text {
-    max-width: 600px;
-    font-size: 16px;
+    max-width: 37.5rem;
+    font-size: 1rem;
     line-height: 1.6;
   }
   
@@ -34,11 +36,12 @@
     .oil-container {
       flex-direction: row;
       text-align: left;
+      
     }
   
     .oil-heading {
       flex: 1;
-      font-size: 32px;
+      font-size: 2rem;
     }
   
     .oil-text {
@@ -46,3 +49,19 @@
     }
   }
   
+  @media (max-width: 768px) {
+    .oil-container {
+      /* flex-direction: row; */
+      /* text-align: left; */
+      align-items: center;
+    }
+
+  }
+  @media (max-width: 600px) {
+    .oil-heading h2{
+      font-size: 2rem;
+    }
+    .oil-text p {
+      font-size: .75rem;
+    }
+  }

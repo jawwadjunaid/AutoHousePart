@@ -4,27 +4,33 @@
     background-size: cover;
     background-position: center;
     height: auto;
-    
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 1.2rem;
+    /* margin-top: 1.2rem; */
     margin-bottom: 1.2rem;
   }
   
   .CarOilSummaryoverlay {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.1);
     color: white;
    padding: 11rem;
     
     
+  }
+  .CarOilSummaryoverlay p{
+    font-size: 2rem;
   }
   
   @media (max-width: 768px) {
     .CarOilSummaryoverlay {
       max-width: 95%;
       font-size: 14px;
+      padding: 5rem 1rem;
+    }
+    .CarOilSummaryoverlay p{
+      font-size: 1rem;
     }
   }
   

@@ -8,8 +8,8 @@ const CarOilImportant = () => {
         {/* Left: Heading */}
         <div className="oil-heading">
           <h2>
-            The Importance Of <br />
-            <span>Regular Oil Changes</span>
+            The Importance Of <br />Regular Oil Changes
+            {/* <span></span>  */}
           </h2>
         </div>
 

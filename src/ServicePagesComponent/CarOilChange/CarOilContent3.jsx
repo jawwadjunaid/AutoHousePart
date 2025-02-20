@@ -8,9 +8,7 @@ const CarOilContent3 = () => {
        {/* Text Section */}
        <div className="CarOilContent3-textss">
          
-         <h1 style={{color:'white'}}>Get Access to ​​Expert
- Service and Maintenance
- for European Vehicles</h1>
+         <h1 style={{color:'white'}}>Get Access to ​​Expert Service and Maintenance for European Vehicles</h1>
          <p>
          When it comes to service and maintenance for European vehicles in the Houston area, Autohouse of Switzerland Inc is the name you can rely on. With our decades of experience, certified trained technicians, comprehensive automotive solutions, and commitment to customer satisfaction, we can keep your vehicle in pristine condition.
  

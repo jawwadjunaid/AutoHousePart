@@ -1,9 +1,10 @@
 .aboutss-container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 3.125rem;
-    padding: 3.125rem 6.25rem;
+    justify-content: center;
+    gap: 8.188rem;
+    padding: 10.25rem 6.25rem;
+    background-color: #f9f9f9;
   }
   
   .aboutss-text {
@@ -36,7 +37,7 @@
     margin-top: 15px;
     padding: .625rem 1.25rem;
     background: red;
-    color: white;
+    color: white !important;
     font-size: 1rem;
     text-decoration: none;
     border-radius: 0.313rem;
@@ -74,6 +75,11 @@
     border-radius: .625rem;
     box-shadow: 0 0.25rem .5rem rgba(0, 0, 0, 0.2);
   }
+  .about-main-img{
+    width: 100% !important;
+    object-fit: contain;
+    height: 100% !important;
+  }
   
   /* Responsive Design */
   @media (max-width: 768px) {
@@ -84,10 +90,14 @@
     }
   
     .aboutss-images {
-      width: 25.5rem;
+      width: 35.5rem;
       height: auto;
     }
-  
+     .about-main-img{
+      width: 100% !important;
+      object-fit: contain;
+      height: 100% !important;
+    }
     .overlayss-img {
       top: -1.25rem;
       left: 0.938rem;

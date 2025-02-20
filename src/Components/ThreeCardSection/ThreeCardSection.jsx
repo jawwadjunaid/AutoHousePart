@@ -6,20 +6,20 @@ import card3 from '../../assets/images/images/card-3.png';
 const cardData = [
   {
     title: "",
-    text: "We will give you an easy-to-understand quote. Ask us about ways to reduce the expense of auto repairs to maintain your automobile in top condition.   ",
-    buttonText: "Clear Estimate With No Hidden Costs",
+    text: "Looking for an oil change near me? We offer quick and professional oil changes to keep your engine in top shape. Our affordable services and offers ensure you get the best care for your car.   ",
+    buttonText: "Fast and Reliable Oil Change Services",
     imageUrl: card1,
   },
   {
     title: "",
-    text: "We’ll give you a comprehensive brake system inspection and maintenance to keep you safe on the road.",
-    buttonText: "Quick & Trouble-Free",
+    text: "From auto air conditioning repair to brake services, we cover all your car’s needs. Our skilled technicians specialize in air conditioning repair car, auto air conditioning repair much more to keep you comfortable year-round.",
+    buttonText: "Comprehensive Auto Repair and Maintenance",
     imageUrl: card2,
   },
   {
     title: "",
-    text: "For domestic & international cars of all makes & models, our trained mechanics offer the best in auto repair services.",
-    buttonText: "Quick & Trouble-Free",
+    text: "Accidents happen, and when they do, you need a trusted auto collision shops to restore your car. We also provide reliable brakes repair and replacement services to keep you safe on the road.",
+    buttonText: "Collision and Brake Repair Services",
     imageUrl: card3,
   },
 ];

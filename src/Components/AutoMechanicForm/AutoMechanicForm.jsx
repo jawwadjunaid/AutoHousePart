@@ -38,7 +38,7 @@ const AutoMechanicForm = () => {
 
   return (
     <>
-      <section className="container">
+      <section className="container autoMechanicForm">
         <div className="left-content">
           <p className="help-text">NEED HELP</p>
           <h2>
@@ -103,7 +103,7 @@ const AutoMechanicForm = () => {
       </section>
 
       <div className="logo-container">
-        <img src={Frame} alt="Company Logo" className="logo" />
+        <img src={Frame} alt="Company Logo" className="logo home-logo" />
       </div>
     </>
   );
