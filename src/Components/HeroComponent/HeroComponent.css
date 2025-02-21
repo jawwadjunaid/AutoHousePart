@@ -80,8 +80,39 @@
   display: block;
 }
 
+
 /* Responsive Styles */
-@media (max-width: 768px) {
+
+@media screen and (min-width:600px)and (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-heading {
+    font-size: 4rem;
+}
+.btn {
+  padding: 1rem 2.25rem;
+
+}
+.appointment-btns {
+  padding: 1rem 2.25rem;
+
+}
+.hero-image img {
+  width: 23.75rem;
+}
+.hero-text {
+  max-width: 69%;
+}
+
+}
+
+@media (max-width: 600px) {
+  .hero-container{
+    height: auto;
+    padding: 4rem 0;
+  }
   .hero-content {
     flex-direction: column;
     text-align: center;
