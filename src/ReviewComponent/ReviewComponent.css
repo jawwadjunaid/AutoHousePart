@@ -10,7 +10,9 @@
     color: white;
     text-align: center;
     /* add ///// */
-    margin: 1.25rem; 
+    /* margin: 1.25rem; 
+    margin: 1.25rem;  */
+
   
   }
   
@@ -18,18 +20,18 @@
     font-size: 2.5rem;
     font-weight: bold;
   }
-  
+  .breadcrumb a{
+    color: white;
+  }
+  .breadcrumb a:last-child{
+    color: #C00104 !important;
+  }
+    
   .breadcrumb {.aboutss-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px 100px;
-}
-.breadcrumb a{
-  color: white;
-}
-.breadcrumb a:last-child{
-  color: #C00104;
 }
 
 .ReviewComponent-text {

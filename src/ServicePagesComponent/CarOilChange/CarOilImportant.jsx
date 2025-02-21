@@ -8,7 +8,7 @@ const CarOilImportant = () => {
         {/* Left: Heading */}
         <div className="oil-heading">
           <h2>
-            The Importance Of <br />Regular Oil Changes
+            Precision Care for <br /> High-Performance Engines
             {/* <span></span>  */}
           </h2>
         </div>
@@ -16,16 +16,12 @@ const CarOilImportant = () => {
         {/* Right: Description */}
         <div className="oil-text">
           <p>
-            Maintaining the health of your European vehicle begins with regular oil changes.
-            Clean oil lubricates the engine, reduces friction, and prevents premature wear
-            and tear. Failing to do so can become compromised with dirt, debris, and sludge
-            over time, which diminishes its ability to protect the engine effectively.
+          At Automobile of Switzerland, we understand the fine engineering that goes into every European vehicle. Every oil change service is handled with accuracy, using state-of-the-art equipment and premium-quality engine oil.
           </p>
           <p>
-            By maintaining a schedule, you ensure optimal engine performance, extended
-            engine life, improvement in efficiency, and reduced emissions.
+          Our team follows strict manufacturer guidelines to ensure that your oil filter is replaced, your oil pan is checked, and your car oil change service is completed without cutting corners.
           </p>
-          <p>Here are some of the expert auto services we provide:</p>
+          {/* <p>Here are some of the expert auto services we provide:</p> */}
         </div>
       </div>
     </section>

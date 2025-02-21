@@ -188,3 +188,16 @@
     padding: .625rem 1.25rem;
   }
 }
+@media screen and (max-width:600px) {
+  .footer-left{
+    padding: 0 4rem
+  }
+  .FooterContentPara {
+    color: #D2D2D2;
+    max-width: 100%;
+    width: 100%;
+}
+.footer-middle{
+  padding: .5rem 4rem
+}
+}

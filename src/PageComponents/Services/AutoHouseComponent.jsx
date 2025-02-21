@@ -16,24 +16,21 @@ const AutoHouseComponent = () => {
         {/* Text Section */}
         <div className="text-section">
           <h2 style={{ fontSize: '2.81rem', color: '#0A0A0A' }}>
-            Why choose Autohouse of Switzerland Inc
+          Why Trust Automobile of Switzerland?
           </h2>
           <p className="subtitle" style={{ fontSize: '1.25rem', color: '#0A0A0A' }}>
             For All Your Service and Maintenance Needs?
           </p>
           <p className="description" style={{ fontSize: '1rem', color: '#0A0A0A' }}>
-            When it comes to your auto service and maintenance needs, you can never go wrong with AutoHouse of Switzerland Inc. 
-            We are dedicated to providing unparalleled customer service and offer a wide range of top-notch services that set us apart from the competition.
-            When it comes to your auto service and maintenance needs, you can never go wrong with AutoHouse of Switzerland Inc. 
-            We are dedicated to providing unparalleled customer service and offer a wide range of top-notch services that set us apart from the competition.
+          Our reputation is built on expertise, honesty, and a commitment to excellence. We understand the importance of dependable transportation, and our team works hard to provide the highest level of service. Whether it’s preventive maintenance or urgent repairs, we put your vehicle’s performance and safety first.
           </p>
 
           {/* Accordion Section */}
           <div className="accordion">
             {[
-              { title: "✔ Same-Day Service on Most Cars", content: "We provide fast and reliable same-day service on most vehicles, ensuring your car is back on the road quickly." },
-              { title: "✔ Latest Diagnostic Equipment", content: "Our workshop is equipped with state-of-the-art diagnostic tools for accurate vehicle servicing and repairs." },
-              { title: "✔ Expert Technicians", content: "Our highly skilled mechanics ensure top-quality repairs and maintenance." }
+              { title: "✔ Fast Service on Most Vehicles", content: "Because nobody likes waiting." },
+              { title: "✔ Cutting-Edge Diagnostics", content: "We get straight to the problem without guesswork." },
+              { title: "✔ Skilled Auto Specialists", content: "Your car deserves the best hands under the hood." }
             ].map((item, index) => (
               <div className="accordion-item" key={index} onClick={() => toggleAccordion(index)}>
                 <div className="accordion-title">

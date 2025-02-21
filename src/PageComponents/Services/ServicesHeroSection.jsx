@@ -10,27 +10,13 @@ const ServicesHeroSection = () => {
           <img src={image1} alt="Service 1" className="service-img" />
         </div>
         <div className="services-hero-content">
-          <h1>Top-Quality Auto Service And Maintenance Solutions In Houston, TX</h1>
+          <h1>The Best Car Service and Maintenance for Vehicles in Houston, TX</h1>
           <p>
-            Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-            providing exceptional service and maintenance for European vehicles. 
-            With a focus on honesty, reliability, and affordability, we have built 
-            a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-            and Volvo owners.
+          Automobile of Switzerland has been a trusted name for decades. We don’t just fix cars, we keep them running like they should. Whether it's car oil change, brakes, or steering & suspension, our expert team ensures your vehicle gets exactly what it needs.
             
           </p>
           <p>
-            Our team of certified technicians, state-of-the-art diagnostic equipment, 
-            and commitment to customer satisfaction make us the premier choice for 
-            all your European car service needs.
-            Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-            providing exceptional service and maintenance for European vehicles. 
-            With a focus on honesty, reliability, and affordability, we have built 
-            a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-            and Volvo owners.
-            Our team of certified technicians, state-of-the-art diagnostic equipment, 
-            and commitment to customer satisfaction make us the premier choice for 
-            all your European car service needs.
+          Every car tells a story. Some purr like a kitten. Others groan under the weight of time. If your vehicle is whispering (or shouting) for help, our specialists are ready. From coolant system inspections to computer diagnostics, we cover it all. And yes, if your cabin feels more like an oven or a freezer, our AC & heater services will bring the temperature back to normal.
             
           </p>
           <button className="services-hero-btn">Let's Get Started</button>
