@@ -8,6 +8,10 @@
     justify-content: center;
     text-align: center;
     color: white;
+    text-align: center;
+    /* add ///// */
+    margin: 1.25rem; 
+  
   }
   
   .ReviewComponent-section h1 {
@@ -20,6 +24,12 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px 100px;
+}
+.breadcrumb a{
+  color: white;
+}
+.breadcrumb a:last-child{
+  color: #C00104;
 }
 
 .ReviewComponent-text {

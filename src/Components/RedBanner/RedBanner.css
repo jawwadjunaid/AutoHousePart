@@ -103,6 +103,8 @@
   .stat-item {
     min-width: 100%;
     justify-content: flex-start !important;
+    padding: .5rem 5.5rem;
+
 
   }
 
