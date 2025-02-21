@@ -1,7 +1,7 @@
 import React from 'react';
 import './BeltWithBox.css'; // Import external CSS file
-import Boxwithheading1 from '../../assets/images/BElt/Belt1.png';;
-import Boxwithheading2 from '../../assets/images/BElt/Belt2.png';
+import Boxwithheading1 from '../../assets/images/BElt/Belt1.png';
+import Boxwithheading2 from '../../assets/images/BElt/Belt.png';
 import Boxwithheading3 from '../../assets/images/BElt/Belt3.png';
 
 
