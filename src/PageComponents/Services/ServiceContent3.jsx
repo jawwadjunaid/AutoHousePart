@@ -8,13 +8,9 @@ const ServiceContent3 = () => {
       {/* Text Section */}
       <div className="Servicess-textss">
         
-        <h1 style={{color:'white'}}>Get Access to ​​Expert
-Service and Maintenance
-for European Vehicles</h1>
+        <h1 style={{color:'white'}}>Book Your Expert Auto Care Today</h1>
         <p>
-        When it comes to service and maintenance for European vehicles in the Houston area, Autohouse of Switzerland Inc is the name you can rely on. With our decades of experience, certified trained technicians, comprehensive automotive solutions, and commitment to customer satisfaction, we can keep your vehicle in pristine condition.
-
-Schedule an auto service and maintenance appointment with Autohouse of Switzerland Inc today or visit us at 3402 San Jacinto St, Houston, TX 77004.
+        Vehicles break down. That’s a fact of life. But with the right team, yours won’t stay that way for long. Automobile of Switzerland is your go-to solution when looking for brake repair near me in Houston, TX. Visit us today and let’s get your car back in top shape.
 
         </p>
         <Link to="/contact" className="btnssd">Let's Get Started</Link>

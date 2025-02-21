@@ -8,17 +8,17 @@ const ServicesBoxWithHeading = () => {
     const services = [
         {
             title: "Brake & Suspension",
-            description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+            description: "Your car should stop as well as it starts. A well-tuned brake system and suspension make all the difference. We handle repairs, replacements, and inspections to keep your ride smooth and safe.",
             imageUrl: Boxwithheading1,
         },
         {
             title: "Electrical System Repairs",
-            description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+            description: "Flickering lights? A dashboard lit up like a Christmas tree? Modern vehicles rely on complex electrical systems, and we’re here to diagnose and fix electrical problems before they leave you stranded.",
             imageUrl: Boxwithheading2,
         },
         {
             title: "Routine Maintenance",
-            description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+            description: "Skip the breakdowns. Regular upkeep like car oil change and engine & transmission checks extends your vehicle’s lifespan. Prevent small issues from turning into big problems.",
             imageUrl: Boxwithheading3,
         }
     ];
@@ -27,9 +27,9 @@ const ServicesBoxWithHeading = () => {
         <div className="services-container">
             <div className="service-title">
 
-            <h2 className='services-header'>Our Comprehensive Services For European Vehicles</h2>
+            <h2 className='services-header'>Comprehensive Auto Services for Vehicles in Houston, Texas</h2>
             <p className='services-header service-description'>
-            At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions that are tailored to meet your vehicle’s specific needs. With our unrivaled expertise and commitment to excellence, you can trust us to keep your vehicle running at its best.
+            We take pride in offering an extensive range of services designed to keep your vehicle in peak condition. Our team is equipped with the knowledge and tools to get the job done right. We ensure your vehicle performs at its best, mile after mile.
             </p>
             </div>
             <div className="services-grid">

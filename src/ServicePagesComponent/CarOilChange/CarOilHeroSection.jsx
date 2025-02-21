@@ -12,18 +12,12 @@ const CarOilHeroSection = () => {
               <img src={image2} alt="Service 2" className="CarOilservice-img" />
             </div>
             <div className="CarOilservices-hero-content">
-              <h1>Top-Quality Auto Service And Maintenance Solutions In Houston, TX</h1>
+              <h1>Get Dependable Oil Change Service from Certified Trained Technicians in Houston, TX</h1>
               <p>
-                Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-                providing exceptional service and maintenance for European vehicles. 
-                With a focus on honesty, reliability, and affordability, we have built 
-                a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-                and Volvo owners.
+              When your engine oil isn't doing its job, your car doesn't just lose performance—it ages faster than it should. At Automobile of Switzerland, we take care of your vehicle like it's our own. Our certified trained technicians provide precise car oil change services to keep your car running smoothly and strongly.
               </p>
               <p>
-                Our team of certified technicians, state-of-the-art diagnostic equipment, 
-                and commitment to customer satisfaction make us the premier choice for 
-                all your European car service needs.
+              We specialize in full synthetic oil change and conventional oil service, ensuring that your car gets exactly what it needs. Schedule a visit today or stop by our shop at for trusted service.
               </p>
               <button className="CarOilservices-hero-btn">Let's Get Started</button>
             </div>

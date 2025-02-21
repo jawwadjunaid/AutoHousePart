@@ -8,13 +8,12 @@ const CarOilContent3 = () => {
        {/* Text Section */}
        <div className="CarOilContent3-textss">
          
-         <h1 style={{color:'white'}}>Get Access to ​​Expert Service and Maintenance for European Vehicles</h1>
+         <h1 style={{color:'white'}}>High-Quality Service, No Shortcuts</h1>
          <p>
-         When it comes to service and maintenance for European vehicles in the Houston area, Autohouse of Switzerland Inc is the name you can rely on. With our decades of experience, certified trained technicians, comprehensive automotive solutions, and commitment to customer satisfaction, we can keep your vehicle in pristine condition.
- 
- Schedule an auto service and maintenance appointment with Autohouse of Switzerland Inc today or visit us at 3402 San Jacinto St, Houston, TX 77004.
- 
+         Automobile of Switzerland has a commitment that goes beyond just pouring in fresh engine oil. We check every detail, ensuring that your oil pan, oil filter, and lubrication system work together for peak performance.
          </p>
+         <p>No unnecessary upsells. No waiting for hours. Just straightforward, professional car oil change service from technicians who know your vehicle inside and out to ensure your engine and transmission function properly.</p>
+         <p>Ready to give your car the care it deserves? Book your appointment today.</p>
          <Link to="/contact" className="CarOilContent3btnssd">Let's Get Started</Link>
        </div>
  
