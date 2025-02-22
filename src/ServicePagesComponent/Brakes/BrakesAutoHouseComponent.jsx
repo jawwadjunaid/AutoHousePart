@@ -23,18 +23,15 @@ const BrakesAutoHouseComponent = () => {
               For All Your Service and Maintenance Needs?
             </p>
             <p className="BrakesAutodescription" style={{ fontSize: '1rem', color: '#0A0A0A' }}>
-              When it comes to your auto service and maintenance needs, you can never go wrong with AutoHouse of Switzerland Inc. 
-              We are dedicated to providing unparalleled customer service and offer a wide range of top-notch services that set us apart from the competition.
-              When it comes to your auto service and maintenance needs, you can never go wrong with AutoHouse of Switzerland Inc. 
-              We are dedicated to providing unparalleled customer service and offer a wide range of top-notch services that set us apart from the competition.
+            Need service today? We offer same-day brake repair on most cars, so you don’t have to wait. Our team works efficiently to get you back on the road safely. Plus, our pricing is clear—no hidden surprises. Your brakes won’t fix themselves. Waiting too long can lead to bigger (and more expensive) problems. Call us or stop by for a thorough inspection. While you're here, ask us about our engine and transmission services to keep your vehicle running at its best.
             </p>
   
             {/* Accordion Section */}
             <div className="BrakesAutoaccordion">
               {[
-                { title: "✔ Same-Day Service on Most Cars", content: "We provide fast and reliable same-day service on most vehicles, ensuring your car is back on the road quickly." },
-                { title: "✔ Latest Diagnostic Equipment", content: "Our workshop is equipped with state-of-the-art diagnostic tools for accurate vehicle servicing and repairs." },
-                { title: "✔ Expert Technicians", content: "Our highly skilled mechanics ensure top-quality repairs and maintenance." }
+                { title: "✔ Same-Day Service on Most Cars", content: "No long waits—our efficient process ensures quick turnaround without cutting corners." },
+                { title: "✔ Latest Diagnostic Equipment", content: "We use top-tier technology to identify issues accurately and provide precise solutions." },
+                { title: "✔ Expert Technicians", content: "Our highly trained mechanics have the expertise to handle even the trickiest brake problems." }
               ].map((item, index) => (
                 <div className="BrakesAutoaccordion-item" key={index} onClick={() => toggleAccordion(index)}>
                   <div className="BrakesAutoaccordion-title">

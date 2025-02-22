@@ -10,27 +10,13 @@ const BrakesHeroSection = () => {
            <img src={Brakesimage1} alt="Service 1" className="BrakesHero-img" />
          </div>
          <div className="BrakesHero-hero-content">
-           <h1>Top-Quality Auto Service And Maintenance Solutions In Houston, TX</h1>
+           <h1>Brake Services at Automobile of Switzerland For Houston Residents</h1>
            <p>
-             Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-             providing exceptional service and maintenance for European vehicles. 
-             With a focus on honesty, reliability, and affordability, we have built 
-             a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-             and Volvo owners.
+           Your vehicle’s brakes do more than stop your car—they keep you safe. Whether it's a quick brake repair, a complete brake change, or troubleshooting issues with your braking system, our expert technicians are here to help.
              
            </p>
            <p>
-             Our team of certified technicians, state-of-the-art diagnostic equipment, 
-             and commitment to customer satisfaction make us the premier choice for 
-             all your European car service needs.
-             Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-             providing exceptional service and maintenance for European vehicles. 
-             With a focus on honesty, reliability, and affordability, we have built 
-             a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-             and Volvo owners.
-             Our team of certified technicians, state-of-the-art diagnostic equipment, 
-             and commitment to customer satisfaction make us the premier choice for 
-             all your European car service needs.
+           At Automobile of Switzerland, we fix cars to take care of people. Since 1980, drivers have trusted us for reliable, high-quality auto service. With our cutting-edge diagnostic tools, we get to the root of the problem fast. Whether your brakes are squeaking, feeling soft, or taking longer to stop, we’ll figure it out and fix it right the first time.
              
            </p>
            <button className="BrakesHero-hero-btn">Let's Get Started</button>

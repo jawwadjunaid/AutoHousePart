@@ -10,27 +10,13 @@ const ComputerHeroSection = () => {
             <img src={image1} alt="Service 1" className="service-img" />
           </div>
           <div className="ComputerHeroservices-hero-content">
-            <h1>Top-Quality Auto Service And Maintenance Solutions In Houston, TX</h1>
+            <h1>State-of-the-Art Technology for Reliable Insights</h1>
             <p>
-              Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-              providing exceptional service and maintenance for European vehicles. 
-              With a focus on honesty, reliability, and affordability, we have built 
-              a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-              and Volvo owners.
+            Your vehicle’s internal systems are more advanced than ever. A simple warning light could mean anything from a minor sensor glitch to a major engine issue. Our mechanic diagnostic computer tools connect directly to your car’s system, reading trouble codes and providing real-time data.
               
             </p>
             <p>
-              Our team of certified technicians, state-of-the-art diagnostic equipment, 
-              and commitment to customer satisfaction make us the premier choice for 
-              all your European car service needs.
-              Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-              providing exceptional service and maintenance for European vehicles. 
-              With a focus on honesty, reliability, and affordability, we have built 
-              a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-              and Volvo owners.
-              Our team of certified technicians, state-of-the-art diagnostic equipment, 
-              and commitment to customer satisfaction make us the premier choice for 
-              all your European car service needs.
+            Our certified technicians analyze this information with expertise and experience. Whether you need a car computer check near me or a complete auto repair computer diagnostics service, we deliver precise results so you can make informed decisions about your vehicle’s care.
               
             </p>
             <button className="ComputerHeroservices-hero-btn">Let's Get Started</button>

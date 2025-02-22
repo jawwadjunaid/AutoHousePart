@@ -7,18 +7,18 @@ import ComputerBoxwithheading3 from '../../assets/images/Pages/Boxwithheading3.p
 const ComputerBoxWithHeading = () => {
        const services = [
             {
-                title: "Brake & Suspension",
-                description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+                title: "Engine Performance ",
+                description: "A well-tuned engine is the heart of your vehicle’s performance. Our diagnostics uncover misfires, fuel efficiency concerns, and ignition problems that might be slowing you down. If your engine hesitates, stalls, or consumes more fuel than usual, our system identifies the root cause, helping to prevent costly breakdowns and ensuring smooth operation.",
                 imageUrl: ComputerBoxwithheading1,
             },
             {
-                title: "Electrical System Repairs",
-                description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+                title: "Transmission Health ",
+                description: "The transmission is one of the most critical and expensive components of your vehicle. Early signs of trouble—such as rough shifting, delayed response, or unusual noises—can indicate bigger problems ahead. Our diagnostic computer for cars reads transmission codes, detecting faults before they escalate into costly repairs, keeping your ride smooth and efficient.",
                 imageUrl: ComputerBoxwithheading2,
             },
             {
-                title: "Routine Maintenance",
-                description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+                title: "Electrical System & Sensors ",
+                description: "Modern vehicles rely on complex electrical systems to function correctly. Faulty sensors, failing batteries, or damaged wiring can cause a cascade of issues, from inconsistent engine performance to total system failures. Our mechanic diagnostic computer identifies weak points in your vehicle’s electrical network, ensuring every component is communicating as it should.",
                 imageUrl: ComputerBoxwithheading3,
             }
         ];
@@ -26,9 +26,9 @@ const ComputerBoxWithHeading = () => {
     <div className="Computerservices-container">
             <div className="Computerservice-title">
 
-            <h2 className='Computerservices-header'>Our Comprehensive Services For European Vehicles</h2>
+            <h2 className='Computerservices-header'>Comprehensive Diagnostic Checks</h2>
             <p className='Computerservices-header Computerservice-description'>
-            At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions that are tailored to meet your vehicle’s specific needs. With our unrivaled expertise and commitment to excellence, you can trust us to keep your vehicle running at its best.
+            We leave no stone unturned. Our diagnostic car code reader technology scans for issues across various systems, including:
             </p>
             </div>
             <div className="Computerservices-grid">

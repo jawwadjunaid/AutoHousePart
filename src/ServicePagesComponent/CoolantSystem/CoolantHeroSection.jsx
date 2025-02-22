@@ -10,27 +10,13 @@ const CoolantHeroSection = () => {
            <img src={Coolantimage} alt="Service 1" className="ContactHero-img" />
          </div>
          <div className="ContactHero-hero-content">
-           <h1>Top-Quality Auto Service And Maintenance Solutions In Houston, TX</h1>
+           <h1>Avail the Best Coolant System Service for Your Vehicle in Houston, TX  </h1>
            <p>
-             Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-             providing exceptional service and maintenance for European vehicles. 
-             With a focus on honesty, reliability, and affordability, we have built 
-             a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-             and Volvo owners.
+           Keeping your engine cool isn’t just about comfort—it’s about survival. An overheated engine can lead to costly breakdowns, coolant leaks, and serious damage. At Automobile of Switzerland, we take your vehicle’s coolant system seriously. Whether it’s a coolant flush, diagnosing a radiator leak, or checking for antifreeze contamination, we handle it with precision.
              
            </p>
            <p>
-             Our team of certified technicians, state-of-the-art diagnostic equipment, 
-             and commitment to customer satisfaction make us the premier choice for 
-             all your European car service needs.
-             Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-             providing exceptional service and maintenance for European vehicles. 
-             With a focus on honesty, reliability, and affordability, we have built 
-             a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-             and Volvo owners.
-             Our team of certified technicians, state-of-the-art diagnostic equipment, 
-             and commitment to customer satisfaction make us the premier choice for 
-             all your European car service needs.
+           Our certified technicians work on BMW, Audi, VW, Mercedes-Benz, and Volvo. With decades of experience and cutting-edge diagnostic tools, we ensure your car’s cooling system performs flawlessly. Schedule your appointment today.
              
            </p>
            <button className="ContactHero-hero-btn">Let's Get Started</button>

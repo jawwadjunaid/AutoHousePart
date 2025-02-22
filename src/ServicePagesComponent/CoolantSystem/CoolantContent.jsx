@@ -9,13 +9,9 @@ const CoolantContent = () => {
           {/* Text Section */}
           <div className="CoolantContent-textss">
             
-            <h1 style={{color:'Black'}}>Get Access to ​​Expert
-    Service and Maintenance
-    for European Vehicles</h1>
+            <h1 style={{color:'Black'}}>Expert Cooling System Care to Keep You on the Road</h1>
             <p>
-            When it comes to service and maintenance for European vehicles in the Houston area, Autohouse of Switzerland Inc is the name you can rely on. With our decades of experience, certified trained technicians, comprehensive automotive solutions, and commitment to customer satisfaction, we can keep your vehicle in pristine condition.
-    
-    Schedule an auto service and maintenance appointment with Autohouse of Switzerland Inc today or visit us at 3402 San Jacinto St, Houston, TX 77004.
+            Ignoring your coolant system is like running a marathon without water. Eventually, your engine will overheat. At Automobile of Switzerland, we take care of your radiator flush, diagnose coolant leaks, and keep your antifreeze levels just right. Let’s make sure your vehicle runs cool, smooth, and problem-free.
     
             </p>
             <Link to="/contact" className="CoolantContentbtnssd">Let's Get Started</Link>

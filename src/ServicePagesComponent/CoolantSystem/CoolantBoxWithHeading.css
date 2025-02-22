@@ -1,156 +1,153 @@
 /* Services.css */
 .CoolantCard-container {
-    background-color: #111111;
-    padding: 40px 20px;
-    margin-bottom: 10px;
-  }
-  .CoolantCard-title{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5rem;
-    width: 85%;
-    margin: 0 auto;
-  }
-  .CoolantCard-title{
-    color: white;
-    margin-bottom: 1rem;
-  }
-  .CoolantCard-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* max-width: 430px;
-    margin: 0 auto; */
-    text-align: left;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 20px; /* Adjust spacing */
-  }
-  
-  .CoolantCard-header h2 {
-    font-size: 2rem;
-    color: #ffffff;
-    text-align: left;
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .CoolantCard-header p {
-    font-size: 1rem;
-    color: #cccccc;
-    text-align: right;
-    flex: 1;
-    max-width: 600px;
-    min-width: 300px;
-  }
-  
-  .CoolantCard-description{
-    color: #ffffffe8;
-  }
-  .CoolantCard-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-    position: relative;
-    background-color: transparent;
-  }
-  
-  .CoolantCard-card {
-    background: #111; /* Fallback color */
-    border-radius: 8px;
-    width: 100%;
-    max-width: 350px;
-    height: 350px; /* Adjust height as per your design */
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease-in-out;
-    background-image: url(''); /* Will be replaced by JS */
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .CoolantCard-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .CoolantCard-card .CoolantCard-content {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    color: #fff;
-    z-index: 2;
-  }
-  
-  .CoolantCard-card .CoolantCard-content h3 {
-    font-size: 1.2rem;
-    background-color: #C00104;
-    color: #fff;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .CoolantCard-card .CoolantCard-content p {
-    font-size: 0.9rem;
-    color: #000000;
-    background-color: #cccccc69;
-    background-color: #ccccccdc;
-    border-radius: 4px;
-  padding: .75rem .5rem;
-  }
-  
-  /* Responsive Design */
-  
-  @media screen and (max-width:992px) {
-    .CoolantCard-title{
+  background-color: #111111;
+  padding: 2.5rem 1.25rem; /* 40px 20px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+.CoolantCard-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.CoolantCard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 1.25rem; /* 20px */
+}
+
+.CoolantCard-header h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: left;
+  flex: 1;
+  min-width: 18.75rem; /* 300px */
+}
+
+.CoolantCard-header p {
+  font-size: 1rem;
+  color: #cccccc;
+  text-align: right;
+  flex: 1;
+  max-width: 37.5rem; /* 600px */
+  min-width: 18.75rem; /* 300px */
+}
+
+.CoolantCard-description {
+  color: #ffffffe8;
+}
+
+.CoolantCard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem; /* 20px */
+  justify-content: center;
+  margin-top: 1.25rem; /* 20px */
+  position: relative;
+  background-color: transparent;
+}
+
+.CoolantCard-card {
+  background: #111;
+  border-radius: 0.5rem; /* 8px */
+  width: 100%;
+  max-width: 21.875rem; /* 350px */
+  height: 21.875rem; /* 350px */
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  background-image: url('');
+  background-position: center;
+  background-size: cover;
+}
+
+.CoolantCard-card:hover {
+  transform: translateY(-0.3125rem); /* -5px */
+}
+
+.CoolantCard-card .CoolantCard-content {
+  position: absolute;
+  bottom: 1.25rem; /* 20px */
+  left: 1.25rem; /* 20px */
+  right: 1.25rem; /* 20px */
+  color: #fff;
+  z-index: 2;
+}
+
+.CoolantCard-card .CoolantCard-content h3 {
+  font-size: 1.2rem;
+  background-color: #C00104;
+  color: #fff;
+  margin-bottom: 0.625rem; /* 10px */
+  text-align: center;
+  padding: .3rem;
+}
+
+.CoolantCard-card .CoolantCard-content p {
+  font-size: 0.9rem;
+  color: #000000;
+  background-color: #ccccccdc;
+  border-radius: 0.25rem; /* 4px */
+  padding: 0.75rem 0.5rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 62rem) { /* 992px */
+  .CoolantCard-title {
       flex-direction: column;
-    }
   }
-  @media (max-width: 768px) {
-    .CoolantCard-title{
+}
+
+@media (max-width: 48rem) { /* 768px */
+  .CoolantCard-title {
       padding: 0;
-    }
-    .CoolantCard-header {
+  }
+
+  .CoolantCard-header {
       flex-direction: column;
       text-align: center;
-    }
-  
-    .CoolantCard-header h2,
-    .CoolantCard-header p {
+  }
+
+  .CoolantCard-header h2,
+  .CoolantCard-header p {
       text-align: center;
       flex: unset;
       max-width: 100%;
-    }
-  
-    .CoolantCard-grid {
+  }
+
+  .CoolantCard-grid {
       flex-direction: column;
       align-items: center;
-    }
-  
-    .CoolantCard-card {
+  }
+
+  .CoolantCard-card {
       max-width: 90%;
-    }
   }
-  
-  @media (max-width: 480px) {
-  
-    .CoolantCard-header h2 {
+}
+
+@media (max-width: 30rem) { /* 480px */
+  .CoolantCard-header h2 {
       font-size: 1.5rem;
-    }
-  
-    .CoolantCard-header p {
-      font-size: 0.9rem;
-    }
-  
-    .CoolantCard-content h3 {
-      font-size: 1rem;
-    }
-  
-    .CoolantCard-content p {
-      font-size: 0.85rem;
-    }
   }
-  
+
+  .CoolantCard-header p {
+      font-size: 0.9rem;
+  }
+
+  .CoolantCard-content h3 {
+      font-size: 1rem;
+  }
+
+  .CoolantCard-content p {
+      font-size: 0.85rem;
+  }
+}

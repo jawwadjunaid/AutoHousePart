@@ -7,18 +7,18 @@ import SteeringBoxWithHeading3 from '../../assets/images/images/Ac3.png';
 const SteeringBoxWithHeading = () => {
  const services = [
          {
-             title: "AC EVAPORATOR",
-             description: "The braking and suspension systems of European vehicles are engineered to deliver precise handling and safety. Our technicians are well-versed in the intricacies of these systems and can provide expert brake and suspension services. Whether it's brake pad replacement, rotor resurfacing, or suspension repairs, we ensure your vehicle's braking and suspension systems perform optimally.",
+             title: "Suspension Diagnostics",
+             description: "A faulty suspension system can lead to unstable handling and excessive wear. Our experts assess every component, from shocks and struts to control arms, ensuring a safe and stable ride.",
              imageUrl: SteeringBoxWithHeading1,
          },
          {
-             title: "AC REPAIRS",
-             description: "European vehicles boast advanced electrical systems, and our technicians are equipped to handle any electrical issue that may arise. From troubleshooting complex electrical problems to repairing faulty wiring or replacing components, we have the expertise to restore the functionality of your vehicle's electrical system.",
+             title: "Steering System Repairs",
+             description: "Issues with your steering rack can make handling unpredictable. We repair and replace components as needed, giving you confidence in every turn.",
              imageUrl: SteeringBoxWithHeading2,
          },
          {
-             title: "AC INSPECTIONS",
-             description: "Regular maintenance is crucial to keeping your European vehicle in optimal condition. Our expert technicians are well-versed in the specific needs of BMW, Audi, VW, Mercedes-Benz, and Volvo cars. From oil changes and filter replacements to brake inspections and tire rotations, we provide comprehensive routine maintenance services to prolong the life of your vehicle and maintain its performance.",
+             title: "Alignment & Balance Adjustments",
+             description: "Poor alignment leads to uneven tire wear and a rough ride. We fine-tune your wheels for better performance and fuel efficiency.",
              imageUrl: SteeringBoxWithHeading3,
          }
      ];
@@ -27,11 +27,9 @@ const SteeringBoxWithHeading = () => {
          <div className="SterringBoxBa-container">
              <div className="SterringBoxBa-title">
  
-             <h2 className='SterringBoxBa-header Ac-box-title'>Get Access to Comprehensive AC Services</h2>
+             <h2 className='SterringBoxBa-header Ac-box-title'>Get Access to Comprehensive Suspension Services</h2>
              <p className='SterringBoxBa-header SterringBoxBa-description'>
-             At Autohouse of Switzerland Inc, we offer a wide range of AC services to cater to all your needs. Whether you require routine maintenance, repairs, or system replacements, our skilled technicians have the expertise to handle it all.
-
-Here are some of the expert auto services we provide
+             At Automobile of Switzerland, we offer top-tier steering and suspension services tailored to your vehicle’s needs. Whether you require routine suspension auto repair, steering rack replacement, or system diagnostics, our skilled technicians have the expertise to handle it all. Here are some of the expert services we provide:
              </p>
              </div>
              <div className="SterringBoxBa-grid">
