@@ -6,6 +6,15 @@
 
  
 }
+.services-list a {
+  color: white;  /* Keeps the link color white */
+  text-decoration: none;  /* Removes underline */
+}
+
+.services-list a:hover {
+  color: #C00104; /* Changes color on hover */
+}
+
 
 /* New Reading Heading Styling */
 .reading-heading {
@@ -21,7 +30,9 @@
   font-family: Anybody;
   margin-bottom: 1.25rem;
 }
-
+.service-icon{
+  object-fit: contain;
+}
 
 .services-content {
   display: flex;

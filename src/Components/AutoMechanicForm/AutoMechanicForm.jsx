@@ -42,7 +42,7 @@ const AutoMechanicForm = () => {
         <div className="left-content">
           <p className="help-text">NEED HELP</p>
           <h2>
-            You need experienced <br /> <span>Auto mechanic.</span>
+            You need experienced <br /> Auto mechanic.
           </h2>
           <p className="description">
             We're available to assist you and respond to your inquiries. Please

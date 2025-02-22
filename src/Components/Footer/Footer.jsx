@@ -38,7 +38,7 @@ const Footer = () => {
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
-            <a href="https://behance.net" target="_blank" rel="noopener noreferrer"><FaBehance /></a>
+            
           </div>
         </div>
 
@@ -68,9 +68,9 @@ const Footer = () => {
           </div>
           <div className="footer-column footer-col-contact">
             <h3>Contact Us</h3>
-            <p><FaPhone /> (713) 323-3283</p>
+            <p><FaPhone /> (713) 523-2363</p>
             <p><FaEnvelope /> swissautohouse@gmail.com</p>
-            <p><FaMapMarkerAlt /> 123 Main Street, Houston, TX</p>
+            <p><FaMapMarkerAlt /> 3402 San Jacinto St, Houston, Texas 77004</p>
           </div>
         </div>
       </div>

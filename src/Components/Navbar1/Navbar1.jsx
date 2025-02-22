@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { PopupModal } from "react-calendly"; // Import Calendly modal
 import "./Navbar1.css";
-import NavLogo from '../../assets/images/images/logo.png';
+import NavLogo from '../../assets/Logo/Finallogo1.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // For mobile menu
@@ -37,16 +37,16 @@ const Navbar = () => {
           <Link to="/services">Services</Link>
           {servicesOpen && (
             <ul className="dropdown-menu">
-              <li><Link to="/car-oil-change">Car Oil Change</Link></li>
-              <li><Link to="/services">Service and Maintenance</Link></li>
-              <li><Link to="/brakes">Brakes</Link></li>
-              <li><Link to="/steering-suspension">Steering & Suspension</Link></li>
-              <li><Link to="/coolant-system">Coolant System</Link></li>
-              <li><Link to="/engine-transmission">Engine & Transmission</Link></li>
-              <li><Link to="/computer-diagnostics">Computer Diagnostics</Link></li>
-              <li><Link to="/ac-heater">AC & Heater</Link></li>
-              <li><Link to="/electrical-problems">Electrical Problems</Link></li>
-              <li><Link to="/belt-rollers">Belt & Rollers</Link></li>
+              <li><Link to="/car-oil-change">CAR OIL CHANGE</Link></li>
+              <li><Link to="/services">SERVICE AND MAINTENANCE</Link></li>
+              <li><Link to="/brakes">BRAKES</Link></li>
+              <li><Link to="/steering-suspension">STEERING & SUSPENSION</Link></li>
+              <li><Link to="/coolant-system">COOLANT SYSTEM</Link></li>
+              <li><Link to="/engine-transmission">ENGINE & TRANSMISSION</Link></li>
+              <li><Link to="/computer-diagnostics">COMPUTER & DIAGNOSTICS</Link></li>
+              <li><Link to="/ac-heater">AC & HEATER</Link></li>
+              <li><Link to="/electrical-problems">ELECTRICAL PROBLEMS</Link></li>
+              <li><Link to="/belt-rollers">BELT & ROLLERS</Link></li>
             </ul>
           )}
         </li>
