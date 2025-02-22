@@ -1,5 +1,7 @@
 import React from "react";
 import './CoolantHeroSection.css'
+import { Link } from "react-router-dom";
+  
 import Coolantimage from '../../assets/images/images/CoolantHeroSection.png'
 
 const CoolantHeroSection = () => {
@@ -33,7 +35,10 @@ const CoolantHeroSection = () => {
              all your European car service needs.
              
            </p>
+           <Link to="/contact">
            <button className="ContactHero-hero-btn">Let's Get Started</button>
+           </Link>
+           
          </div>
        </div>
      </section>

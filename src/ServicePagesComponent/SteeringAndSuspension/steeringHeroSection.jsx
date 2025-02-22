@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./steeringHeroSection.css";
 import AcHeroimage1 from '../../assets/images/images/SteeringHero.png'
 
@@ -33,7 +34,10 @@ const steeringHeroSection = () => {
              all your European car service needs.
              
            </p>
+           <Link to="/contact"> 
            <button className="steering-hero-btn">Let's Get Started</button>
+           </Link>
+         
          </div>
        </div>
      </section>

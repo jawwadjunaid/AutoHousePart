@@ -1,5 +1,6 @@
 import React from "react";
 import "./BeltHeroSection.css";
+import { Link } from "react-router-dom"; 
 import image1 from '../../assets/images/Pages/HeroSection3.png';
 
 const BeltHeroSection = () => {
@@ -22,7 +23,10 @@ Get in touch with Autohouse of Switzerland Inc today.
 
             
           </p>
+          <Link to="/contact">
           <button className="BeltHero-hero-btn">Let's Get Started</button>
+          </Link>
+         
         </div>
       </div>
     </section>

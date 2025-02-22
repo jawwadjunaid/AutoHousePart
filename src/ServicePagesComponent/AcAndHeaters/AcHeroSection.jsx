@@ -1,5 +1,6 @@
 import React from "react";
 import "./AcHeroSection.css";
+import { Link } from "react-router-dom";
 import AcHeroimage1 from '../../assets/images/images/AcHero.png'
 
 const AcHeroSection = () => {
@@ -33,7 +34,10 @@ const AcHeroSection = () => {
              all your European car service needs.
              
            </p>
+           <Link to ="/contact">
            <button className="AcHero-hero-btn">Let's Get Started</button>
+           </Link>
+          
          </div>
        </div>
      </section>

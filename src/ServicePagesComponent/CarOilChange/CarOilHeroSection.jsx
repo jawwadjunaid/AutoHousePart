@@ -1,5 +1,6 @@
 import React from 'react'
 import './CarOilHeroSection.css';
+import { Link } from "react-router-dom";  
 import image1 from '../../assets/images/Pages/CarOilService1.png';
 import image2 from '../../assets/images/Pages/CarOilService2.png';
 
@@ -19,7 +20,10 @@ const CarOilHeroSection = () => {
               <p>
               We specialize in full synthetic oil change and conventional oil service, ensuring that your car gets exactly what it needs. Schedule a visit today or stop by our shop at for trusted service.
               </p>
+              <Link to="/contact">
               <button className="CarOilservices-hero-btn">Let's Get Started</button>
+              </Link>
+              
             </div>
           </div>
         </section>
