@@ -1,5 +1,6 @@
 import React from "react";
 import "./ElectricalHeroSection.css";
+import { Link } from "react-router-dom";
 import AcHeroimage1 from '../../assets/images/Pages/ElectricHero.png';
 
 const ElectricalHeroSection = () => {
@@ -33,7 +34,10 @@ const ElectricalHeroSection = () => {
              all your European car service needs.
              
            </p>
+           <Link to="/contact">
            <button className="Electrical-hero-btn">Let's Get Started</button>
+           </Link>
+           
          </div>
        </div>
      </section>

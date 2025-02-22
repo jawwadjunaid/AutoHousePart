@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";  
 import "./ServicesHeroSection.css";
 import image1 from '../../assets/images/Pages/HeroSection3.png';
 
@@ -19,7 +20,10 @@ const ServicesHeroSection = () => {
           Every car tells a story. Some purr like a kitten. Others groan under the weight of time. If your vehicle is whispering (or shouting) for help, our specialists are ready. From coolant system inspections to computer diagnostics, we cover it all. And yes, if your cabin feels more like an oven or a freezer, our AC & heater services will bring the temperature back to normal.
             
           </p>
+          <Link to="/contact">
           <button className="services-hero-btn">Let's Get Started</button>
+          </Link>
+          
         </div>
       </div>
     </section>

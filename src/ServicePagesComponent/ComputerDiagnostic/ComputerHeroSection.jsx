@@ -1,5 +1,6 @@
 import React from "react";
 import "./ComputerHeroSection.css";
+import { Link } from "react-router-dom";
 import image1 from '../../assets/images/images/ComputerHero.png';
 
 const ComputerHeroSection = () => {
@@ -19,7 +20,10 @@ const ComputerHeroSection = () => {
             Our certified technicians analyze this information with expertise and experience. Whether you need a car computer check near me or a complete auto repair computer diagnostics service, we deliver precise results so you can make informed decisions about your vehicle’s care.
               
             </p>
+            <Link to="/contact">
             <button className="ComputerHeroservices-hero-btn">Let's Get Started</button>
+            </Link>
+            
           </div>
         </div>
       </section>

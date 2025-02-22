@@ -6,9 +6,21 @@
   padding: 1rem 2.5rem;
   background-color: #C00104;
   font-family: "Poppins", sans-serif;
+  
   position: relative;
   box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
   gap: 2rem;
+}
+
+
+
+.nav1-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold; /* Make it bold */
+  font-size: 0.99rem; /* Increase font size to 16px */
+  transition: color 0.3s ease;
+  width: 100%;
 }
 
 .navlogo-container {
@@ -60,8 +72,124 @@
   color: #ffc107;
 }
 
+
+.nav1-links a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav1-links a::before,
+.nav1-links a::after {
+  content: "["; /* Opening bracket */
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav1-links a::after {
+  content: "]"; /* Closing bracket */
+  right: 0;
+}
+
+.nav1-links a::before {
+  left: 0;
+}
+
+.nav1-links a:hover::before {
+  left: -8px;
+  opacity: 1;
+}
+
+.nav1-links a:hover::after {
+  right: -8px;
+  opacity: 1;
+}
+
+
+
+/* Navbar hover animation */
+.nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-item::before,
+.nav-item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-item::before {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-item::after {
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.nav-item:hover::before,
+.nav-item:hover::after {
+  width: 100%;
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #222;
+  padding-right: 15px;
+  padding-top: 18px;
+  border-radius: 5px;
+  width: 580px;
+  font-size: 1.3rem;
+  column-count: 2;
+  column-gap: 20px;
+  left: -30rem; /* Isse left shift hoga */
+  top: 2.5ch;  /* Isse thoda neeche aayega */
+  height: 15.23rem;
+}
+
+
+.nav-item:hover .dropdown-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dropdown-item {
+  color: white;
+  padding: 5px 15px;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.dropdown-item:hover {
+  background-color: #333;
+}
+
+
 /* Adjust for Mobile */
 @media (max-width: 48rem) { /* 768px */
+
+  .nav1-links li a {
+    font-size: 0.85rem; /* 16px */
+  }
   .dropdown-menu {
     position: static;
     box-shadow: none;
@@ -93,17 +221,19 @@
 }
 
 .nav1-links a {
+  color: white; /* Default text color */
   text-decoration: none;
-  color: #fff;
-  font-weight: 500;
-  font-size: 0.875rem; /* 14px */
-  transition: color 0.3s ease;
-  width: 100%;
+  padding: 5px 10px;
+  display: inline-block;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
 }
 
 .nav1-links a:hover {
-  color: #ffc107; /* Yellow hover effect */
+  background-color: #C00104; /* Sirf hovered item ka background red hojae */
+  color: white; /* Text white hi rahe */
+  border-radius: 3px; /* Optional: thoda rounded look */
 }
+
 
 /* Appointment Button */
 .appointment-btns {
@@ -112,7 +242,7 @@
   border: 0.125rem solid #fff; /* 2px */
   padding: 0.5rem 1rem;
   font-size: 0.875rem; /* 14px */
-  font-weight: bold;
+  font-weight: 900;
   border-radius: 0.25rem;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -184,9 +314,13 @@
   }
 }
 @media screen and (min-width:600px) and (max-width:768px) {
+  .services-dropdown {
+    position: relative;
+  }
   .nav1-links{
     top: 5rem;
   }
+  
 }
 @media screen  and (max-width:600px) {
   .navbar1{

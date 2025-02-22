@@ -1,5 +1,7 @@
 import React from "react";
 import './CoolantHeroSection.css'
+import { Link } from "react-router-dom";
+  
 import Coolantimage from '../../assets/images/images/CoolantHeroSection.png'
 
 const CoolantHeroSection = () => {
@@ -19,7 +21,10 @@ const CoolantHeroSection = () => {
            Our certified technicians work on BMW, Audi, VW, Mercedes-Benz, and Volvo. With decades of experience and cutting-edge diagnostic tools, we ensure your car’s cooling system performs flawlessly. Schedule your appointment today.
              
            </p>
+           <Link to="/contact">
            <button className="ContactHero-hero-btn">Let's Get Started</button>
+           </Link>
+           
          </div>
        </div>
      </section>

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./BrakesHeroSection.css";
+import { Link } from "react-router-dom";  
 import Brakesimage1 from '../../assets/images/Pages/HeroSection3.png';
 
 const BrakesHeroSection = () => {
@@ -19,7 +20,10 @@ const BrakesHeroSection = () => {
            At Automobile of Switzerland, we fix cars to take care of people. Since 1980, drivers have trusted us for reliable, high-quality auto service. With our cutting-edge diagnostic tools, we get to the root of the problem fast. Whether your brakes are squeaking, feeling soft, or taking longer to stop, we’ll figure it out and fix it right the first time.
              
            </p>
+           <Link to="/contact">
            <button className="BrakesHero-hero-btn">Let's Get Started</button>
+           </Link>
+           
          </div>
        </div>
      </section>
