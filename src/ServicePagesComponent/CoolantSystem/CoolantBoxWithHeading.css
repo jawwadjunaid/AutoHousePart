@@ -110,7 +110,9 @@
 @media (max-width: 48rem) { /* 768px */
   .CoolantCard-title {
       padding: 0;
+
       width: 66%;
+
   }
 
   .CoolantCard-header {
@@ -128,11 +130,13 @@
   .CoolantCard-grid {
       flex-direction: column;
       align-items: center;
+
   }
 
   .CoolantCard-card {
       max-width: 50%;
   }
+ 
 }
 
 @media (max-width: 30rem) { /* 480px */
@@ -152,6 +156,7 @@
       font-size: 0.85rem;
   }
 }
+
 @media screen and (max-width:600px) {
   .CoolantCard-card {
     max-width: 100%;
@@ -161,3 +166,4 @@
     width: 100%;
   }
 }
+
