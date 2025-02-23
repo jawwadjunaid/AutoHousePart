@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./AutoMechanicForm.css"; 
-import Frame from "../../assets/images/images/Frame.png"; 
+//import Frame from "../../assets/images/images/Frame.png"; 
 
 const AutoMechanicForm = () => {
   const [formData, setFormData] = useState({
@@ -20,7 +20,7 @@ const AutoMechanicForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("https://formspree.io/f/YOUR_FORM_ID", {
+    const response = await fetch("https://formspree.io/f/xyzkawzj", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -77,7 +77,7 @@ const AutoMechanicForm = () => {
                 onChange={handleChange}
                 required
               />
-              <select
+              {/* <select
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
@@ -86,7 +86,7 @@ const AutoMechanicForm = () => {
                 <option value="">Select Service</option>
                 <option value="Service 1">Service 1</option>
                 <option value="Service 2">Service 2</option>
-              </select>
+              </select> */}
             </div>
             <textarea
               name="message"
@@ -102,9 +102,9 @@ const AutoMechanicForm = () => {
         </div>
       </section>
 
-      <div className="logo-container">
+      {/* <div className="logo-container">
         <img src={Frame} alt="Company Logo" className="logo home-logo" />
-      </div>
+      </div> */}
     </>
   );
 };
