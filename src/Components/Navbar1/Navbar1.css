@@ -160,8 +160,8 @@
   column-count: 2;
   column-gap: 20px;
   left: -30rem; /* Isse left shift hoga */
-  top: 2.5ch;  /* Isse thoda neeche aayega */
-  height: 15.23rem;
+  top: 2.2rem;  /* Isse thoda neeche aayega */
+  height: 17.23rem;
 }
 
 
@@ -193,6 +193,10 @@
   .dropdown-menu {
     position: static;
     box-shadow: none;
+    display: flex !important;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
   }
 
   .dropdown-menu li {

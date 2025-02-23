@@ -10,7 +10,7 @@ import CarOilChangeComponent from '../../ServicePagesComponent/CarOilChange/CarO
 import CarOilContent3 from '../../ServicePagesComponent/CarOilChange/CarOilContent3.jsx'
 import AboutUsSubscriptionBox from '../../PageComponents/AboutUs/AboutUsSubscriptionBox '
 import CarLogos from '../../Components/CarLogos/CarLogos';
-import AutoHouseComponent from '../../PageComponents/Services/AutoHouseComponent.jsx'
+import CarOilAutoHouse from '../../ServicePagesComponent/CarOilChange/CarOilAutoHouse.jsx'
 
 const CarOilChange = () => {
   return (
@@ -19,7 +19,7 @@ const CarOilChange = () => {
        <CarOilHeroSection/>
        <CarOilImportant/>
        <CarOilSummary/>
-       <AutoHouseComponent/>
+       <CarOilAutoHouse/>
        <CarOilChangeComponent/>
        <CarOilContent3/>
        <Testimonials/>

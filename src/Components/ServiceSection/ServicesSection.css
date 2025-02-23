@@ -19,7 +19,7 @@
 /* New Reading Heading Styling */
 .reading-heading {
   font-size: 0.75rem;
-  color: red;
+  color: #C00104;
   text-transform: uppercase;
   margin-bottom: 1.25rem;
   margin-top: 5.375rem;
@@ -62,6 +62,12 @@
   gap: 1.25rem;
 }
 
+.services-list.sty1 .service-item .services-list-content{
+  text-align: right;
+}
+.services-list.sty2 .service-item .services-list-content{
+  text-align: left;
+}
 .service-item {
   display: flex;
   align-items: center;
@@ -77,8 +83,8 @@
 }
 
 .service-item img {
-  width: 3.125erm;
-  height: 3.125rem;
+  width: 4.063rem;
+  height: 4.063rem;
   background-color: #c00104;
   border-radius: 0.625rem;
   padding: 0.625rem;

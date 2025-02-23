@@ -1,8 +1,8 @@
 /* Services.css */
 .BrakesBox-container {
     background-color: #111111;
-    padding: 40px 20px;
-    margin-bottom: 10px;
+    padding: 2.5rem 1.25rem;
+    margin-bottom: .625rem;
   }
   .BrakesBox-title{
     display: flex;
@@ -20,7 +20,7 @@
     text-align: left;
     width: 100%;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust spacing */
+    gap: 1.25rem; /* Adjust spacing */
     color: #FFFFFF;
   }
   
@@ -29,7 +29,7 @@
     color: #ffffff;
     text-align: left;
     flex: 1;
-    min-width: 300px;
+    min-width: 18.75rem;
   }
   
   .BrakesBox-header p {
@@ -37,32 +37,32 @@
     color: #cccccc;
     text-align: right;
     flex: 1;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 37.5rem;
+    min-width: 18.75rem;
   }
   
   .BrakesBox-description{
-    color: #ffffffe8;
+    color: #FFFFFF;
   }
   .BrakesBox-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     position: relative;
     background-color: transparent;
   }
   
   .BrakesBox-card {
     background: #111; /* Fallback color */
-    border-radius: 8px;
+    border-radius: .5rem;
     width: 100%;
-    max-width: 350px;
-    height: 350px; /* Adjust height as per your design */
+    max-width: 21.875rem;
+    height: 21.875rem; /* Adjust height as per your design */
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 .125rem .625rem rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
     background-image: url(''); /* Will be replaced by JS */
     background-position: center;
@@ -75,9 +75,9 @@
   
   .BrakesBox-card .BrakesBox-content {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
     color: #fff;
     z-index: 2;
   }
@@ -86,9 +86,11 @@
     font-size: 1.2rem;
     background-color: #C00104;
     color: #fff;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
     width: 75%;
     padding: 2%;
+  font-family: 'poppins';
+
   }
   .BrakesBox-card .BrakesBox-content p {
     font-size: 0.9rem;
@@ -110,6 +112,7 @@
   @media (max-width: 768px) {
       .BrakesBox-title{
       padding: 0;
+      width: 66%;
     }
     .BrakesBox-header {
       flex-direction: column;
@@ -129,7 +132,7 @@
     }
   
     .BrakesBox-card {
-      max-width: 90%;
+      max-width: 50%;
     }
   }
   
@@ -151,4 +154,12 @@
       font-size: 0.85rem;
     }
   }
-  
+  @media screen and (max-width:600px) {
+    .BrakesBox-card {
+      max-width: 100%;
+    }
+    .BrakesBox-title {
+      padding: 0;
+      width: 100%;
+    }
+  }

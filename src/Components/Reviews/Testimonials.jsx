@@ -1,6 +1,6 @@
 import React from "react";
 import "./Testimonials.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom"; // Import useLocation
 
 const testimonials = [
   {
@@ -34,17 +34,18 @@ const testimonials = [
 ];
 
 const Testimonials = () => {
+  const location = useLocation(); // Get current page path
+  const isHomePage = location.pathname === "/"; // Check if it's the home page
+
   return (
-    <div className="testimonials-container">
-      <p className="description" style={{ color: "#C00104" }}>
-        ---- Testimonial ----
-      </p>
+    <div className={`testimonials-container ${isHomePage ? "home-bg" : "default-bg"}`}>
+      <p className="description">─── &nbsp; Testimonial &nbsp; ───</p>
       <h2>What Clients Say About Us</h2>
-      <div className="testimonials-grid" style={{ color: "black" }}>
+      <div className="testimonials-grid">
         {testimonials.map((item, index) => (
           <div key={index} className="testimonial-card">
             <img src={item.image} alt={item.name} className="testimonial-img" />
-            <h3 style={{ color: "black" }}>{item.name}</h3>
+            <h3>{item.name}</h3>
             <p className="role">{item.role}</p>
             <p className="testimonial-text">{item.text}</p>
             <div className="stars">

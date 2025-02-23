@@ -7,7 +7,7 @@ const AboutusContent3 = () => {
   return (
     <div className="aboutss-container">
       <div className="aboutss-text">
-        <p className="tagliness">Know ABOUT US</p>
+        <p className="tagliness">  &nbsp; KNOW ABOUT US &nbsp; ───</p>
         <h1>Trust and Quality as Our Foundation</h1>
         <p>
         Auto House of Switzerland has earned a reputation built on trust and uncompromising quality. We have cultivated strong relationships with reputable dealers and sources worldwide, ensuring that our inventory comprises only the finest luxury and exotic cars. Each vehicle undergoes rigorous inspections and meticulous detailing to meet our stringent standards. When you choose Auto House of Switzerland, you can trust that you are acquiring an authentic, top-quality vehicle that reflects our commitment to excellence.

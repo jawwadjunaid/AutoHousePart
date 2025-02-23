@@ -9,7 +9,9 @@ const SteeringContent = () => {
           {/* Text Section */}
           <div className="SteeringContent-textss">
             
+            <h1 style={{color:'white'}}>Let’s Get You Back to Smooth Driving!</h1>
             <h1 style={{color:'white'}}>SteeringContent-containerss</h1>
+
             <p>
             If your car isn’t handling the way it should, don’t wait. Get in touch today for top-tier steering and suspension repair services. Click here to schedule an appointment—your car will thank you for it.
 

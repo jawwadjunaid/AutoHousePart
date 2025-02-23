@@ -45,14 +45,19 @@
 }
 
 .stat-number {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: white;
   font-weight: bold;
+  font-family: "Anybody";
 }
 
 .stat-text {
   font-size: 1rem;
   color: white;
+  font-family: "poppins";
+  margin-top: 0.8rem;
+  width: 100%;
+  text-wrap: nowrap;
 }
 
 /* Vertical Line Between Items */
@@ -98,12 +103,12 @@
 
 @media (max-width: 600px) {
   .stats-container{
-    justify-content: flex-start !important;
+    justify-content: flex-start;
   }
   .stat-item {
     min-width: 100%;
-    justify-content: flex-start !important;
-    padding: .5rem 5.5rem;
+    /* justify-content: flex-start ; */
+    padding: 0.5rem 5.5rem !important;
 
 
   }
