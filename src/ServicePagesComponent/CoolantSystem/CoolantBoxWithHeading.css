@@ -110,6 +110,7 @@
 @media (max-width: 48rem) { /* 768px */
   .CoolantCard-title {
       padding: 0;
+      width: 66%;
   }
 
   .CoolantCard-header {
@@ -130,7 +131,7 @@
   }
 
   .CoolantCard-card {
-      max-width: 90%;
+      max-width: 50%;
   }
 }
 
@@ -149,5 +150,14 @@
 
   .CoolantCard-content p {
       font-size: 0.85rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .CoolantCard-card {
+    max-width: 100%;
+  }
+  .CoolantCard-title {
+    padding: 0;
+    width: 100%;
   }
 }

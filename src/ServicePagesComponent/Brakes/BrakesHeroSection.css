@@ -1,6 +1,6 @@
 /* General Section Styles */
 .BrakesHero-hero {
-    background-color: #f8f8f8;
+    background-color: #F8F8F8;
     padding: 3.125rem 5%; /* 50px -> 3.125rem */
   }
   
@@ -44,15 +44,15 @@
   }
   
   .BrakesHero-hero-content h1 {
-    font-size: 1.75rem; /* 28px -> 1.75rem */
+    font-size: 2.813rem; /* 28px -> 1.75rem */
     font-weight: bold;
-    color: #000;
+    color: #0A0A0A;
     margin-bottom: 1.25rem; /* 20px -> 1.25rem */
   }
   
   .BrakesHero-hero-content p {
     font-size: 1rem; /* 16px -> 1rem */
-    color: #333;
+    color: #171717;
     margin: 0.625rem 0; /* 10px -> 0.625rem */
   }
   

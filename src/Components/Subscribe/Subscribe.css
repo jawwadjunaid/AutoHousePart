@@ -16,8 +16,8 @@
 }
 
 .subscribe-content {
-  flex: 1;
-  max-width: 50%;
+  /* flex: 1; */
+  max-width: 51%;
   padding-left: 2.1rem;
 }
 
@@ -43,12 +43,12 @@
 
 .subscribe-form input {
   flex: 1;
-  padding: 0.7rem;
+  padding: 0.75rem;
   border: 0.125rem solid white;
   border-radius: 0.3125rem 0 0 0.3125rem;
   background-color: transparent;
   color: white;
-  font-size: 1rem;
+  font-size: .75rem;
   border-right: none;
   width: 100%;
   min-width: 12rem;
@@ -60,14 +60,18 @@
 }
 
 .subscribe-form button {
-  padding: 0.875rem 1.25rem;
+  /* padding: 0.875rem 1.25rem; */
   background-color: white;
+  font-size: .75rem;
   color: #c00;
   font-weight: bold;
   border: none;
   border-radius: 0 0.3125rem 0.3125rem 0;
   cursor: pointer;
   white-space: nowrap;
+  padding: 0.875rem 1.25rem
+  /* border: 0.125rem solid white; */
+
 }
 
 .subscribe-form button:hover {
@@ -75,7 +79,8 @@
 }
 
 .subscribe-image {
-  flex: 1;
+  /* flex: 1; */
+width: 48%;
   display: flex;
   justify-content: flex-end;
 }
@@ -122,6 +127,10 @@
   .subscribe-image {
       justify-content: center;
       margin-top: 1.25rem;
+      width: 100%;
+  }
+  .subscribe-image img{
+    object-fit: contain;
   }
 }
 
@@ -166,5 +175,6 @@
     margin: 0 auto;
   }
   .subscribe-form button {
-    padding: 0.65rem 1.25rem;
+    padding: 0.75rem 1.25rem;
+    font-size: .85rem;
   }}
