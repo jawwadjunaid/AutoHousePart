@@ -1,68 +1,51 @@
 .car-Frame-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2.5rem 10%;
-    /* background: #f8f8f8; Light background */
+  width: 100%;
+  padding: 2.5rem 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-Frame-slider {
+  width: 100%;
+}
+
+.logo-img {
+  background: #f8f8f8;
+  height: 5.625rem;
+  width: 13.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.car-Frame {
+  object-fit: contain;
+  width: 70%;
+  height: 70%;
+  transition: 0.1s ease-in-out;
+}
+
+
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-prev, .slick-next {
+  display: none !important; /* Hide arrows */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logo-img {
+    width: 10rem;
   }
-  
-  .car-Frame-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.875rem;
-    justify-content: center;
-    align-items: center;
+}
+
+@media (max-width: 480px) {
+  .logo-img {
+    width: 8rem;
   }
-  .logo-img{
-    background: #f8f8f8;
-    height: 5.625rem;
-    width: 13.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .car-Frame {
-    object-fit: contain;
-    width: 70%; /* Adjust based on your design */
-    height: 70%;
-    filter: grayscale(100%); /* Optional: Makes logos black & white */
-    transition: 0.3s ease-in-out;
-  }
-  
-  .car-Frame:hover {
-    filter: grayscale(0%); /* Removes grayscale on hover */
-  }
-  
-  @media (max-width: 768px) {
-    .car-Frame-wrapper {
-      gap: 1.25rem;
-    }
-    .car-Frame {
-      width: 5rem; /* Adjust for smaller screens */
-    }
-  }
-  
-  @media (max-width: 600px) {
-    .car-Frame {
-      width: 3.75rem
-      ; /* Further adjust for mobile */
-    }
-      .logo-img{
-    background: #f8f8f8;
-    height: 5.625rem;
-    width: 13.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  .car-Frame {
-    object-fit: contain;
-    width: 70%; /* Adjust based on your design */
-    height: 70%;
-    filter: grayscale(100%); /* Optional: Makes logos black & white */
-    transition: 0.3s ease-in-out;
-  }
-  }
-  
+}
