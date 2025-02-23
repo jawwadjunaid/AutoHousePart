@@ -7,18 +7,18 @@ import CoolantBoxwithheading3 from '../../assets/images/images/CoolantCard3.png'
 const CoolantBoxWithHeading = () => {
  const services = [
          {
-             title: "Brake & Suspension",
-             description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+             title: "Prevent Overheating with a Professional Coolant Flushnsion",
+             description: "Over time, coolant collects rust, debris, and deposits that reduce efficiency. A coolant flush clears out contaminants and restores your engine’s ability to stay cool. If you notice rising temperatures, a sweet smell, or discolored antifreeze, it’s time to schedule a radiator flush before the damage gets worse.",
              imageUrl: CoolantBoxwithheading1,
          },
          {
-             title: "Electrical System Repairs",
-             description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+             title: "Fix Leaks Before They Lead to Costly Repairs",
+             description: "Leaking coolant can destroy your engine if ignored. Whether it’s a coolant hose, radiator, or water pump, our technicians quickly find and repair the source of the problem. A small antifreeze leak today could mean a blown head gasket tomorrow. Don’t wait—let’s get it fixed.",
              imageUrl: CoolantBoxwithheading2,
          },
          {
-             title: "Routine Maintenance",
-             description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+             title: "Routine Coolant System Maintenance",
+             description: "Regular checks on your coolant level, thermostat, and radiator cap help avoid overheating and expensive repairs. Just like you wouldn’t ignore electrical system repairs or brake & suspension issues, keeping your coolant system in top shape is just as important. Our team inspects every component, ensuring your engine stays cool no matter the road ahead.",
              imageUrl: CoolantBoxwithheading3,
          }
      ];
@@ -27,9 +27,9 @@ const CoolantBoxWithHeading = () => {
          <div className="CoolantCard-container">
              <div className="CoolantCard-title">
  
-             <h2 className='CoolantCard-header CoolantCard-title'>Our Comprehensive Services For European Vehicles</h2>
+             <h2 className='CoolantCard-header CoolantCard-title'>Comprehensive Coolant System Services for European Vehicles</h2>
              <p className='CoolantCard-header service-description'>
-             At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions that are tailored to meet your vehicle’s specific needs. With our unrivaled expertise and commitment to excellence, you can trust us to keep your vehicle running at its best.
+             Your coolant system isn’t just another part of your engine—it’s the key to preventing overheating, breakdowns, and costly damage. At Automobile of Switzerland, we ensure your radiator, coolant hoses, thermostat, and antifreeze levels work together perfectly. With our expertise in BMW, Audi, VW, Mercedes-Benz, and Volvo, you can trust us to keep your engine running at the right temperature.
              </p>
              </div>
              <div className="CoolantCard-grid">
