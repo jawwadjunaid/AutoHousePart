@@ -9,13 +9,9 @@ const EngineServiceContent = () => {
           {/* Text Section */}
           <div className="EngineServicess-textss">
             
-            <h1 style={{color:'white'}}>Get Access to ​​Expert
-    Service and Maintenance
-    for European Vehicles</h1>
+            <h1 style={{color:'white'}}>Book Your Computer Diagnostic Check Today</h1>
             <p>
-            When it comes to service and maintenance for European vehicles in the Houston area, Autohouse of Switzerland Inc is the name you can rely on. With our decades of experience, certified trained technicians, comprehensive automotive solutions, and commitment to customer satisfaction, we can keep your vehicle in pristine condition.
-    
-    Schedule an auto service and maintenance appointment with Autohouse of Switzerland Inc today or visit us at 3402 San Jacinto St, Houston, TX 77004.
+            When your vehicle speaks, we listen. Don’t ignore the signs—bring your car to Automobile of Switzerland for a professional diagnostic test. Whether you drive a BMW diagnostic computer system or another high-performance vehicle, our experts are ready to assist. Click below to schedule your computerized car check-up near me and drive with confidence.
     
             </p>
             <Link to="/contact" className="Enginebtnssd">Let's Get Started</Link>

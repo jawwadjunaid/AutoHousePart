@@ -16,23 +16,21 @@ const SteeringHouse = () => {
         {/* Text Section */}
         <div className="SteeringHousetext-section">
           <h2 style={{ fontSize: '2.81rem', color: '#0A0A0A' }}>
-          Experience Expert Heater Services
+          Why Choose Us?
           </h2>
           {/* <p className="SteeringHousesubtitle" style={{ fontSize: '1.25rem', color: '#0A0A0A' }}>
             For All Your Service and Maintenance Needs?
           </p> */}
           <p className="SteeringHousedescription" style={{ fontSize: '1rem', color: '#0A0A0A' }}>
-          When it comes to your auto service and maintenance needs, you can never go wrong with Autohouse of Switzerland Inc. We are dedicated to providing unparalleled expertise, exceptional customer service, and top-notch solutions that set us apart from the competition. /n
-
-Here’s why you should entrust your European vehicle to us:
+          Our technicians don’t guess, they diagnose. With cutting-edge equipment and years of experience, we pinpoint issues before they become bigger problems. Whether you need auto suspension repair, steering rack replacement, or a full car suspension repair, we’ve got you covered.
           </p>
 
           {/* Accordion Section */}
           <div className="SteeringHouseaccordion">
             {[
-              { title: "✔ Certified Trained Technicians", content: "Your European vehicle deserves the best care from professionals who understand its intricacies. Our technicians are certified and undergo continuous training to stay updated with the latest advancements in European automotive technology. With our team’s expertise, we can accurately diagnose and efficiently repair any issues your vehicle may have." },
-              { title: "✔ Same-Day Service on Most Cars", content: "Your European vehicle deserves the best care from professionals who understand its intricacies. Our technicians are certified and undergo continuous training to stay updated with the latest advancements in European automotive technology. With our team’s expertise, we can accurately diagnose and efficiently repair any issues your vehicle may have." },
-              { title: "✔ Latest Diagnostic Equipment", content: "Your European vehicle deserves the best care from professionals who understand its intricacies. Our technicians are certified and undergo continuous training to stay updated with the latest advancements in European automotive technology. With our team’s expertise, we can accurately diagnose and efficiently repair any issues your vehicle may have." }
+              { title: "✔ Trained Technicians", content: "Experts who fix it right the first time." },
+              { title: "✔ Advanced Tools", content: "Modern diagnostics for accurate repairs." },
+              { title: "✔ Quick Turnaround", content: "We get you back on the road fast." }
             ].map((item, index) => (
               <div className="SteeringHouseaccordion-item" key={index} onClick={() => toggleAccordion(index)}>
                 <div className="SteeringHouseaccordion-title">
