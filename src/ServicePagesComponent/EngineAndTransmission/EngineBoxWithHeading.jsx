@@ -27,7 +27,7 @@ const EngineBoxWithHeading = () => {
          <div className="EngineBox-container">
              <div className="EngineBox-title">
  
-             <h2 className='EngineBox-header'>Our Comprehensive Services For European Vehicles</h2>
+             <h2 className='EngineBox-header EngineBox-title'>Our Comprehensive Services For European Vehicles</h2>
              <p className='EngineBox-header EngineBox-description'>
              At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions that are tailored to meet your vehicle’s specific needs. With our unrivaled expertise and commitment to excellence, you can trust us to keep your vehicle running at its best.
              </p>

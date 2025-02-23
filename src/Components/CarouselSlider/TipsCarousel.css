@@ -33,6 +33,7 @@
   max-width: 90%;
   box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 4px 6px */
   transition: transform 0.3s ease-in-out;
+  
 }
 
 .tip-card:hover {
@@ -79,6 +80,8 @@
 
   .tip-card {
     width: 80%;
+    margin-top: 5rem;
+
   }
 
   .carousel-button {
@@ -137,7 +140,7 @@
   }
 }
 
-@media screen and (min-width:900px) and (max-width:1200px) {
+@media screen and (min-width:767px) and (max-width:1200px) {
   .tips-carousel{
     height: 45rem;
   }
@@ -176,5 +179,73 @@
 
   .carousel-button.right {
     right: 5px;
+  }
+}
+.tips-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Cards ke darmiyan gap */
+}
+
+.tip-card {
+  background: #1e1e1e; /* Dark gray background */
+  padding: 2rem; 
+  border-radius: 10px;
+  text-align: center;
+  width: 23.438rem;
+  max-width: 90%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  position: relative; /* Important for absolute positioning */
+  /* flex: 1;   Ye ensure karega ke sab cards equal height ho */
+  min-height: 15rem; /* Minimum height taake chhote cards bhi match karein */
+}
+
+/* Red box for the icon */
+.tip-image-container {
+  background-color: #C00104;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  position: absolute;
+  top: -2.5rem;  /* 50% bahar */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Icon image */
+.tip-image {
+  width: 3.313rem;
+  height: 3.313rem;
+}
+
+/* Proper text alignment */
+.tip-card p {
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  max-width: 80%;
+  line-height: 1.5;
+  margin-top: 2.5rem; /* Icon ke wajah se text neeche shift */
+  flex-grow: 1; /* Ye ensure karega ke text adjust ho */
+}
+
+/* Responsive Fix */
+@media screen and (min-width:600px) and (max-width: 768px) {
+  .tips-carousel{
+    min-height: 45rem;
+    height: 100%;
+  }
+  .tip-card {
+    /* width: 100%; Chhoti screens pe full width */
+    min-height: auto; /* Auto height chhoti screens pe */
   }
 }

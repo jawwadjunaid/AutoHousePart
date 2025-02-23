@@ -1,17 +1,34 @@
-import React, { useState } from "react";
-import { AiOutlineDown, AiOutlineUp } from "react-icons/ai"; // Importing Up & Down Arrows
+import React from "react";
+import { Link } from "react-router-dom";
+import TrustImage from "../../assets/images/images/BrakesA.png";
 import "./BrakesAutoHouseComponent.css"; // CSS file import
-import BrakesAutoHouse1 from '../../assets/images/images/BrakeAutoHouse.png'
+
 
 
 const BrakesAutoHouseComponent = () => {
-   const [activeIndex, setActiveIndex] = useState(null);
-  
-    const toggleAccordion = (index) => {
-      setActiveIndex(activeIndex === index ? null : index);
-    };
-  
     return (
+      <>
+         <div className="BrakesContent-containerss">
+         {/* Text Section */}
+         <div className="BrakesContent-textss">
+           
+           <h1 style={{}}>Book Your Expert Auto Care Today</h1>
+           <p>
+           Vehicles break down. That’s a fact of life. But with the right team, yours won’t stay that way for long. Automobile of Switzerland is your go-to solution when looking for brake repair near me in Houston, TX. Visit us today and let’s get your car back in top shape.
+   
+           </p>
+           <Link to="/contact" className="BrakesContentbtnssd">Let's Get Started</Link>
+         </div>
+   
+         {/* Image Section */}
+         <div className="BrakesContent-imagess">
+           <img src={TrustImage} alt="Trust and Quality" className="BrakesContentmainssd-img" />
+           {/* <img src={trustQuality} alt="Trust Quality" className="overlayss-img" /> */}
+         </div>
+       </div>
+     );
+
+
       <div className="BrakesAutocontainer">
         <div className="BrakesAutocontent">
           {/* Text Section */}
@@ -56,7 +73,11 @@ const BrakesAutoHouseComponent = () => {
           </div>
         </div>
       </div>
-    );
+      </>
+    )
+    
+ 
+_
 }
 
 export default BrakesAutoHouseComponent

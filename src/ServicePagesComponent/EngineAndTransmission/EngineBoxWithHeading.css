@@ -1,153 +1,181 @@
 /* Services.css */
 .EngineBox-container {
-    background-color: #111111;
-    padding: 40px 20px;
-    margin-bottom: 10px;
-  }
-  .EngineBox-title{
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 5rem;
-    width: 85%;
-    margin: 0 auto;
-  }
-  .EngineBox-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    /* max-width: 430px;
-    margin: 0 auto; */
-    text-align: left;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 20px; /* Adjust spacing */
-    color: #FFFFFF;
-  }
-  
-  .EngineBox-header h2 {
-    font-size: 2rem;
-    color: #ffffff;
-    text-align: left;
-    flex: 1;
-    min-width: 300px;
-  }
-  
-  .EngineBox-header p {
-    font-size: 1rem;
-    color: #cccccc;
-    text-align: right;
-    flex: 1;
-    max-width: 600px;
-    min-width: 300px;
-  }
-  
-  .EngineBox-description{
-    color: #ffffffe8;
-  }
-  .EngineBox-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 20px;
-    position: relative;
-    background-color: transparent;
-  }
-  
-  .EngineBox-card {
-    background: #111; /* Fallback color */
-    border-radius: 8px;
-    width: 100%;
-    max-width: 350px;
-    height: 350px; /* Adjust height as per your design */
-    position: relative;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease-in-out;
-    background-image: url(''); /* Will be replaced by JS */
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .EngineBox-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .EngineBox-card .EngineBox-content {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    color: #fff;
-    z-index: 2;
-  }
-  
-  .EngineBox-card .EngineBox-content h3 {
-    font-size: 1.2rem;
-    background-color: #C00104;
-    color: #fff;
-    margin-bottom: 10px;
-    width: 75%;
-    padding: 2%;
-  }
-  .EngineBox-card .EngineBox-content p {
-    font-size: 0.9rem;
-    color: #000000;
-    background-color: #cccccc69;
-    background-color: #ccccccdc;
-    border-radius: 4px;
-  padding: .75rem .5rem;
-  }
-  
-  /* Responsive Design */
-  
-  @media screen and (max-width:992px) {
-    .EngineBox-title{
-      flex-direction: column;
-    }
-  }
-  @media (max-width: 768px) {
-      .EngineBox-title{
-      padding: 0;
-    }
-    .EngineBox-header {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .EngineBox-header h2,
-    .EngineBox-header p {
-      text-align: center;
-      flex: unset;
-      max-width: 100%;
-    }
-  
-    .EngineBox-grid {
-      flex-direction: column;
+  background-color: #111111;
+  padding: 2.5rem 1.25rem;
+  margin-bottom: .625rem;
+}
+
+.EngineBox-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.EngineBox-header {
+  display: flex
+  ;
+      justify-content: space-between;
       align-items: center;
-    }
-  
-    .EngineBox-card {
-      max-width: 90%;
-    }
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+}
+
+.EngineBox-header h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  text-align: left;
+  flex: 1;
+  min-width: 18.75rem;
+}
+.EngineBox-title{
+  display: flex
+  ;
+      justify-content: space-between;
+      padding: 2rem 3rem;
+      width: 85%;
+      margin: 0 auto;
+      color: white;
+      margin-bottom: 1rem;
+}
+.EngineBox-header p {
+  font-size: 1rem;
+  color: #cccccc;
+  text-align: right;
+  flex: 1;
+  max-width: 37.5rem;
+  min-width: 18.75rem;
+}
+
+.EngineBox-description {
+  color: #FFFFFF;
+}
+
+.EngineBox-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-top: 1.25rem;
+  position: relative;
+  background-color: transparent;
+}
+
+.EngineBox-card {
+  background: #111;
+  /* Fallback color */
+  border-radius: .5rem;
+  width: 100%;
+  max-width: 21.875rem;
+  height: 21.875rem;
+  /* Adjust height as per your design */
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px .625rem rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+  background-image: url('');
+  /* Will be replaced by JS */
+  background-position: center;
+  background-size: cover;
+}
+
+.EngineBox-card:hover {
+  transform: translateY(-5px);
+}
+
+.EngineBox-card .EngineBox-content {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  color: #fff;
+  z-index: 2;
+}
+
+.EngineBox-card .EngineBox-content h3 {
+  font-size: 1.2rem;
+  background-color: #C00104;
+  color: #FFFFFF;
+  margin-bottom: .625rem;
+  width: 75%;
+  padding: 2%;
+  font-family: 'poppins';
+}
+
+.EngineBox-card .EngineBox-content p {
+  font-size: 0.9rem;
+  color: #000000;
+  background-color: #cccccc69;
+  background-color: #ccccccdc;
+  border-radius: 4px;
+  padding: .75rem .5rem;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width:992px) {
+  .EngineBox-title {
+    flex-direction: column;
   }
-  
-  @media (max-width: 480px) {
-  
-    .EngineBox-header h2 {
-      font-size: 1.5rem;
-    }
-  
-    .EngineBox-header p {
-      font-size: 0.9rem;
-    }
-  
-    .EngineBox-content h3 {
-      font-size: 1rem;
-    }
-  
-    .EngineBox-content p {
-      font-size: 0.85rem;
-    }
+}
+
+@media (max-width: 768px) {
+  .EngineBox-title {
+    padding: 0;
+    width: 66%;
   }
-  
+
+  .EngineBox-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .EngineBox-header h2,
+  .EngineBox-header p {
+    text-align: center;
+    flex: unset;
+    max-width: 100%;
+  }
+
+  .EngineBox-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .EngineBox-card {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .EngineBox-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .EngineBox-header p {
+    font-size: 0.9rem;
+  }
+
+  .EngineBox-content h3 {
+    font-size: 1rem;
+  }
+
+  .EngineBox-content p {
+    font-size: 0.85rem;
+  }
+
+}
+@media screen and (max-width:600px) {
+  .EngineBox-card {
+    max-width: 100%;
+  }
+  .EngineBox-title {
+    padding: 0;
+    width: 100%;
+  }
+}

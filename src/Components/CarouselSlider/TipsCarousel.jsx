@@ -14,10 +14,10 @@ const tipsData = [
 
 const TipsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 992);
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 600);
+    const handleResize = () => setIsMobile(window.innerWidth <= 992);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -49,8 +49,10 @@ const TipsCarousel = () => {
             .slice(currentIndex, currentIndex + (isMobile ? 1 : 3))
             .map((tip) => (
               <div key={tip.id} className="tip-card">
-                <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" />
-                <p>{tip.text}</p>
+               <div className="tip-image-container">
+    <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" />
+  </div>
+  <p>{tip.text}</p>
               </div>
             ))}
         </div>

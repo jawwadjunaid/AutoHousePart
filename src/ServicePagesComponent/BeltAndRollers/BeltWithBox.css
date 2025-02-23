@@ -43,7 +43,7 @@
 }
 
 .BeltBox-description {
-  color: #ffffffe8;
+  color: #FFFFFF;
 }
 
 .BeltBox-grid {
@@ -89,7 +89,8 @@
   background-color: #C00104;
   color: #fff;
   margin-bottom: 0.625rem;
-  padding: .5rem;
+  padding: 2% ;
+  font-family: 'poppins';
 }
 
 .BeltBox-card .BeltBox-content p {
@@ -111,6 +112,7 @@
 @media (max-width: 48rem) {
   .BeltBox-title {
       padding: 0;
+      width: 66%;
   }
   .BeltBox-header {
       flex-direction: column;
@@ -127,7 +129,7 @@
       align-items: center;
   }
   .BeltBox-card {
-      max-width: 90%;
+      max-width: 50%;
   }
 }
 
@@ -143,5 +145,14 @@
   }
   .BeltBox-content p {
       font-size: 0.85rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .BeltBox-card {
+    max-width: 100%;
+  }
+  .BeltBox-title {
+    padding: 0;
+    width: 100%;
   }
 }

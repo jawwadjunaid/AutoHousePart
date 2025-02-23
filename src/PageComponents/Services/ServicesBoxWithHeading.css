@@ -90,6 +90,8 @@
   margin-bottom: 0.625rem;
   width: 75%;
   padding: 2%;
+  font-family: 'poppins';
+
 }
 .service-card .service-content p {
   font-size: 0.9rem;
@@ -111,6 +113,8 @@
 @media (max-width: 48rem) {
     .service-title{
     padding: 0;
+    width: 66%;
+
   }
   .services-header {
     flex-direction: column;
@@ -130,7 +134,7 @@
   }
 
   .service-card {
-    max-width: 90%;
+    max-width: 50%;
   }
 }
 
@@ -149,5 +153,14 @@
 
   .service-content p {
     font-size: 0.85rem;
+  }
+}
+@media screen and (max-width:600px) {
+  .service-card {
+    max-width: 100%;
+  }
+  .service-title {
+    padding: 0;
+    width: 100%;
   }
 }

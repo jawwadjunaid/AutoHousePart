@@ -6,6 +6,7 @@ import CarLogos from '../../Components/CarLogos/CarLogos';
 import ComputerHeader from '../../ServicePagesComponent/ComputerDiagnostic/ComputerHeader.jsx';
 import ComputerHeroSection from '../../ServicePagesComponent/ComputerDiagnostic/ComputerHeroSection.jsx';
 import ComputerBoxWithHeading from '../../ServicePagesComponent/ComputerDiagnostic/ComputerBoxWithHeading.jsx';
+import ComputerAutoHouse from '../../ServicePagesComponent/ComputerDiagnostic/ComputerAutoHouse.jsx';
 
 const ComputerDaignostic = () => {
   return (
@@ -13,6 +14,7 @@ const ComputerDaignostic = () => {
     <ComputerHeader/>
     <ComputerHeroSection/>
     <ComputerBoxWithHeading/>
+    <ComputerAutoHouse/>
     <ComputerContent/> 
     <Testimonials/>
     <AboutUsSubscriptionBox/>
