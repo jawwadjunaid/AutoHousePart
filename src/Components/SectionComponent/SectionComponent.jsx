@@ -27,7 +27,7 @@ const SectionComponent = () => {
         </p>
 
         {/* Buttons */}
-        import { Link } from "react-router-dom";
+       
 
 <div className="button-container">
   <Link to="/aboutus">

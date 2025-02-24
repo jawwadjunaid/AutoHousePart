@@ -27,7 +27,7 @@ import BeltRollers from "./ServicePages/BeltAndRoller/BeltAndRoller";
 import Testimonials from "./Components/Reviews/Testimonials";
 import ReviewComponent from "./ReviewComponent/ReviewComponent";
 import ScrollToTop from "./Components/ScrolltoTop/ScrolltoTop";
-import ServiceAndMaintainance from "./ServicePages/ServiceAndMaintainance/ServiceAndMaintainance";
+
 
 
 
@@ -66,7 +66,7 @@ function App() {
         <Route path="/electrical-problems" element={<ElectricalProblems />} />
         <Route path="/belt-rollers" element={<BeltRollers />} />
         <Route path="/Reviews" element={<ReviewComponent/>}/>
-        <Route path="/serviceandmaintaiance" element={<ServiceAndMaintainance/>}/>
+
       </Routes>
       <Footer />
     </Router>
