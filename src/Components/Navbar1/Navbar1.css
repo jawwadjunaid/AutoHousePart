@@ -43,6 +43,8 @@
 
 .dropdown-menu {
   display: none;
+  margin-top: -0.5rem;
+  
   position: absolute;
   top: 1.2rem; /* 30px */
   left: 0;
