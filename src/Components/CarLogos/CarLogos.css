@@ -47,5 +47,10 @@
 @media (max-width: 480px) {
   .logo-img {
     width: 8rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .slick-track{
+    padding-left: 3.0rem;
   }
 }
