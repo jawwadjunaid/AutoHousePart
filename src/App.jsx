@@ -15,7 +15,6 @@ import ThreeCardSection from "./Components/ThreeCardSection/ThreeCardSection";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Services from "./Pages/Services/Services";
 import Contact from './Pages/ContactUs/ContactUs';
-
 import CarOilChange from './ServicePages/CarOilChange/CarOilChange'
 import Brakes from "./ServicePages/Brakes/Brakes";
 import SteeringAndSuspension from "./ServicePages/SteeringAndSuspension/SteeringAndSuspension";
@@ -27,12 +26,16 @@ import ElectricalProblems from "./ServicePages/ElectricalProblems/ElectricalProb
 import BeltRollers from "./ServicePages/BeltAndRoller/BeltAndRoller";
 import Testimonials from "./Components/Reviews/Testimonials";
 import ReviewComponent from "./ReviewComponent/ReviewComponent";
+import ScrollToTop from "./Components/ScrolltoTop/ScrolltoTop";
+import ServiceAndMaintainance from "./ServicePages/ServiceAndMaintainance/ServiceAndMaintainance";
+
 
 
 function App() {
   
   return (
     <Router>
+       <ScrollToTop/>
       <Navbar1 />
       <Routes>
         <Route path="/" element={
@@ -50,8 +53,9 @@ function App() {
           </>
         } />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/services" element={<Services />} />
+        
         <Route path="/contact" element={<Contact />} />
+        <Route path="/Services" element={<Services/>}/>
         <Route path="/car-oil-change" element={<CarOilChange />} />
         <Route path="/brakes" element={<Brakes />} />
         <Route path="/steering-suspension" element={<SteeringAndSuspension />} />
@@ -62,6 +66,7 @@ function App() {
         <Route path="/electrical-problems" element={<ElectricalProblems />} />
         <Route path="/belt-rollers" element={<BeltRollers />} />
         <Route path="/Reviews" element={<ReviewComponent/>}/>
+        <Route path="/serviceandmaintaiance" element={<ServiceAndMaintainance/>}/>
       </Routes>
       <Footer />
     </Router>
