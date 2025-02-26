@@ -46,11 +46,12 @@
 
 /* Center Image Circle Style */
 .services-image .center-image {
-  width: 21.875rem;
-  height: 40.625rem;
-  border-radius: 37%; /* Perfect oval shape */
-  padding-top: 3.125rem;
-  object-fit: cover; /* Ensure image fits within the oval */
+  width: 23.875rem;
+  height: 37.625rem;
+  border-radius: 37%;
+  padding-top: 1.5rem;
+  /* padding-bottom: 2rem; */
+  border-radius: 45%;
 }
 
 

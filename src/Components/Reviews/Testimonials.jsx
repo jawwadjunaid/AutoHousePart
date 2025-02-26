@@ -22,14 +22,14 @@ const testimonials = [
     role: "Air conditioning repair ",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     text: "Best auto air conditioning repair near me! My AC works perfectly now. Great service and honest pricing.",
-    rating: 4,
+    rating: 5,
   },
   {
     name: "Emily Scott ",
     role: "Tire Shop",
     image: "https://randomuser.me/api/portraits/men/1.jpg",
     text: "Found my go-to tire shop! Quick installation and great deals. Will definitely return for future services.",
-    rating: 4,
+    rating: 5,
   },
 ];
 

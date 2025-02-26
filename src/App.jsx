@@ -27,6 +27,7 @@ import BeltRollers from "./ServicePages/BeltAndRoller/BeltAndRoller";
 import Testimonials from "./Components/Reviews/Testimonials";
 import ReviewComponent from "./ReviewComponent/ReviewComponent";
 import ScrollToTop from "./Components/ScrolltoTop/ScrolltoTop";
+import MapComponent from "./Components/MapComponent/MapComponent";
 
 
 
@@ -49,6 +50,7 @@ function App() {
             <Subscribe />
             <Testimonials/>
             <AutoMechanicForm />
+            <MapComponent/>
             <CarLogos />
           </>
         } />
