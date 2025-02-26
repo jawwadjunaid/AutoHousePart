@@ -27,7 +27,7 @@
 
 .services-heading {
   font-size: 2.813rem;
-  font-family: Anybody;
+  font-family: sans-serif;
   margin-bottom: 1.25rem;
 }
 .service-icon{
@@ -91,14 +91,14 @@
 }
 
 .service-item h3 {
-  font-family: 'Anybody', sans-serif;
+  font-family: 'sans-serif', sans-serif;
   font-size: 1.25rem;
   color: #ffffff;
   margin: 0;
 }
 
 .service-item p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'sans-serif', sans-serif;
   font-size: 0.938rem;
   color: #ffffff;
   margin: 5px 0 0 0;

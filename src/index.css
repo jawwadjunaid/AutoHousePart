@@ -10,7 +10,7 @@ html,
 body {
   font-size: 1.041666667vw;
   scroll-behavior: smooth;
-  /* font-family: "Poppins", sans-serif; Default font-family Poppins
+  font-family: "sans-serif", sans-serif; 
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal; */
@@ -36,11 +36,11 @@ body {
 /* 🎯 Specific Font-Family Assignments */
 /* "Anybody" font-family for Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Anybody", serif;
+  font-family: "sans-serif", serif;
 }
 
 /* "Poppins" font-family for Paragraphs */
 p ,
 ul li a{
-  font-family: "Poppins", sans-serif;
+  font-family: "sans-serif", sans-serif;
 } 
