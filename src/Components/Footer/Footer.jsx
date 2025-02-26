@@ -14,7 +14,7 @@ import {
 } from "react-icons/fa"; // Import required icons
 import { MdKeyboardDoubleArrowRight } from "react-icons/md"; // New arrow icon
 
-import FooterLogo from "../../assets/images/images/logo.png";
+import FooterLogo from "../../assets/Logo/Finallogo.jpg";
 
 const Footer = () => {
   const scrollToTop = () => {

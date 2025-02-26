@@ -9,8 +9,8 @@ const Subscribe = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Apna Mailchimp ka form action URL yahan replace karo
-    const mailchimpUrl = "YOUR_MAILCHIMP_FORM_URL"; // Replace this
+    
+    const mailchimpUrl = "http://eepurl.com/i-GS4c"; 
 
     const formData = new FormData();
     formData.append("EMAIL", email);

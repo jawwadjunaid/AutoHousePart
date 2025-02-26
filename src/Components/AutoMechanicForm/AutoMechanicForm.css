@@ -14,7 +14,7 @@
 }
 
 .help-text {
-  color: #C00104;
+  color: #555;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 0.875rem;
@@ -33,7 +33,7 @@ h2 span {
   font-family: "sans-serif";
 }
 
-.description {
+.descriptionS {
   color: #555;
   font-size: 1rem;
   font-family: "sans-serif";

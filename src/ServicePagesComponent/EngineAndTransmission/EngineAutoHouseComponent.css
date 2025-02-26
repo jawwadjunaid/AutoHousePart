@@ -53,12 +53,18 @@
   
   .EngineAutoaccordion-item:hover {
     background: #727171;
-  }
+}
+
+.EngineAutoaccordion-item:hover{
+  color: white; 
+} .EngineAutoaccordion-title:hover {
+    color: white; 
+}
   
   .EngineAutoaccordion-title {
     display: flex;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 6px;
     font-weight: bold;
   }
   

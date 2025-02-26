@@ -11,7 +11,7 @@
 }
 
 .logo-img {
-  background: #f8f8f8;
+  
   height: 5.625rem;
   width: 13.5rem;
   display: flex;
@@ -47,5 +47,10 @@
 @media (max-width: 480px) {
   .logo-img {
     width: 8rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .slick-track{
+    padding-left: 3.0rem;
   }
 }
