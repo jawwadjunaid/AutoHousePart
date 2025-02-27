@@ -11,27 +11,13 @@ const ElectricalHeroSection = () => {
            <img src={AcHeroimage1} alt="Service 1" className="AcHero-img" />
          </div>
          <div className="Electrical-hero-content">
-           <h1>Top-Quality Auto Service And Maintenance Solutions In Houston, TX</h1>
+           <h1>Top-Quality Electrical Repair Services in Houston, TX</h1>
            <p>
-             Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-             providing exceptional service and maintenance for European vehicles. 
-             With a focus on honesty, reliability, and affordability, we have built 
-             a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-             and Volvo owners.
+           Automobile of Switzerland has been a trusted name for car electrical problems, helping drivers stay on the road without the frustration of unexpected failures. Whether your vehicle refuses to start, the lights flicker, or you're dealing with electrical issues with car, our expert team is here to help.
              
            </p>
            <p>
-             Our team of certified technicians, state-of-the-art diagnostic equipment, 
-             and commitment to customer satisfaction make us the premier choice for 
-             all your European car service needs.
-             Autohouse of Switzerland has been a trusted name in the Houston area since 1980, 
-             providing exceptional service and maintenance for European vehicles. 
-             With a focus on honesty, reliability, and affordability, we have built 
-             a reputation as the go-to destination for BMW, Audi, VW, Mercedes-Benz, 
-             and Volvo owners.
-             Our team of certified technicians, state-of-the-art diagnostic equipment, 
-             and commitment to customer satisfaction make us the premier choice for 
-             all your European car service needs.
+           With cutting-edge diagnostic tools and years of hands-on experience, we quickly pinpoint the root of electrical problems in automobiles and fix them efficiently. European, American, or Japanese—whatever you drive, we know how to handle it.
              
            </p>
            <Link to="/contact">
