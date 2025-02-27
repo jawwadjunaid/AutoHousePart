@@ -1,17 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ServicesSection.css";
-import maintenance from "../../assets/images/images/Maintenance.png";
-import oilChange from "../../assets/images/images/oilChange.png";
-import Brakes from "../../assets/images/images/Brakes.png";
-import Steering from "../../assets/images/images/Steering.png";
-import Coolant from "../../assets/images/images/CoolantSystem.png";
+import maintenance from "../../assets/images/images/Maintenance-2.png";
+import oilChange from "../../assets/images/images/oilChange-2.png";
+import Brakes from "../../assets/images/images/Brakes-2.png";
+import Steering from "../../assets/images/images/Steering-2.png";
+import Coolant from "../../assets/images/images/CoolantSystem-2.png";
 import Service from "../../assets/images/images/serviceCenter.png";
-import Engine from "../../assets/images/images/Engine.png";
-import Electrical from "../../assets/images/images/lastElectrical.png";
-import Computer from "../../assets/images/images/computer.png";
-import AC from "../../assets/images/images/Ac.png";
-import Belt from "../../assets/images/images/lastbelt.png";
+import Engine from "../../assets/images/images/Engine-2.png";
+import Electrical from "../../assets/images/images/lastElectrical-2.png";
+import Computer from "../../assets/images/images/computer-2.png";
+import AC from "../../assets/images/images/Ac-2.png";
+import Belt from "../../assets/images/images/lastbelt-2.png";
 
 const ServicesSection = () => {
   return (
