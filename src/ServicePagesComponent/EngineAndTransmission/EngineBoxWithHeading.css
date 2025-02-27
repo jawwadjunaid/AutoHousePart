@@ -101,7 +101,8 @@
   background-color: #C00104;
   color: #FFFFFF;
   margin-bottom: .625rem;
-  width: 75%;
+  width: 100%;
+  text-align: center;
   padding: 2%;
   font-family: 'sans-serif';
 }

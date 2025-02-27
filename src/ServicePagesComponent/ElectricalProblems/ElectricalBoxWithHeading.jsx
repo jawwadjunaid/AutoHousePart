@@ -7,18 +7,18 @@ import ElectricalBoxWithHeading3 from '../../assets/images/Pages/Electric3.png';
 const ElectricalBoxWithHeading = () => {
  const services = [
          {
-             title: "AC EVAPORATOR",
-             description: "The braking and suspension systems of European vehicles are engineered to deliver precise handling and safety. Our technicians are well-versed in the intricacies of these systems and can provide expert brake and suspension services. Whether it's brake pad replacement, rotor resurfacing, or suspension repairs, we ensure your vehicle's braking and suspension systems perform optimally.",
+             title: "Battery & Charging System Check",
+             description: "A weak battery or faulty alternator can leave you stranded. We inspect, test, and replace components to prevent such headaches.",
              imageUrl: ElectricalBoxWithHeading1,
          },
          {
-             title: "AC REPAIRS",
-             description: "European vehicles boast advanced electrical systems, and our technicians are equipped to handleadvanced electrical systems, any electrical issue that may arise. From troubleshooting complex electrical problems to repairing faulty wiring or replacing components, we have the expertise to restore the functionality of your vehicle's electrical system.",
+             title: "Lighting & Wiring Repairs",
+             description: "Dim or flickering headlights? Interior lights not responding? Our technicians diagnose and repair car wiring problems with precision.",
              imageUrl: ElectricalBoxWithHeading2,
          },
          {
-             title: "AC INSPECTIONS",
-             description: "Regular maintenance is crucial to keeping your European vehicle in optimal condition. Our expert technicians are well-versed in the specific needs of BMW, Audi, VW, Mercedes-Benz, and Volvo cars. From oil changes and filter replacements to brake inspections and tire rotations, we provide comprehensive routine maintenance services to prolong the life of your vehicle and maintain its performance.",
+             title: "Ignition & Starter Issues",
+             description: "If your vehicle struggles to start or makes clicking noises, we troubleshoot the issue—be it the starter, ignition switch, or something deeper.",
              imageUrl: ElectricalBoxWithHeading3,
          }
      ];
@@ -27,11 +27,9 @@ const ElectricalBoxWithHeading = () => {
          <div className="AcBox-container">
              <div className="AcBox-title">
  
-             <h2 className='AcBox-header Ac-box-title'>Get Access to Comprehensive AC Services</h2>
+             <h2 className='AcBox-header Ac-box-title'>Get Professional Help for All Electrical Issues</h2>
              <p className='AcBox-header AcBox-description'>
-             At Autohouse of Switzerland Inc, we offer a wide range of AC services to cater to all your needs. Whether you require routine maintenance, repairs, or system replacements, our skilled technicians have the expertise to handle it all.
-
-Here are some of the expert auto services we provide
+             We handle a wide range of automobile electrical problems, from minor glitches to complete system failures. Our services include:
              </p>
              </div>
              <div className="AcBox-grid">
