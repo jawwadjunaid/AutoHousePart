@@ -51,7 +51,8 @@ const AutoMechanicForm = () => {
     <>
       <section className="container autoMechanicForm">
         <div className="left-content">
-          <p className="help-text">NEED HELP</p>
+          <p className="help-text">&nbsp; NEED HELP &nbsp; ───</p>
+
           <h2>
           Want the expertise of an <br/> Auto Mechanic?
           </h2>
