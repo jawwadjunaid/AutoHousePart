@@ -21,8 +21,8 @@
   padding-left: 2.1rem;
 }
 
-.subscribe-content h2 {
-  font-size: 1.5rem;
+.subscribe-content h3 {
+  font-size: 1.6679rem;
   font-weight: bold;
   margin-bottom: 0.625rem;
 }
@@ -146,6 +146,9 @@ width: 48%;
   .subscribe-content {
     max-width: 90%;
     padding-left: 0;
+  }
+  .subscribe-content h3{
+    font-size: 0.2679rem;
   }
 
   .subscribe-form {

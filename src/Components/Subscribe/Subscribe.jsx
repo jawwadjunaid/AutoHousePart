@@ -32,7 +32,7 @@ const Subscribe = () => {
   return (
     <div className="subscribe-container">
       <div className="subscribe-content">
-        <h2>Subscribe To Stay Connected</h2>
+        <h3>Subscribe To Stay Connected</h3>
         <p>
           A car repair is a service provided to fix any issues or damages with
           vehicles. It involves diagnosing the problem, repairing, or replacing
