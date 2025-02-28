@@ -53,7 +53,7 @@ const Navbar = () => {
           onMouseEnter={() => !isMobile && setServicesOpen(true)}
           onMouseLeave={() => !isMobile && setServicesOpen(false)}
         >
-          <Link to="" onClick={toggleServices}>Services</Link>
+          <Link  onClick={toggleServices}>Services</Link>
           {(servicesOpen || !isMobile) && (
             <ul className="dropdown-menu">
               <li><Link to="/car-oil-change" onClick={closeMenu}>CAR OIL CHANGE</Link></li>

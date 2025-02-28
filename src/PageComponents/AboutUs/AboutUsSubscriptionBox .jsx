@@ -14,7 +14,7 @@ const AboutUsSubscriptionBox = () => {
           className="newsletter-icon"
         />
         <div className="text-content">
-          <h2>Subscribe our newsletter</h2>
+          <h2>Subscribe our newsletter</h2> 
           <p>To get updates</p>
         </div>
       </div>

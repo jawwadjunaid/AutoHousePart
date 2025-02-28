@@ -33,7 +33,7 @@ const ThreeCardSection = () => {
   return (
     <>
       <div className="cards-container3">
-        <h1 className="daffer" style={{fontSize:"2.813rem"}}>Few Of Our Most Popular Services</h1>
+        <h1 className="daffer" >Few Of Our Most Popular Services</h1>
         {cardData.map((card, index) => (
           <div key={index} className="card3">
             <div
