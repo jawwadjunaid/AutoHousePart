@@ -31,14 +31,14 @@
   margin: 0;
   font-weight: bold;
   font-size: 1.875rem; /* 4rem */
-  font-family: "sans-serif", sans-serif;
+  font-family:  sans-serif;
 }
 
 .text-content p {
   margin: 0;
   font-weight: bold;
   font-size: 1.875rem; /* 2.4rem */
-  font-family: "sans-serif", sans-serif;
+  font-family: sans-serif;
 }
 
 .subscription-form {
