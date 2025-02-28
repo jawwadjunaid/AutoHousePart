@@ -57,6 +57,7 @@
   border: none;
   border-radius: .313rem;
   cursor: pointer;
+  font-family:sans-serif;
   margin-right: .625rem;
 }
 
@@ -148,5 +149,6 @@
     transition: all 0.3s ease;
     margin-top: 0.625rem;
     margin-right: 0.625rem;
+    font-family: "sans-serif;
 }
 }

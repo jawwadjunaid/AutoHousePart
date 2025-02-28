@@ -17,7 +17,7 @@ const ComputerBoxWithHeading = () => {
                 imageUrl: ComputerBoxwithheading2,
             },
             {
-                title: "Electrical System & Sensors ",
+                title: "Electrical System ",
                 description: "Modern vehicles rely on complex electrical systems to function correctly. Faulty sensors, failing batteries, or damaged wiring can cause a cascade of issues, from inconsistent engine performance to total system failures. Our mechanic diagnostic computer identifies weak points in your vehicle’s electrical network, ensuring every component is communicating as it should.",
                 imageUrl: ComputerBoxwithheading3,
             }

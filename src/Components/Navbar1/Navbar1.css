@@ -5,7 +5,7 @@
   align-items: center;
   padding: 1rem 2.5rem;
   background-color: #C00104;
-  font-family: "sans-serif", sans-serif;
+  font-family: "sans-serisans-serif;
   
   position: relative;
   box-shadow: 0 0.125rem 0.3125rem rgba(0, 0, 0, 0.1);
@@ -244,6 +244,7 @@
 /* Appointment Button */
 .appointment-btns {
   background-color: transparent;
+  font-family: sans-serif;
   color: #fff;
   border: 0.125rem solid #fff; /* 2px */
   padding: 0.5rem 1rem;

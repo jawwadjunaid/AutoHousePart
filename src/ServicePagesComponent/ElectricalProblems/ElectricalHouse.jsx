@@ -16,23 +16,19 @@ const ElectricalHouse = () => {
         {/* Text Section */}
         <div className="ElectricalHousetext-section">
           <h2 style={{ fontSize: '2.81rem', color: '#0A0A0A' }}>
-          Experience Expert Heater Services
-          </h2>
+          Get Your Electrical Issues Fixed Today!          </h2>
           {/* <p className="ElectricalHousesubtitle" style={{ fontSize: '1.25rem', color: '#0A0A0A' }}>
             For All Your Service and Maintenance Needs?
           </p> */}
           <p className="ElectricalHousedescription" style={{ fontSize: '1rem', color: '#0A0A0A' }}>
-          When it comes to your auto service and maintenance needs, you can never go wrong with Autohouse of Switzerland Inc. We are dedicated to providing unparalleled expertise, exceptional customer service, and top-notch solutions that set us apart from the competition. /n
-
-Here’s why you should entrust your European vehicle to us:
-          </p>
+          If you're searching for fix car electrical problems near me, look no further. Whether your dashboard is flashing warning lights or your car won’t start, we have the expertise to restore your vehicle’s performance.          </p>
 
           {/* Accordion Section */}
           <div className="ElectricalHouseaccordion">
             {[
-              { title: "✔ Certified Trained Technicians", content: "Your European vehicle deserves the best care from professionals who understand its intricacies. Our technicians are certified and undergo continuous training to stay updated with the latest advancements in European automotive technology. With our team’s expertise, we can accurately diagnose and efficiently repair any issues your vehicle may have." },
-              { title: "✔ Same-Day Service on Most Cars", content: "Your European vehicle deserves the best care from professionals who understand its intricacies. Our technicians are certified and undergo continuous training to stay updated with the latest advancements in European automotive technology. With our team’s expertise, we can accurately diagnose and efficiently repair any issues your vehicle may have." },
-              { title: "✔ Latest Diagnostic Equipment", content: "Your European vehicle deserves the best care from professionals who understand its intricacies. Our technicians are certified and undergo continuous training to stay updated with the latest advancements in European automotive technology. With our team’s expertise, we can accurately diagnose and efficiently repair any issues your vehicle may have." }
+              { title: "✔ Certified Electrical Experts ", content: "Our mechanics specialize in diagnosing and repairing complex electrical faults in cars.  " },
+              { title: "✔ Same-Day Service Available ", content: "We work fast to get you back on the road" },
+              { title: "✔ Advanced Diagnostic Equipment ", content: "Our tools detect hidden issues before they become major problems. " }
             ].map((item, index) => (
               <div className="ElectricalHouseaccordion-item" key={index} onClick={() => toggleAccordion(index)}>
                 <div className="ElectricalHouseaccordion-title">

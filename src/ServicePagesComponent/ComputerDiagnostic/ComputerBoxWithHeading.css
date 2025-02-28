@@ -1,8 +1,8 @@
 /* Services.css */
 .Computerservices-container {
-    background-color: #111111;
-    padding: 2.5rem 1.25rem;
-    margin-bottom: .625rem;
+  background-color: #111111;
+  padding: 2.5rem 1.25rem;
+  /* margin-bottom: 0.625rem; */
   }
   .Computerservice-title{
     display: flex;
@@ -10,18 +10,19 @@
     padding: 2rem 5rem;
     width: 85%;
     margin: 0 auto;
+    gap: 3rem;
   }
   .Computerservices-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 430px;
+    /* max-width: 26.875rem;
     margin: 0 auto; */
+    color: #FFFFFF;
     text-align: left;
     width: 100%;
     flex-wrap: wrap;
     gap: 1.25rem; /* Adjust spacing */
-    color: #FFFFFF;
   }
   
   .Computerservices-header h2 {
@@ -29,7 +30,7 @@
     color: #ffffff;
     text-align: left;
     flex: 1;
-    min-width: 300px;
+    min-width: 18.75rem;
   }
   
   .Computerservices-header p {
@@ -83,14 +84,21 @@
   }
   
   .Computerservice-card .Computerservice-content h3 {
-    font-size: 1.2rem;
-    background-color: #C00104;
-    color: #fff;
-    margin-bottom: .625rem;
-    width: 75%;
-    padding: 2%;
-    font-family: 'sans-serif';
-  }
+    background: #C00104;
+    color: white;
+    padding: 0.625rem 1.2225rem;
+    border: none;
+    text-align: center;
+    font-size: 0.938rem;
+    font-family:  sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3sease-in-out;
+    margin-bottom: 0.938rem;
+    position: relative;
+}
+  
   
   .Computerservice-card .Computerservice-content p {
     font-size: 0.9rem;
