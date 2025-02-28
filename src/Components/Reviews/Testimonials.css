@@ -51,11 +51,13 @@ h2 {
 .role {
   color: #C00104;
   font-weight: bold;
+  font-family: sans-serif;
 }
 
 .testimonial-text {
   font-size: 0.95em;
-  color: #555;
+  font-family: sans-serif;
+  color: #171717;
   margin-top: 10px;
 }
 
