@@ -17,8 +17,8 @@ const CoolantBoxWithHeading = () => {
              imageUrl: CoolantBoxwithheading2,
          },
          {
-             title: "Routine Coolant System Maintenance",
-             description: "Regular checks on your coolant level, thermostat, and radiator cap help avoid overheating and expensive repairs. Just like you wouldn’t ignore electrical system repairs or brake & suspension issues, keeping your coolant system in top shape is just as important. Our team inspects every component, ensuring your engine stays cool no matter the road ahead.",
+             title: "Routine Coolant System Check & Maintenance",
+             description: "Regular checks on your coolant level, thermostat, and radiator cap help avoid overheating and expensive repairs. Just like you wouldn’t ignore electrical system repairs or brake & suspension issues, keeping your coolant system in top shape is just as important.",
              imageUrl: CoolantBoxwithheading3,
          }
      ];

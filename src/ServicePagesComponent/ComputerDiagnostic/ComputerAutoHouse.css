@@ -66,8 +66,19 @@
   .accordion-content {
     font-size: 14px;
     margin-top: 10px;
-    color: #555;
+    color: #FFFFFF;
   }
+  .accordion-item:hover {
+    background: #727171; /* Match Engine page */
+    color: white; /* Ensure text remains visible */
+}
+.accordion-title:hover {
+    color: white;
+}
+
+.accordion-item:hover {
+  background: #727171; /* Dark Gray on Hover */
+}
   
   /* Image Section */
   .image-section {

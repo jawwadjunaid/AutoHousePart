@@ -52,7 +52,11 @@
   }
   
   .AcAutoaccordion-item:hover {
-    background: #e0e0e0;
+    background: #727171;
+    color: #FFFFFF;
+  }
+  .AcAutoaccordion-title:hover{
+    color: #FFFFFF;
   }
   
   .AcAutoaccordion-title {
@@ -65,7 +69,7 @@
   .AcAutoaccordion-content {
     font-size: 14px;
     margin-top: 10px;
-    color: #555;
+    color: #FFFFFF;
   }
   
   /* Image Section */

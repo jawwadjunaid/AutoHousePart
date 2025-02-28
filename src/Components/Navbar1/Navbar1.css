@@ -244,6 +244,7 @@
 /* Appointment Button */
 .appointment-btns {
   background-color: transparent;
+  font-family: sans-serif;
   color: #fff;
   border: 0.125rem solid #fff; /* 2px */
   padding: 0.5rem 1rem;

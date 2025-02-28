@@ -8,12 +8,12 @@ const SteeringBoxWithHeading = () => {
  const services = [
          {
              title: "Suspension Diagnostics",
-             description: "A faulty suspension system can lead to unstable handling and excessive wear. Our experts assess every component, from shocks and struts to control arms, ensuring a safe and stable ride.",
+             description: "A faulty suspension can cause unstable handling and wear. Our experts assess every component for a safe, stable ride.",
              imageUrl: SteeringBoxWithHeading1,
          },
          {
              title: "Steering System Repairs",
-             description: "Issues with your steering rack can make handling unpredictable. We repair and replace components as needed, giving you confidence in every turn.",
+             description: "Issues with your steering rack can make handling unpredictable. We repair and replace components as needed.",
              imageUrl: SteeringBoxWithHeading2,
          },
          {

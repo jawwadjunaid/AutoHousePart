@@ -82,16 +82,22 @@
   }
   
   .SterringBoxBa-card .SterringBoxBa-content h3 {
-    font-size: 1.2rem;
-    background-color: #C00104;
-    color: #fff;
-    margin-bottom: .625rem;
+    background: #C00104;
+    color: white;
+    padding: 0.625rem 1.2225rem;
     text-align: center;
-    padding: 2%;
-    border-radius: .25rem;
-    font-family: 'sans-serif';
+    border: none;
+    font-size: 0.938rem;
+    font-family: "sans-serif", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3sease-in-out;
+    margin-bottom: 0.938rem;
+    position: relative;
+}
 
-  }
+  
   .Ac-box-title{
     color: #ffffff;
   }
