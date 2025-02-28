@@ -8,12 +8,12 @@ const ServicesBoxWithHeading = () => {
     const services = [
         {
             title: "Brake & Suspension",
-            description: "Your car should stop as well as it starts. A well-tuned brake system and suspension make all the difference. We handle repairs, replacements, and inspections to keep your ride smooth and safe.",
+            description: "A well-tuned brake system and suspension make all the difference. We handle repairs, replacements, and inspections to keep your ride smooth and safe.",
             imageUrl: Boxwithheading1,
         },
         {
             title: "Electrical System Repairs",
-            description: "Flickering lights? A dashboard lit up like a Christmas tree? Modern vehicles rely on complex electrical systems, and we’re here to diagnose and fix electrical problems before they leave you stranded.",
+            description: "Flickering lights? Modern vehicles rely on complex electrical systems, and we’re here to diagnose and fix electrical problems before they leave you stranded.",
             imageUrl: Boxwithheading2,
         },
         {

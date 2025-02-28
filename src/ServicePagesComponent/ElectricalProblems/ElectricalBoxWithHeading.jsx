@@ -18,7 +18,7 @@ const ElectricalBoxWithHeading = () => {
          },
          {
              title: "Ignition & Starter Issues",
-             description: "If your vehicle struggles to start or makes clicking noises, we troubleshoot the issue—be it the starter, ignition switch, or something deeper.",
+             description: "If your vehicle struggles to start or makes clicking noises, we troubleshoot—be it the starter, ignition switch, or something deeper.",
              imageUrl: ElectricalBoxWithHeading3,
          }
      ];

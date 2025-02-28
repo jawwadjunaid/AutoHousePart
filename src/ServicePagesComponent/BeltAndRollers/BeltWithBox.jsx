@@ -9,7 +9,7 @@ const BeltWithBox = () => {
 const services = [
         {
             title: "HIGH QUALITY PRODUCTS",
-            description: "The braking and suspension systems of European vehicles are engineered to deliver precise handling and safety. Our technicians are well-versed in the intricacies of these systems and can provide expert brake and suspension services. Whether it's brake pad replacement, rotor resurfacing, or suspension repairs, we ensure your vehicle's braking and suspension systems perform optimally.",
+            description: "The braking and suspension systems of European vehicles are engineered to deliver precise handling and safety. Our technicians are well-versed in the intricacies of these systems and can provide expert brake and suspension services. we ensure your vehicle's braking and suspension systems perform optimally.",
             imageUrl: Boxwithheading1,
         },
         {
@@ -19,7 +19,7 @@ const services = [
         },
         {
             title: "TRANSPARENT PRICING",
-            description: "Regular maintenance is crucial to keeping your European vehicle in optimal condition. Our expert technicians are well-versed in the specific needs of BMW, Audi, VW, Mercedes-Benz, and Volvo cars. From oil changes and filter replacements to brake inspections and tire rotations, we provide comprehensive routine maintenance services to prolong the life of your vehicle and maintain its performance.",
+            description: "Regular maintenance is crucial to keeping your European vehicle in optimal condition. Our expert technicians are well-versed in the specific needs of BMW, Audi, VW, Mercedes-Benz, and Volvo cars. From oil changes and filter replacements to brake inspections and tire rotations, we provide comprehensive routine maintenance services.",
             imageUrl: Boxwithheading3,
         }
     ];

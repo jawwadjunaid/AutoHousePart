@@ -56,9 +56,9 @@
 }
 
 .EngineAutoaccordion-item:hover{
-  color: white; 
+  color: #FFFFFF; 
 } .EngineAutoaccordion-title:hover {
-    color: white; 
+    color: #FFFFFF; 
 }
   
   .EngineAutoaccordion-title {
@@ -71,7 +71,7 @@
   .EngineAutoaccordion-content {
     font-size: 14px;
     margin-top: 10px;
-    color: #ffffff;
+    color: #FFFFFF;
   }
   
   /* Image Section */

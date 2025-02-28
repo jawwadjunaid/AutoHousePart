@@ -8,7 +8,7 @@ const AcBoxWithHeading = () => {
  const services = [
          {
              title: "AC EVAPORATOR",
-             description: "The braking and suspension systems of European vehicles are engineered to deliver precise handling and safety. Our technicians are well-versed in the intricacies of these systems and can provide expert brake and suspension services. Whether it's brake pad replacement, rotor resurfacing, or suspension repairs, we ensure your vehicle's braking and suspension systems perform optimally.",
+             description: "Our skilled technicians are well-versed in the intricacies of these systems and can provide expert brake and suspension services. Whether it's brake pad replacement, rotor resurfacing, or comprehensive suspension repairs, we ensure your vehicle's braking and suspension systems perform optimally and safely.",
              imageUrl: AcBoxwithheading1,
          },
          {
@@ -18,7 +18,7 @@ const AcBoxWithHeading = () => {
          },
          {
              title: "AC INSPECTIONS",
-             description: "Regular maintenance is crucial to keeping your European vehicle in optimal condition. Our expert technicians are well-versed in the specific needs of BMW, Audi, VW, Mercedes-Benz, and Volvo cars. From oil changes and filter replacements to brake inspections and tire rotations, we provide comprehensive routine maintenance services to prolong the life of your vehicle and maintain its performance.",
+             description: "Regular maintenance is crucial to keeping your European vehicle in optimal condition. Our expert technicians are well-versed in the specific needs of BMW, Audi, VW, Mercedes-Benz, and Volvo cars. From oil changes and filter replacements to brake inspections and tire rotations, we provide comprehensive routine maintenance services.",
              imageUrl: AcBoxwithheading3,
          }
      ];
