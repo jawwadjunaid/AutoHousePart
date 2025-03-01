@@ -25,6 +25,7 @@
 }
 
 .tip-card {
+
   background: #333;
   padding: 1.25rem; /* 20px */
   border-radius: 0.625rem; /* 10px */
@@ -59,7 +60,8 @@
 }
 
 .carousel-button.left {
-  left: 0.625rem; /* 10px */
+  left: .625rem; /* 10px */
+
 }
 
 .carousel-button.right {
