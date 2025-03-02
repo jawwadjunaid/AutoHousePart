@@ -19,7 +19,7 @@ const ServicesSection = () => {
       <h1 className="reading-heading">─── WHAT WE DO ───</h1>
       <h2 className="services-heading">Reliable Auto Repair Shop</h2>
       <p className="services-description">
-        At Autoshow of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions.
+        At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions.
       </p>
       <div className="services-content">
         <div className="services-list sty1">
