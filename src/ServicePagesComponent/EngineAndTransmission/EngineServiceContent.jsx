@@ -11,7 +11,7 @@ const EngineServiceContent = () => {
             
             <h1 style={{color:'white'}}>Book Your Computer Diagnostic Check Today</h1>
             <p>
-            When your vehicle speaks, we listen. Don’t ignore the signs—bring your car to Automobile of Switzerland for a professional diagnostic test. Whether you drive a BMW diagnostic computer system or another high-performance vehicle, our experts are ready to assist. Click below to schedule your computerized car check-up near me and drive with confidence.
+            When your vehicle speaks, we listen. Don’t ignore the signs—bring your car to Automobile of Switzerland for a professional diagnostic test. Whether you drive a BMW diagnostic computer system or another high-performance vehicle, our experts are ready to assist. Searching for a check-up near me on Google? We'll be in the first few search results to show up.
     
             </p>
             <Link to="/contact" className="Enginebtnssd">Let's Get Started</Link>

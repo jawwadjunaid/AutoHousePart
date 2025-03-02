@@ -11,6 +11,7 @@
   background-repeat: no-repeat;
   height: 100vh; /* 480px */
   margin-bottom: 1.25rem; /* 20px */
+  overflow: hidden;
 }
 
 .carousel {
@@ -21,9 +22,35 @@
   flex-wrap: wrap;
   margin-top: 8.813rem;
 
-
+position: relative;
 }
-
+.cont{
+  width: 80%;
+  margin: 0 auto;
+position: relative;
+  
+}
+.cont::after{
+  content: '';
+  position: absolute;
+  width: 20%;
+  background-color: black;
+  left: -20%;
+  height: 120%;
+  top: -20%;
+  background-image: url(/src/assets/images/images/TipBG.png);
+}
+.cont::before{
+  content: '';
+  position: absolute;
+  width: 13%;
+  background-color: black;
+  right: -14.2%;
+  height: 120%;
+  z-index: 1;
+  top: -20%;
+  background-image: url(/src/assets/images/images/TipBG.png);
+}
 .tip-card {
 
   background: #333;
@@ -60,23 +87,28 @@
 }
 
 .carousel-button.left {
-  left: .625rem; /* 10px */
-
+  /* left: .625rem; 10px */
+  left: -12%;
 }
 
 .carousel-button.right {
-  right: 0.625rem; /* 10px */
+  /* right: 0.625rem; 10px/ */
+  right: -12%;
+
 }
 .tip-card p{
   text-wrap: wrap;
 }
-
+.carousel-container{
+  margin-top: 8.813rem;
+}
+.slick-list{
+  overflow: visible;
+}
 /* Tablet View */
 @media (max-width: 56.25rem) { /* 900px */
-  .carousel {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 2.813rem;
+  .carousel-container {
+     margin-top: 2.813rem;
 
   }
 
@@ -134,11 +166,11 @@
   }
 
   .carousel-button.left {
-    left: 0.3125rem; /* 5px */
+    left: 0; /* 5px */
   }
 
   .carousel-button.right {
-    right: 0.3125rem; /* 5px */
+    right: 0; /* 5px */
   }
 }
 
@@ -168,6 +200,7 @@
       max-width: 17rem;
       padding: 1rem;
       transition: transform 0.3s ease-in-out;
+      margin-bottom: 10%;
     }
 
   .carousel-button {
@@ -176,11 +209,14 @@
   }
 
   .carousel-button.left {
-    left: 5px;
+    left: 0;
   }
 
   .carousel-button.right {
-    right: 5px;
+    right: 0;
+  }
+  .cont{
+    width: 100%;
   }
 }
 .tips-container {
@@ -235,7 +271,7 @@
   font-family: sans-serif;
   color: white;
   text-align: center;
-  max-width: 80%;
+  max-width: 100%;
   line-height: 1.5;
   margin-top: 2.5rem; /* Icon ke wajah se text neeche shift */
   flex-grow: 1; /* Ye ensure karega ke text adjust ho */
@@ -250,5 +286,13 @@
   .tip-card {
     /* width: 100%; Chhoti screens pe full width */
     min-height: auto; /* Auto height chhoti screens pe */
+  }
+}
+@media screen and (max-width:480px) {
+  .tips-carousel{
+    height: 100vh;
+  }
+  .slick-track{
+    padding-left: 0;
   }
 }

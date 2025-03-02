@@ -54,7 +54,7 @@ const AutoMechanicForm = () => {
           <p className="help-text">&nbsp; NEED HELP &nbsp; ───</p>
 
           <h2>
-          Want the expertise of an <br/> Auto Mechanic?
+          Request an Appointment with an Auto Mechanic?
           </h2>
           <p className="descriptionS">
             We're available to assist you and respond to your inquiries. Please
@@ -62,7 +62,7 @@ const AutoMechanicForm = () => {
           </p>
         </div>
         <div className="right-form">
-          <h3>Get in Touch for Queries</h3>
+          <h3>Please fill in the form</h3>
           <form onSubmit={handleSubmit}>
             <input
               type="text"
@@ -110,7 +110,7 @@ const AutoMechanicForm = () => {
               onChange={handleChange}
               required
             ></textarea>
-            <button type="submit">REQUEST A QUOTE</button>
+            <button type="submit">Request an Appointment or Quote</button>
           </form>
           {message && <p className="response-message">{message}</p>}
         </div>

@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from "react";
+import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./TipsCarousel.css";
 import tripycon from "../../assets/images/image6.png";
+import { Autoplay } from "swiper/modules";
 
 const tipsData = [
   { id: 1, text: "A timely oil change service keeps your engine healthy, improves fuel efficiency, and extends your car’s lifespan.", imageUrl: tripycon },
@@ -12,8 +16,19 @@ const tipsData = [
   { id: 6, text: "Check your coolant level regularly to prevent engine overheating.", imageUrl: tripycon },
 ];
 
+const CustomPrevArrow = ({ onClick }) => (
+  <button className="carousel-button left" onClick={onClick}>
+    <FaArrowLeft size={20} />
+  </button>
+);
+
+const CustomNextArrow = ({ onClick }) => (
+  <button className="carousel-button right" onClick={onClick}>
+    <FaArrowRight size={20} />
+  </button>
+);
+
 const TipsCarousel = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 992);
 
   useEffect(() => {
@@ -22,17 +37,43 @@ const TipsCarousel = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const prevSlide = () => {
-    setCurrentIndex((prev) =>
-      prev === 0 ? tipsData.length - (isMobile ? 1 : 3) : prev - 1
-    );
+  const settings = {
+    dots: false,
+    infinite: true, // Enable infinite scrolling
+    speed: 500,
+    slidesToShow: isMobile ? 1 : 3,
+    slidesToScroll: 1,
+    arrows: true,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
+    autoplay: isMobile ? true : false, // Enable autoplay only on mobile
+    autoplaySpeed: 3000, // Set autoplay speed (3s)
+    
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          arrows: false,
+          autoplay: true, // Ensure autoplay is enabled on mobile
+          autoplaySpeed: 3000,
+        },
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   };
-
-  const nextSlide = () => {
-    setCurrentIndex((prev) =>
-      prev === tipsData.length - (isMobile ? 1 : 3) ? 0 : prev + 1
-    );
-  };
+  
 
   return (
     <div className="tips-carousel">
@@ -40,26 +81,19 @@ const TipsCarousel = () => {
       <h2>Essential Tips For Vehicle Care</h2>
 
       <div className="carousel-container">
-        <button onClick={prevSlide} className="carousel-button left">
-          <FaArrowLeft size={20} />
-        </button>
 
-        <div className="carousel">
-          {tipsData
-            .slice(currentIndex, currentIndex + (isMobile ? 1 : 3))
-            .map((tip) => (
-              <div key={tip.id} className="tip-card">
-               <div className="tip-image-container">
-    <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" />
-  </div>
-  <p>{tip.text}</p>
+        <div className="cont">
+        <Slider {...settings}>
+          {tipsData.map((tip) => (
+            <div key={tip.id} className="tip-card">
+              <div className="tip-image-container">
+                <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" />
               </div>
-            ))}
+              <p>{tip.text}</p>
+            </div>
+          ))}
+        </Slider>
         </div>
-
-        <button onClick={nextSlide} className="carousel-button right">
-          <FaArrowRight size={20} />
-        </button>
       </div>
     </div>
   );

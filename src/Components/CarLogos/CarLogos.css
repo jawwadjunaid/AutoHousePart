@@ -42,6 +42,9 @@
   .logo-img {
     width: 10rem;
   }
+  .car-Frame-slider {
+    height: 4rem;
+  }
 }
 
 @media (max-width: 480px) {
