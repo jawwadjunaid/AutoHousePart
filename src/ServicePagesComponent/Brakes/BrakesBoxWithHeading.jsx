@@ -8,17 +8,17 @@ const BrakesBoxWithHeading = () => {
   const services = [
           {
               title: "Brake & Suspension",
-              description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+              description: "Maintain smooth handling and safety with expert brake and suspension repairs in Houson, TX. We inspect, repair, and replace components for optimal performance and control.  ",
               imageUrl: Boxwithheading1,
           },
           {
               title: "Electrical System Repairs",
-              description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+              description: "Ensure proper brake light and ABS functionality with electrical system diagnostics and repairs. We fix wiring, sensors, and control modules for reliable braking performance.",
               imageUrl: Boxwithheading2,
           },
           {
               title: "Routine Maintenance",
-              description: "Ensuring a smooth suspension system or a responsive brake system is crucial for your safety. We provide professional inspections, repairs, and replacements to enhance your vehicle's handling and braking performance.",
+              description: "Extend your brake system’s lifespan with regular maintenance and inspections. We check brake pads, fluids, and rotors to prevent issues and keep you safe on the road.",
               imageUrl: Boxwithheading3,
           }
       ];

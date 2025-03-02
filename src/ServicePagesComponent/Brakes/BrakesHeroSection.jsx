@@ -11,13 +11,13 @@ const BrakesHeroSection = () => {
            <img src={Brakesimage1} alt="Service 1" className="BrakesHero-img" />
          </div>
          <div className="BrakesHero-hero-content">
-           <h1>Brake Services at Automobile of Switzerland For Houston Residents</h1>
+           <h1>Brake Services at Autohouse of Switzerland For Houston Residents</h1>
            <p>
            Your vehicle’s brakes do more than stop your car—they keep you safe. Whether it's a quick brake repair, a complete brake change, or troubleshooting issues with your braking system, our expert technicians are here to help.
              
            </p>
            <p>
-           At Automobile of Switzerland, we fix cars to take care of people. Since 1980, drivers have trusted us for reliable, high-quality auto service. With our cutting-edge diagnostic tools, we get to the root of the problem fast. Whether your brakes are squeaking, feeling soft, or taking longer to stop, we’ll figure it out and fix it right the first time.
+           At Autohouse of Switzerland, we fix cars to take care of people. Since 1980, drivers have trusted us for reliable, high-quality auto service. With our cutting-edge diagnostic tools, we get to the root of the problem fast. Whether your brakes are squeaking, feeling soft, or taking longer to stop, we’ll figure it out and fix it right the first time.
              
            </p>
            <Link to="/contact">

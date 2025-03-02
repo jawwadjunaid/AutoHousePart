@@ -11,7 +11,7 @@ const CoolantContent = () => {
             
             <h1 style={{color:'Black'}}>Expert Cooling System Care to Keep You on the Road</h1>
             <p>
-            Ignoring your coolant system is like running a marathon without water. Eventually, your engine will overheat. At Automobile of Switzerland, we take care of your radiator flush, diagnose coolant leaks, and keep your antifreeze levels just right. Let’s make sure your vehicle runs cool, smooth, and problem-free.
+            Ignoring your coolant system is like running a marathon without water. Eventually, your engine will overheat. At Autohouse of Switzerland, we take care of your radiator flush, diagnose coolant leaks, and keep your antifreeze levels just right. Let’s make sure your vehicle runs cool, smooth, and problem-free.
     
             </p>
             <Link to="/contact" className="CoolantContentbtnssd">Let's Get Started</Link>

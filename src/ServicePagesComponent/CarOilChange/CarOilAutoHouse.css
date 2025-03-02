@@ -51,15 +51,9 @@
     border-radius: 5px;
     transition: background 0.3s ease;
   }
-  .accordion-item:hover{
-    color: white; 
-  } .accordion-title:hover {
-      color: white; 
-  }
+
   
-  .accordion-item:hover {
-    background: #727171;
-  }
+ 
   
   .accordion-title {
     display: flex;

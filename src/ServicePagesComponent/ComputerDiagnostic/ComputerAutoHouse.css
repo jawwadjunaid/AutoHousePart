@@ -38,7 +38,7 @@
   }
   
   /* Accordion Styles */
-  .accordion {
+  .accordions {
     width: 100%;
     margin-top: 20px;
   }
@@ -52,33 +52,26 @@
     transition: background 0.3s ease;
   }
   
-  .accordion-item:hover {
-    background: #e0e0e0;
-  }
+ 
   
   .accordion-title {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
+   
+    color: rgb(255, 255, 255);
   }
   
   .accordion-content {
     font-size: 14px;
     margin-top: 10px;
-    color: #FFFFFF;
+    color: #ffffff;
   }
-  .accordion-item:hover {
-    background: #727171; /* Match Engine page */
-    color: white; /* Ensure text remains visible */
-}
-.accordion-title:hover {
-    color: white;
-}
 
-.accordion-item:hover {
-  background: #727171; /* Dark Gray on Hover */
-}
+
+
+
   
   /* Image Section */
   .image-section {

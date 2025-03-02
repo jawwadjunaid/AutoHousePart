@@ -51,18 +51,14 @@
     transition: background 0.3s ease;
   }
   
-  .SteeringHouseaccordion-item:hover {
-    background: #727171;
-  }
-  .SteeringHouseaccordion-title:hover{
-    color: #FFFFFF;
-  }
+ 
   
   .SteeringHouseaccordion-title {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
+    color: white;
   }
   
   .SteeringHouseaccordion-content {

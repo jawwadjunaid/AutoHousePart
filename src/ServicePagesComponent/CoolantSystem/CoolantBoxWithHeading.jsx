@@ -29,7 +29,7 @@ const CoolantBoxWithHeading = () => {
  
              <h2 className='CoolantCard-header CoolantCard-title'>Comprehensive Coolant System Services for European Vehicles</h2>
              <p className='CoolantCard-header service-description'>
-             Your coolant system isn’t just another part of your engine—it’s the key to preventing overheating, breakdowns, and costly damage. At Automobile of Switzerland, we ensure your radiator, coolant hoses, thermostat, and antifreeze levels work together perfectly. With our expertise in BMW, Audi, VW, Mercedes-Benz, and Volvo, you can trust us to keep your engine running at the right temperature.
+             Your coolant system isn’t just another part of your engine—it’s the key to preventing overheating, breakdowns, and costly damage. At Autohouse of Switzerland, we ensure your radiator, coolant hoses, thermostat, and antifreeze levels work together perfectly. With our expertise in BMW, Audi, VW, Mercedes-Benz, and Volvo, you can trust us to keep your engine running at the right temperature.
              </p>
              </div>
              <div className="CoolantCard-grid">

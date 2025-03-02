@@ -51,21 +51,14 @@
     transition: background 0.3s ease;
   }
   
-  .EngineAutoaccordion-item:hover {
-    background: #727171;
-}
-
-.EngineAutoaccordion-item:hover{
-  color: #FFFFFF; 
-} .EngineAutoaccordion-title:hover {
-    color: #FFFFFF; 
-}
+ 
   
   .EngineAutoaccordion-title {
     display: flex;
     justify-content: space-between;
     font-size: 6px;
     font-weight: bold;
+    color: white;
   }
   
   .EngineAutoaccordion-content {

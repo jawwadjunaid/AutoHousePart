@@ -82,12 +82,14 @@ const TipsCarousel = () => {
 
       <div className="carousel-container">
 
+
         <div className="cont">
         <Slider {...settings}>
           {tipsData.map((tip) => (
             <div key={tip.id} className="tip-card">
               <div className="tip-image-container">
                 <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" />
+
               </div>
               <p>{tip.text}</p>
             </div>
