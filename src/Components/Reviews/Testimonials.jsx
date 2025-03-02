@@ -39,7 +39,7 @@ const Testimonials = () => {
 
   return (
     <div className={`testimonials-container ${isHomePage ? "home-bg" : "default-bg"}`}>
-      <p className="description">─── &nbsp; Testimonials &nbsp; ───</p>
+      <p className="description" style={{fontWeight:"800", fontSize:"0.875"}}>─── &nbsp; Testimonials &nbsp; ───</p>
       <h2>What Clients Say About Us</h2>
       <div className="testimonials-grid">
         {testimonials.map((item, index) => (

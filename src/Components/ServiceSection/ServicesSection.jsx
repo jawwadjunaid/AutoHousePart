@@ -16,7 +16,7 @@ import Belt from "../../assets/images/images/lastbelt-2.png";
 const ServicesSection = () => {
   return (
     <div className="services-container">
-      <h1 className="reading-heading">─── WHAT WE DO ───</h1>
+      <h1 className="reading-heading" style={{fontWeight:"800"}}>─── WHAT WE DO ───</h1>
       <h2 className="services-heading">Reliable Auto Repair Shop</h2>
       <p className="services-description">
         At Autohouse of Switzerland Inc, we pride ourselves on offering a wide range of expert auto service and maintenance solutions.

@@ -1,8 +1,8 @@
 .tips-carousel {
-  background-image: url('../../assets/images/images/TipBG.png');
+  
   position: relative;
   width: 100%;
-  background-color: black;
+  background-color: 333;
   padding: 3.125rem 1.25rem; /* 50px 20px */
   color: white;
   text-align: center;
@@ -12,6 +12,8 @@
   height: 100vh; /* 480px */
   margin-bottom: 1.25rem; /* 20px */
   overflow: hidden;
+  background-color: #000000;
+
 }
 
 .carousel {
@@ -34,34 +36,40 @@ position: relative;
 .cont::after{
   content: '';
   position: absolute;
+  background-color: #000000;
   width: 20%;
-  background-color: black;
   left: -20%;
   height: 120%;
   top: -20%;
-  background-image: url(/src/assets/images/images/TipBG.png);
+  rotate: 40px;
+  
 }
-.cont::before{
+.cont::before {
   content: '';
   position: absolute;
-  width: 13%;
-  background-color: black;
+  background-color: #000000;
+  width: 13%; 
   right: -14.2%;
   height: 120%;
   z-index: 1;
   top: -20%;
-  background-image: url(/src/assets/images/images/TipBG.png);
 
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: rotate(-180deg); /* Rotate image to correct direction */
 }
+
+
+
 .tip-card {
 
-  background: #333;
+  background: #d30b0b;
   padding: 1.25rem; /* 20px */
   border-radius: 0.625rem; /* 10px */
   text-align: center;
   width: 20.75rem; /* 300px */
   max-width: 90%;
-  box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1); /* 4px 6px */
+  box-shadow: 0 0.25rem 0.375rem #333; /* 4px 6px */
   transition: transform 0.5s ease-in-out;
   flex-shrink: 0;
 }
