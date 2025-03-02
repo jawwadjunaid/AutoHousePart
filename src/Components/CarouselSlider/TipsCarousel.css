@@ -298,7 +298,7 @@ position: relative;
 }
 @media screen and (max-width:480px) {
   .tips-carousel{
-    height: 100vh;
+    height: 70vh;
   }
   .slick-track{
     padding-left: 0;
