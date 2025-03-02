@@ -51,6 +51,7 @@
   .logo-img {
     width: 8rem;
     align-items: center;
+    padding-left: 5.2rem;
     justify-content: center;
   }
   .slick-track{
