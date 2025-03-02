@@ -51,19 +51,14 @@
     transition: background 0.3s ease;
   }
   
-  .ElectricalHouseaccordion-item:hover {
-    background: #727171;
-    color: #FFFFFF;
-  }
-  .ElectricalHouseaccordion-title:hover {
-    color: #FFFFFF;
-  }
+  
 
   .ElectricalHouseaccordion-title {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
     font-weight: bold;
+    color: white;
   }
   
   .ElectricalHouseaccordion-content {

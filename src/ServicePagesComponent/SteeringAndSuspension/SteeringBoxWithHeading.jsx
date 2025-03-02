@@ -29,7 +29,7 @@ const SteeringBoxWithHeading = () => {
  
              <h2 className='SterringBoxBa-header Ac-box-title'>Get Access to Comprehensive Suspension Services</h2>
              <p className='SterringBoxBa-header SterringBoxBa-description'>
-             At Automobile of Switzerland, we offer top-tier steering and suspension services tailored to your vehicle’s needs. Whether you require routine suspension auto repair, steering rack replacement, or system diagnostics, our skilled technicians have the expertise to handle it all. Here are some of the expert services we provide:
+             At Autohouse of Switzerland, we offer top-tier steering and suspension services tailored to your vehicle’s needs. Whether you require routine suspension auto repair, steering rack replacement, or system diagnostics, our skilled technicians have the expertise to handle it all. Here are some of the expert services we provide:
              </p>
              </div>
              <div className="SterringBoxBa-grid">

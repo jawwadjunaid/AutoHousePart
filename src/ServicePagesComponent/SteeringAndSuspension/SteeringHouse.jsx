@@ -34,7 +34,7 @@ const SteeringHouse = () => {
             ].map((item, index) => (
               <div className="SteeringHouseaccordion-item" key={index} onClick={() => toggleAccordion(index)}>
                 <div className="SteeringHouseaccordion-title">
-                  <span style={{ fontSize: '1rem', fontWeight: 'bold', color: '#0A0A0A' }}>
+                  <span style={{ fontSize: '1rem', fontWeight: 'bold', color: 'white' }}>
                     {item.title}
                   </span>
                   {activeIndex === index ? <AiOutlineUp size={20} /> : <AiOutlineDown size={20} />}

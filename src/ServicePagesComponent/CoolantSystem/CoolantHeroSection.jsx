@@ -14,7 +14,7 @@ const CoolantHeroSection = () => {
          <div className="ContactHero-hero-content">
            <h1>Avail the Best Coolant System Service for Your Vehicle in Houston, TX  </h1>
            <p>
-           Keeping your engine cool isn’t just about comfort—it’s about survival. An overheated engine can lead to costly breakdowns, coolant leaks, and serious damage. At Automobile of Switzerland, we take your vehicle’s coolant system seriously. Whether it’s a coolant flush, diagnosing a radiator leak, or checking for antifreeze contamination, we handle it with precision.
+           Keeping your engine cool isn’t just about comfort—it’s about survival. An overheated engine can lead to costly breakdowns, coolant leaks, and serious damage. At Autohouse of Switzerland, we take your vehicle’s coolant system seriously. Whether it’s a coolant flush, diagnosing a radiator leak, or checking for antifreeze contamination, we handle it with precision.
              
            </p>
            <p>

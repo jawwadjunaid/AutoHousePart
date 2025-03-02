@@ -29,7 +29,7 @@ const ElectricalBoxWithHeading = () => {
  
              <h2 className='AcBox-header Ac-box-title'>Get Professional Help for All Electrical Issues</h2>
              <p className='AcBox-header AcBox-description'>
-             We handle a wide range of automobile electrical problems, from minor glitches to complete system failures. Our services include:
+             We handle a wide range of Autohouse electrical problems, from minor glitches to complete system failures. Our services include:
              </p>
              </div>
              <div className="AcBox-grid">

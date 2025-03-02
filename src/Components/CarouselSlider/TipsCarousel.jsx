@@ -44,12 +44,12 @@ const TipsCarousel = () => {
           <FaArrowLeft size={20} />
         </button>
 
-        <div className="carousel">
+        <div className="carousel" >
           {tipsData
             .slice(currentIndex, currentIndex + (isMobile ? 1 : 3))
             .map((tip) => (
               <div key={tip.id} className="tip-card">
-               <div className="tip-image-container">
+               <div className="tip-image-container" >
     <img src={tip.imageUrl} alt="Tip Icon" className="tip-image" />
   </div>
   <p>{tip.text}</p>

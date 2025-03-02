@@ -28,16 +28,13 @@ const Footer = () => {
           <div className="logo-text-wrapper">
             <img className="logo" src={FooterLogo} alt="Logo" />
             <p className="FooterContentPara">
-              We are dedicated to providing With our extensive collection
-              of meticulously handcrafted luxury and exotic vehicles. an unparalleled automotive experience 
-              to our valued customers. With our extensive collection
-              of meticulously handcrafted luxury and exotic vehicles.
+            At Autohouse of Switzerland, we provide expert auto repair shop services, from oil changes to brake repairs, ensuring top-quality care.
             </p>
           </div>
           <div className="social-icons">
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a>
+            <a href="https://www.facebook.com/AutohouseofSwitzerland" target="_blank" rel="noopener noreferrer"><FaFacebookF /></a>
+            {/* <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedinIn /></a> */}
             
           </div>
         </div>
@@ -84,7 +81,7 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="footer-bottom">
-        <p>© 2025 All Rights Reserved Autohouse</p>
+        <p>© 2025 All Rights Reserved One Way Marketing</p>
         <div className="footer-links">
           <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
         </div>

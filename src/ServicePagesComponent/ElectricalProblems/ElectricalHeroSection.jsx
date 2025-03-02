@@ -13,11 +13,11 @@ const ElectricalHeroSection = () => {
          <div className="Electrical-hero-content">
            <h1>Top-Quality Electrical Repair Services in Houston, TX</h1>
            <p>
-           Automobile of Switzerland has been a trusted name for car electrical problems, helping drivers stay on the road without the frustration of unexpected failures. Whether your vehicle refuses to start, the lights flicker, or you're dealing with electrical issues with car, our expert team is here to help.
+           Autohouse of Switzerland has been a trusted name for car electrical problems, helping drivers stay on the road without the frustration of unexpected failures. Whether your vehicle refuses to start, the lights flicker, or you're dealing with electrical issues with car, our expert team is here to help.
              
            </p>
            <p>
-           With cutting-edge diagnostic tools and years of hands-on experience, we quickly pinpoint the root of electrical problems in automobiles and fix them efficiently. European, American, or Japanese—whatever you drive, we know how to handle it.
+           With cutting-edge diagnostic tools and years of hands-on experience, we quickly pinpoint the root of electrical problems in Autohouses and fix them efficiently. European, American, or Japanese—whatever you drive, we know how to handle it.
              
            </p>
            <Link to="/contact">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { PopupModal } from "react-calendly";
 import "./Navbar1.css";
-import NavLogo from '../../assets/Logo/Finallogo1.png';
+import NavLogo from '../../assets/Logo/Finallogo3.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // Mobile menu state

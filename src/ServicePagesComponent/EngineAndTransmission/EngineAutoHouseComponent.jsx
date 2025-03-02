@@ -18,9 +18,7 @@ const EngineAutoHouseComponent = () => {
             <h2 style={{ fontSize: '2.81rem', color: '#0A0A0A' }}>
               Why choose Autohouse of Switzerland Inc
             </h2>
-            <p className="EngineAutosubtitle" style={{ fontSize: '1.25rem', color: '#0A0A0A' }}>
-              For All Your Service and Maintenance Needs?
-            </p>
+            
             <p className="EngineAutodescription" style={{ fontSize: '1rem', color: '#0A0A0A' }}>
               When it comes to your auto service and maintenance needs, you can never go wrong with AutoHouse of Switzerland Inc. 
               We are dedicated to providing unparalleled customer service and offer a wide range of top-notch services that set us apart from the competition.
@@ -37,7 +35,7 @@ const EngineAutoHouseComponent = () => {
               ].map((item, index) => (
                 <div className="EngineAutoaccordion-item" key={index} onClick={() => toggleAccordion(index)}>
                   <div className="EngineAutoaccordion-title">
-                    <span  style={{ fontSize: '1rem', fontWeight: 'bold', color: '#0A0A0A' }}>
+                    <span  style={{ fontSize: '1rem', fontWeight: 'bold', color: 'white' }}>
                       {item.title}
                     </span>
                     {activeIndex === index ? <AiOutlineUp size={20} /> : <AiOutlineDown size={20} />}
