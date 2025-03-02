@@ -43,12 +43,16 @@
   .logo-img {
     width: 10rem;
   }
+  .car-Frame-slider {
+    height: 4rem;
+  }
 }
 
 @media (max-width: 480px) {
   .logo-img {
     width: 8rem;
     align-items: center;
+    padding-left: 5.2rem;
     justify-content: center;
   }
   .slick-track{

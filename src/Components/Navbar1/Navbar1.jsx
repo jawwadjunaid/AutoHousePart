@@ -18,7 +18,7 @@ const Navbar = () => {
   }, []);
 
   // Function to close menu when a link is clicked
-  const closeMenu = () => setIsOpen(false);
+  // const closeMenu = () => setIsOpen(false);
 
   // Toggle services dropdown only for mobile
   const toggleServices = (e) => {
@@ -27,7 +27,13 @@ const Navbar = () => {
       setServicesOpen(!servicesOpen);
     }
   };
-
+// Function to close menu and dropdown when a link is clicked
+const closeMenu = () => {
+  setTimeout(() => {
+    setIsOpen(false);
+    setServicesOpen(false);
+  }, 100);  // 100ms ka delay smooth transition ke liye
+};
   return (
     <nav className="navbar1">
       {/* Logo */}
