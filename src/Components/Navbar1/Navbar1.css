@@ -273,6 +273,7 @@
   .hamburgers {
     display: block !important;
   }
+ 
 
   .Navlogo {
     height: 2rem; /* 32px */
@@ -343,3 +344,6 @@
     top: 3.875rem;
   }
 }
+
+
+

@@ -16,7 +16,7 @@ const CarOilImportant = () => {
         {/* Right: Description */}
         <div className="oil-text">
           <p>
-          At Automobile of Switzerland, we understand the fine engineering that goes into every European vehicle. Every oil change service is handled with accuracy, using state-of-the-art equipment and premium-quality engine oil.
+          At Autohouse of Switzerland, we understand the fine engineering that goes into every European vehicle. Every oil change service is handled with accuracy, using state-of-the-art equipment and premium-quality engine oil.
           </p>
           <p>
           Our team follows strict manufacturer guidelines to ensure that your oil filter is replaced, your oil pan is checked, and your car oil change service is completed without cutting corners.

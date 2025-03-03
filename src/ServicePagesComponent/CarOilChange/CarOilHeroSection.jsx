@@ -15,7 +15,7 @@ const CarOilHeroSection = () => {
             <div className="CarOilservices-hero-content">
               <h1>Get Dependable Oil Change Service from Certified Trained Technicians in Houston, TX</h1>
               <p>
-              When your engine oil isn't doing its job, your car doesn't just lose performance—it ages faster than it should. At Automobile of Switzerland, we take care of your vehicle like it's our own. Our certified trained technicians provide precise car oil change services to keep your car running smoothly and strongly.
+              When your engine oil isn't doing its job, your car doesn't just lose performance—it ages faster than it should. At Autohouse of Switzerland, we take care of your vehicle like it's our own. Our certified trained technicians provide precise car oil change services to keep your car running smoothly and strongly.
               </p>
               <p>
               We specialize in full synthetic oil change and conventional oil service, ensuring that your car gets exactly what it needs. Schedule a visit today or stop by our shop at for trusted service.

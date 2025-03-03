@@ -13,7 +13,7 @@ const ServicesHeroSection = () => {
         <div className="services-hero-content">
           <h1>The Best Car Service and Maintenance for Vehicles in Houston, TX</h1>
           <p>
-          Automobile of Switzerland has been a trusted name for decades. We don’t just fix cars, we keep them running like they should. Whether it's car oil change, brakes, or steering & suspension, our expert team ensures your vehicle gets exactly what it needs.
+          Autohouse of Switzerland has been a trusted name for decades. We don’t just fix cars, we keep them running like they should. Whether it's car oil change, brakes, or steering & suspension, our expert team ensures your vehicle gets exactly what it needs.
             
           </p>
           <p>

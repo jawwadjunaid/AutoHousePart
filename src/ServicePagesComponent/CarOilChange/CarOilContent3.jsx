@@ -10,7 +10,7 @@ const CarOilContent3 = () => {
          
          <h1 style={{color:'white'}}>High-Quality Service, No Shortcuts</h1>
          <p>
-         Automobile of Switzerland has a commitment that goes beyond just pouring in fresh engine oil. We check every detail, ensuring that your oil pan, oil filter, and lubrication system work together for peak performance.
+         Autohouse of Switzerland has a commitment that goes beyond just pouring in fresh engine oil. We check every detail, ensuring that your oil pan, oil filter, and lubrication system work together for peak performance.
          </p>
          <p>No unnecessary upsells. No waiting for hours. Just straightforward, professional car oil change service from technicians who know your vehicle inside and out to ensure your engine and transmission function properly.</p>
          <p>Ready to give your car the care it deserves? Book your appointment today.</p>

@@ -18,9 +18,7 @@ const AutoHouseComponent = () => {
           <h2 style={{ fontSize: '2.81rem', color: '#0A0A0A' }}>
           Why Trust Autohouse of Switzerland?
           </h2>
-          <p className="subtitle" style={{ fontSize: '1.25rem', color: '#0A0A0A' }}>
-            For All Your Service and Maintenance Needs?
-          </p>
+         
           <p className="description" style={{ fontSize: '1rem', color: '#0A0A0A' }}>
           Our reputation is built on expertise, honesty, and a commitment to excellence. We understand the importance of dependable transportation, and our team works hard to provide the highest level of service. Whether it’s preventive maintenance or urgent repairs, we put your vehicle’s performance and safety first.
           </p>
