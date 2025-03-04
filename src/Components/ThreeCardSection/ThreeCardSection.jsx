@@ -22,7 +22,7 @@ const cardData = [
   },
   {
     title: "",
-    text: "The an Accidents happen, and when they do, you need a trusted auto collision shop to restore your car. We also provide reliable brakes repair and replacement services to keep you safe on the road.",
+    text: "Brakes are an important and essential part of the vehicle. Properly maintaining them ensures you get a safe and smooth ride while significantly reducing the chances of accidents.",
     buttonText: "Collision and Brake Repair Services",
     imageUrl: card3,
     link: "/brakes", // Route path for brakes
@@ -33,7 +33,7 @@ const ThreeCardSection = () => {
   return (
     <>
       <div className="cards-container3">
-        <h1 className="daffer" >Few Of Our Most Popular Services</h1>
+        <h1 className="daffer" >Our Most Popular Services</h1>
         {cardData.map((card, index) => (
           <div key={index} className="card3">
             <div

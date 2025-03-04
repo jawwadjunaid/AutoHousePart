@@ -48,7 +48,6 @@
 .dropdown-menu {
   display: none;
   margin-top: -0.5rem;
-  
   position: absolute;
   top: 1.2rem; /* 30px */
   left: 0;
@@ -162,7 +161,7 @@
   padding-right: 15px;
   padding-top: 18px;
   border-radius: 5px;
-  width: 580px;
+  width: 40rem;
   font-size: 1.3rem;
   column-count: 2;
   column-gap: 20px;
@@ -315,6 +314,14 @@
     text-align: center;
     margin-top: 0.625rem;
   }
+  .sty2{
+    margin-top: 0 ;
+    
+  }
+  .sty2 .appointment-btns{
+    margin-top: 0;
+    margin-right: 0;
+  }
 
   .navlogo-container {
     width: 30%;
@@ -345,10 +352,14 @@
   }
   .nav1-links{
     z-index: 11;
-
+    gap: 1.25rem;
     top: 3.875rem;
   }
 }
 
 
-
+@media screen and (min-width: 767px) and (max-width:850px) {
+.nav1-links {
+  gap: 2.125rem;
+}
+}

@@ -6,10 +6,10 @@ import Glorious from "../../assets/images/images/Glorious.png"
 import ActiveClients from "../../assets/images/images/ActiveClients.png"
 
 const stats = [
-  { img: ProjectDone, number: "2540+", text: "Projects Completed" },
-  { img: ProjectWin, number: "100+", text: "Vehicles Repaired" },
-  { img: Glorious, number: "10+", text: "Glorious Years" },
-  { img: ActiveClients, number: "825+", text: "Active Clients" }
+  { img: ProjectDone, number: "100,000+", text: " Vehicles Serviced" },
+  { img: ProjectWin, number: "4.9★", text: "Average Customer Rating" },
+  { img: Glorious, number: "25+", text: " Years of Experience" },
+  { img: ActiveClients, number: "3,000+", text: "Loyal Customers" }
 ];
 
 const RedBanner = () => {

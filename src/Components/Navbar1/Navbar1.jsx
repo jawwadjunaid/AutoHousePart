@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { PopupModal } from "react-calendly";
 import { FiPhone } from "react-icons/fi"; // Import phone icon
 import "./Navbar1.css";
-import NavLogo from '../../assets/Logo/Finallogo3.png';
+// import NavLogo from '../../assets/Logo/Finallogo3.png';
+import NavLogo from '../../assets/images/images/FinalBanner.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // Mobile menu state
@@ -65,7 +66,7 @@ const Navbar = () => {
           {(servicesOpen || !isMobile) && (
             <ul className="dropdown-menu">
               <li><Link to="/car-oil-change" onClick={closeMenu}>CAR OIL CHANGE</Link></li>
-              <li><Link to="/Services" onClick={closeMenu}>SERVICE AND MAINTENANCE</Link></li>
+              <li><Link to="/Services" onClick={closeMenu}>SERVICES AND MAINTENANCE</Link></li>
               <li><Link to="/brakes" onClick={closeMenu}>BRAKES</Link></li>
               <li><Link to="/steering-suspension" onClick={closeMenu}>STEERING & SUSPENSION</Link></li>
               <li><Link to="/coolant-system" onClick={closeMenu}>COOLANT SYSTEM</Link></li>
@@ -81,7 +82,7 @@ const Navbar = () => {
         <li><Link to="/contact" onClick={closeMenu}>Contact</Link></li>
 
         {/* Book Appointment Button */}
-        <li className="mobile-appointment">
+        <li className="mobile-appointment sty2">
           <button className="appointment-btns" onClick={() => { setCalendlyOpen(true); closeMenu(); }}>
             Book Appointment
           </button>
