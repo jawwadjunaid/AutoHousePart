@@ -24,6 +24,7 @@
   font-size: 0.99rem; /* Increase font size to 16px */
   transition: color 0.3s ease;
   width: 100%;
+  font-size: 1rem;
 }
 
 .navlogo-container {
@@ -84,6 +85,7 @@
   color: white;
   padding: 5px 10px;
   transition: color 0.3s ease-in-out;
+  
 }
 
 .nav1-links a::before,
