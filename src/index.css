@@ -38,7 +38,10 @@ body {
 
 /* 🎯 Specific Font-Family Assignments */
 /* "Anybody" font-family for Headings */
-h1, h2, h3, h4, h5, h6 {
+h1{
+  font-family: anybody;
+}
+h2, h3, h4, h5, h6 {
   font-family: sans-serif;
 }
 

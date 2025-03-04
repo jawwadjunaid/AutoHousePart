@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     name: "Emily Scott ",
-    role: "service",
+    role: "Services And Maintenance",
     image: "https://img.olympics.com/images/image/private/t_1-1_300/f_auto/primary/ytvdytldd0bincqyy0rp",
     text: "These guys certainly know what they're doing when it comes to car maintenance. Would highly recommend them!",
     rating: 5,

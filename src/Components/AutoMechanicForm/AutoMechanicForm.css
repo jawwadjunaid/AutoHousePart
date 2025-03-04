@@ -73,6 +73,7 @@ form textarea {
   border: none;
   border-radius: 5px;
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 /* Fixing the textarea overflow issue */
