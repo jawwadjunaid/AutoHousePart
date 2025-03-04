@@ -8,7 +8,7 @@ const ReviewComponent = () => {
     <div className="ReviewComponent-section">
       <h1>Reviews</h1>
       <div className="breadcrumb">
-        <Link to="/">Home</Link> &raquo; <Link to="/Reviews">Reviews</Link>
+       
       </div>
     </div>
     <div>

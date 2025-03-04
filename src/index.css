@@ -4,7 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+button {
+  font-weight: bold;
+}
 /* Font Sizing and Root Element */
 html,
 body {

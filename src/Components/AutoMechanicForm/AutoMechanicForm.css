@@ -3,10 +3,13 @@
   align-items: center;
   justify-content: center;
   gap: 3.125rem;
+  
 }
+.container autoMechanicForm
+
+
 .autoMechanicForm{
   padding: 4.5rem 5% !important;
-
 }
 .left-content {
   flex: 1;
@@ -93,6 +96,7 @@ form button {
   font-weight: bold;
   cursor: pointer;
   border-radius: 0.313rem;
+  font-weight: 800;
 }
 
 /* Centered Logo */

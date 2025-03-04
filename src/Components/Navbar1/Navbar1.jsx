@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { PopupModal } from "react-calendly";
+import { FiPhone } from "react-icons/fi"; // Import phone icon
 import "./Navbar1.css";
 import NavLogo from '../../assets/Logo/Finallogo3.png';
 
@@ -18,26 +19,25 @@ const Navbar = () => {
   }, []);
 
   // Function to close menu when a link is clicked
-  // const closeMenu = () => setIsOpen(false);
-
-  // Toggle services dropdown only for mobile
-  const toggleServices = (e) => {
-    if (isMobile) {
-      e.preventDefault(); // Prevent Link default behavior
-      setServicesOpen(!servicesOpen);
-    }
+  const closeMenu = () => {
+    setTimeout(() => {
+      setIsOpen(false);
+      setServicesOpen(false);
+    }, 100);  // 100ms ka delay smooth transition ke liye
   };
-// Function to close menu and dropdown when a link is clicked
-const closeMenu = () => {
-  setTimeout(() => {
-    setIsOpen(false);
-    setServicesOpen(false);
-  }, 100);  // 100ms ka delay smooth transition ke liye
-};
+
   return (
     <nav className="navbar1">
-      {/* Logo */}
-      <div className="navlogo-container">
+
+      {/* Phone Icon for Mobile View */}
+      {isMobile && (
+        <div className="phone-icon" style={{color:"white"}} onClick={() => window.location.href = "tel:+7135232363"}>
+          <FiPhone size={24} />
+        </div>
+      )}
+
+      {/* Logo Centered */}
+      <div className="navlogo-container center-logo">
         <Link to="/" onClick={closeMenu}>
           <img src={NavLogo} alt="Logo" className="Navlogosa" />
         </Link>
@@ -47,6 +47,8 @@ const closeMenu = () => {
       <div className="hamburgers" onClick={() => setIsOpen(!isOpen)}>
         ☰
       </div>
+
+      
 
       {/* Navigation Links */}
       <div className={`nav1-links ${isOpen ? "open" : ""}`}>
@@ -59,7 +61,7 @@ const closeMenu = () => {
           onMouseEnter={() => !isMobile && setServicesOpen(true)}
           onMouseLeave={() => !isMobile && setServicesOpen(false)}
         >
-          <Link  onClick={toggleServices}>Services</Link>
+          <Link onClick={(e) => isMobile && e.preventDefault() || setServicesOpen(!servicesOpen)}>Services</Link>
           {(servicesOpen || !isMobile) && (
             <ul className="dropdown-menu">
               <li><Link to="/car-oil-change" onClick={closeMenu}>CAR OIL CHANGE</Link></li>
