@@ -24,18 +24,18 @@ const ElectricalBoxWithHeading = () => {
      ];
  
      return (
-         <div className="AcBox-container">
-             <div className="AcBox-title">
+         <div className="ElectricalBoxWithHeading-container">
+             <div className="ElectricalBoxWithHeading-title">
  
-             <h2 className='AcBox-header Ac-box-title'>Get Professional Help for All Electrical Issues</h2>
-             <p className='AcBox-header AcBox-description'>
+             <h2 className='ElectricalBoxWithHeading-header ElectricalBoxWithHeading-title'>Get Professional Help for All Electrical Issues</h2>
+             <p className='ElectricalBoxWithHeading-header ElectricalBoxWithHeading-description'>
              We handle a wide range of Autohouse electrical problems, from minor glitches to complete system failures. Our services include:
              </p>
              </div>
-             <div className="AcBox-grid">
+             <div className="ElectricalBoxWithHeading-grid">
                  {services.map((service, index) => (
-                     <div className="AcBox-card" key={index} style={{ backgroundImage: `url(${service.imageUrl})` }}>
-                         <div className="AcBox-content">
+                     <div className="ElectricalBoxWithHeading-card" key={index} style={{ backgroundImage: `url(${service.imageUrl})` }}>
+                         <div className="ElectricalBoxWithHeading-content">
                              <h3>{service.title}</h3>
                              <p>{service.description}</p>
                          </div>

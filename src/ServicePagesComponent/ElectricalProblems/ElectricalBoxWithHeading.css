@@ -1,8 +1,8 @@
 /* Services.css */
 .ElectricalBoxWithHeading-container {
     background-color: #111111;
-    padding: 40px 20px;
-    margin-bottom: 10px;
+    padding: 2.5rem 1.25rem;
+    margin-bottom: .625rem;
   }
   .ElectricalBoxWithHeading-title{
     display: flex;
@@ -10,6 +10,7 @@
     padding: 2rem 5rem;
     width: 85%;
     margin: 0 auto;
+    color: #FFFFFF;
   }
   .ElectricalBoxWithHeading-header {
     display: flex;
@@ -20,8 +21,9 @@
     text-align: left;
     width: 100%;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust spacing */
+    gap: 1.25rem; /* Adjust spacing */
   }
+ 
   
   .ElectricalBoxWithHeading-header h2 {
     font-size: 2rem;
@@ -36,32 +38,32 @@
     color: #cccccc;
     text-align: right;
     flex: 1;
-    max-width: 600px;
-    min-width: 300px;
+    max-width: 37.5rem;
+    min-width: 18.75rem;
   }
   
   .ElectricalBoxWithHeading-description{
-    color: #ffffffe8;
+    color: #FFFFFF;
   }
   .ElectricalBoxWithHeading-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 1.25rem;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     position: relative;
     background-color: transparent;
   }
   
   .ElectricalBoxWithHeading-card {
     background: #111; /* Fallback color */
-    border-radius: 8px;
+    border-radius: .5rem;
     width: 100%;
-    max-width: 350px;
-    height: 350px; /* Adjust height as per your design */
+    max-width: 21.875rem;
+    height: 21.875rem;/* Adjust height as per your design */
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1.25rem .625rem rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
     background-image: url(''); /* Will be replaced by JS */
     background-position: center;
@@ -74,19 +76,27 @@
   
   .ElectricalBoxWithHeading-card .ElectricalBoxWithHeading-content {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
     color: #fff;
     z-index: 2;
   }
   
   .ElectricalBoxWithHeading-card .ElectricalBoxWithHeading-content h3 {
-    font-size: 1.2rem;
-    background-color: #C00104;
-    color: #fff;
-    margin-bottom: 10px;
+    background: #C00104;
+    color: white;
+    padding: 0.625rem 1.2225rem;
+    border: none;
     text-align: center;
+    font-size: 0.938rem;
+    font-family:  sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3sease-in-out;
+    margin-bottom: 0.938rem;
+    position: relative;
   }
   .Ac-box-title{
     color: #ffffff;
@@ -95,6 +105,9 @@
     font-size: 0.9rem;
     color: #000000;
     background-color: #cccccc69;
+    background-color: #ccccccdc;
+    border-radius: .25rem;
+  padding: .75rem .5rem;
   }
   
   /* Responsive Design */
@@ -107,6 +120,7 @@
   @media (max-width: 768px) {
     .ElectricalBoxWithHeading-title{
       padding: 0;
+      width: 66%;
     }
     .ElectricalBoxWithHeading-header {
       flex-direction: column;
@@ -126,7 +140,7 @@
     }
   
     .ElectricalBoxWithHeading-card {
-      max-width: 90%;
+      max-width: 50%;
     }
   }
   
