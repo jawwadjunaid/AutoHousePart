@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import ReCAPTCHA from "react-google-recaptcha"; // Import reCAPTCHA
 import "./AutoMechanicForm.css";
+import { FiClock } from "react-icons/fi"; // Import Clock Icon
 
 const AutoMechanicForm = () => {
   const location = useLocation();
@@ -61,7 +62,48 @@ const AutoMechanicForm = () => {
         <p className="descriptionS">
           We're available to assist you and respond to your inquiries. Please complete the form, and we'll get back to you as soon as possible.
         </p>
+
+       {/* Open Hours Section */}
+<div className="open-hours">
+  <h3>
+    <FiClock className="clock-icon" /> Open Hours
+  </h3>
+  <div className="hours-list">
+    
+    <div className="day-time" >
+    <div className="day-time">
+      <span>Monday</span>
+      <span>7:30 AM – 6 PM</span>
+    </div>
+      <span >Tuesday</span>
+      <span >7:30 AM – 6 PM</span>
+    </div>
+    <div className="day-time">
+      <span>Wednesday</span>
+      <span>7:30 AM – 6 PM</span>
+    </div>
+    <div className="day-time">
+      <span>Thursday</span>
+      <span>7:30 AM – 6 PM</span>
+    </div>
+    <div className="day-time">
+      <span>Friday</span>
+      <span>7:30 AM – 6 PM</span>
+    </div>
+    <div className="day-time">
+      <span>Saturday</span>
+      <span>8:30 AM – 4 PM</span>
+    </div>
+    <div className="day-time">
+      <span>Sunday</span>
+      <span>Closed</span>
+    </div>
+    
+  </div>
+</div>
+
       </div>
+      
       <div className="right-form">
         <h3>Contact Us</h3>
         <form onSubmit={handleSubmit}>
@@ -70,12 +112,11 @@ const AutoMechanicForm = () => {
           <input type="tel" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
           <textarea name="message" placeholder="Message" rows="3" value={formData.message} onChange={handleChange} required></textarea>
 
-        <div>
-          {/* reCAPTCHA Widget */}
-          <ReCAPTCHA sitekey="YOUR_RECAPTCHA_SITE_KEY" onChange={setRecaptchaToken} />
-        </div>
-        
-
+          <div>
+            {/* reCAPTCHA Widget */}
+            <ReCAPTCHA sitekey="YOUR_RECAPTCHA_SITE_KEY" onChange={setRecaptchaToken} />
+          </div>
+          
           <button type="submit">Contact Us</button>
         </form>
         {message && <p className="response-message">{message}</p>}
@@ -85,5 +126,3 @@ const AutoMechanicForm = () => {
 };
 
 export default AutoMechanicForm;
-
-

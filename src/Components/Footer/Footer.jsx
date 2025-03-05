@@ -81,7 +81,8 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="footer-bottom">
-        <p>© 2025 All Rights Reserved One Way Marketing</p>
+      <p>© 2025 All Rights Reserved <a href="https://onewavemarketing.com/">One Way Marketing</a></p>
+
         <div className="footer-links">
           <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
         </div>

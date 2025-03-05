@@ -164,8 +164,35 @@
   /* flex-direction: column; */
 }
 .footer-col-contact p svg{
-  fill: red;
+  fill: #C00104;
 }
+.footer-bottom p a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-bottom p a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  right: 0;
+  bottom: -3px;
+  transition: width 0.3s ease-in-out;
+}
+
+.footer-bottom p a:hover {
+  color: #C00104; /* 🔴 Text red ho jayega hover par */
+}
+
+.footer-bottom p a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
