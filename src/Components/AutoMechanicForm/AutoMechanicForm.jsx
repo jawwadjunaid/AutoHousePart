@@ -58,7 +58,7 @@ const AutoMechanicForm = () => {
     <section className="container autoMechanicForm">
       <div className="left-content">
         <p className="help-text">&nbsp; NEED HELP &nbsp; ───</p>
-        <h2>Have a Question? Get in Touch with Our Team!</h2>
+        <h2 className="contact-Heading">Have a Question? Get in Touch with Our Team!</h2>
         <p className="descriptionS">
           We're available to assist you and respond to your inquiries. Please complete the form, and we'll get back to you as soon as possible.
         </p>
@@ -70,11 +70,12 @@ const AutoMechanicForm = () => {
   </h3>
   <div className="hours-list">
     
-    <div className="day-time" >
+  
     <div className="day-time">
       <span>Monday</span>
       <span>7:30 AM – 6 PM</span>
     </div>
+    <div className="day-time" >
       <span >Tuesday</span>
       <span >7:30 AM – 6 PM</span>
     </div>

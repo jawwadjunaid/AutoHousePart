@@ -15,14 +15,14 @@ const cardData = [
   },
   {
     title: "",
-    text: "From auto air conditioning repair to brake services, we cover all your car’s needs. Our skilled technicians specialize in air conditioning repair car, auto air conditioning repair much more to keep you comfortable year-round.",
+    text: "From auto air conditioning repair to brake services, we cover all your car’s needs. Our skilled technicians specialize in air conditioning repair, auto air conditioning, and much more to keep you comfortable year-round.",
     buttonText: "Comprehensive Auto Repair and Maintenance",
     imageUrl: card2,
     link: "/services", // Route path for services
   },
   {
     title: "",
-    text: "Brakes are an important and essential part of the vehicle. Properly maintaining them ensures you get a safe and smooth ride while significantly reducing the chances of accidents.",
+    text: "Brakes are an important and essential safety component of the vehicle. Properly maintaining them ensures you get a safe and smooth ride while significantly reducing the chances of accidents.",
     buttonText: "Collision and Brake Repair Services",
     imageUrl: card3,
     link: "/brakes", // Route path for brakes

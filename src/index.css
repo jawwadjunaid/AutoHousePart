@@ -39,10 +39,13 @@ body {
 /* 🎯 Specific Font-Family Assignments */
 /* "Anybody" font-family for Headings */
 h1{
-  font-family: anybody;
+  font-family: Anybody;
+  font-size: 2.813rem;
+
 }
 h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: Anybody;
+  
 }
 
 /* "Poppins" font-family for Paragraphs */
