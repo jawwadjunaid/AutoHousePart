@@ -1,13 +1,13 @@
 .red-banner {
   background-color: #C00104;
-  padding: 40px 5%;
+  padding: 2.5rem 5%;
   display: flex;
   justify-content: center;
-  margin: -65px auto;
+  margin: -4.063rem auto;
   width: 80%;
   position: relative;
   z-index: 2;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.313rem 0.938rem rgba(0, 0, 0, 0.2);
   
 }
 
@@ -16,13 +16,13 @@
   justify-content: space-between;
   flex-wrap: nowrap;
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem;
 }
 
 .stat-item {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
   position: relative;
 }
 
@@ -30,12 +30,12 @@
   display: flex;
   align-items: center;
   text-align: left;
-  gap: 15px;
+  gap: 0.938rem;
 }
 
 .stat-image {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   object-fit: contain;
 }
 
@@ -63,37 +63,40 @@
 /* Vertical Line Between Items */
 .stat-divider {
   width: 2px;
-  height: 60px;
+  height: 3.75rem;
   background-color: white;
-  margin: 0 20px;
+  margin: 0 1.25rem;
 }
 
 /* Responsive Design */
 @media (max-width: 1024px) {
   .red-banner {
     width: 90%;
-    padding: 30px 5%;
-    margin: -30px auto;
+    padding: 1.875rem 5%;
+    margin: -1.875rem auto;
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width:900px) {
   .red-banner {
     width: 95%;
-    padding: 30px 5%;
+    padding: 1.875rem 5%;
     margin: -1px auto;
   }
 
   .stats-container {
     flex-wrap: wrap; /* Allow items to wrap */
     justify-content: center; /* Center align items */
-    gap: 20px; /* Add spacing between items */
+    gap: 1.25rem; /* Add spacing between items */
   }
 
   .stat-item {
     flex: 1 1 45%; /* Allow two items per row */
-    min-width: 180px;
+    min-width: 11.25rem;
     justify-content: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 0 9rem;
   }
 
   .stat-divider {
