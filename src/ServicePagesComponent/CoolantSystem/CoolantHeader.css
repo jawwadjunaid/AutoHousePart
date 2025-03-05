@@ -8,6 +8,7 @@
     justify-content: center;
     text-align: center;
     color: white;
+    padding-top: 6rem;
 }
 
 /* Dark Overlay */
@@ -26,4 +27,13 @@
 .CoolantHeader-section * {
     position: relative;
     z-index: 2;
+}
+
+@media (max-width: 768px) {
+    .CoolantHeader-section {
+       padding-top: 3rem;
+    }
+    .CoolantHeader-section h1{
+        font-size: 1.5rem;
+    }
 }

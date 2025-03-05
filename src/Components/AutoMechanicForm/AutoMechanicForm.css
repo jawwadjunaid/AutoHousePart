@@ -5,15 +5,26 @@
   gap: 3.125rem;
   
 }
-.container autoMechanicForm
-
+.right-form div { 
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.3rem; /* reCAPTCHA aur button ke beech gap */
+}
+.recaptcha-container {
+  transform: scale(0.85); /* reCAPTCHA size chhota karna */
+  transform-origin: center; /* Center se scale hoga */
+  margin-bottom: 10px; /* Thoda gap maintain karna */
+}
 
 .autoMechanicForm{
-  padding: 4.5rem 5% !important;
+  padding-top: 10rem !important
 }
 .left-content {
   flex: 1;
   max-width: 36.125rem;
+}
+.contact-Heading{
+  font-size: 2.3rem !important;
 }
 .help-text {
   color: #C00104;
@@ -170,6 +181,9 @@ form button {
       flex-direction: column;
       text-align: center;
   }
+  .autoMechanicForm{
+    padding-top: 6rem !important;
+  }
 
   .right-form {
       width: 100%;
@@ -185,3 +199,4 @@ form button {
     font-size: 1.5rem !important;
   }
 }
+

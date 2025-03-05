@@ -9,6 +9,7 @@
     justify-content: center;
     text-align: center;
     color: white;
+    padding-top: 6rem;
 }
 
 /* Dark Overlay */
@@ -28,3 +29,14 @@
     position: relative;
     z-index: 2;
 }
+
+@media screen and (max-width: 768px){
+    .EngineHeader-section h1{
+        font-size: 1.5rem;
+    }
+    .EngineHeader-section{
+        padding-top: 3rem;
+    }
+}
+    
+

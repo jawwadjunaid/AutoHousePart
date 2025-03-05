@@ -113,7 +113,7 @@ const AutoMechanicForm = () => {
           <input type="tel" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
           <textarea name="message" placeholder="Message" rows="3" value={formData.message} onChange={handleChange} required></textarea>
 
-          <div>
+          <div className="Recaptcha">
             {/* reCAPTCHA Widget */}
             <ReCAPTCHA sitekey="YOUR_RECAPTCHA_SITE_KEY" onChange={setRecaptchaToken} />
           </div>

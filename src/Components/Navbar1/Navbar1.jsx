@@ -4,7 +4,7 @@ import { PopupModal } from "react-calendly";
 import { FiPhone } from "react-icons/fi"; // Import phone icon
 import "./Navbar1.css";
 // import NavLogo from '../../assets/Logo/Finallogo3.png';
-import NavLogo from '../../assets/images/images/FinalBanner.svg';
+import NavLogo from '../../assets/images/images/FinalBannerRed.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false); // Mobile menu state
