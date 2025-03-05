@@ -24,7 +24,7 @@
   }
   
   .SterringBoxBa-header h2 {
-    font-size: 2rem;
+    
     color: #ffffff;
     text-align: left;
     flex: 1;
@@ -88,7 +88,7 @@
     text-align: center;
     border: none;
     font-size: 0.938rem;
-    font-family: " sans-serif;
+    font-family:  sans-serif;
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;

@@ -12,6 +12,9 @@
   margin: 0 auto;
   gap: 3rem;
 }
+.services-header h2 {
+  font-size: 2.813rem;
+}
 .services-header {
   display: flex;
   justify-content: space-between;

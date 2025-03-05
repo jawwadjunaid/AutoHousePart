@@ -11,6 +11,7 @@
     width: 85%;
     margin: 0 auto;
     color: #FFFFFF;
+    
   }
   .ElectricalBoxWithHeading-header {
     display: flex;
@@ -21,12 +22,13 @@
     text-align: left;
     width: 100%;
     flex-wrap: wrap;
+    
     gap: 1.25rem; /* Adjust spacing */
   }
  
   
   .ElectricalBoxWithHeading-header h2 {
-    font-size: 2rem;
+    font-size: 1rem !important;
     color: #ffffff;
     text-align: left;
     flex: 1;

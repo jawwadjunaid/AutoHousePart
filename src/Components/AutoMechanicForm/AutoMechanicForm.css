@@ -243,6 +243,7 @@ form button {
 }
 .open-hours h3{
   color: black;
+  padding-right: 2.5rem;
 }
 
 /* Centered Logo */
@@ -278,8 +279,8 @@ form button {
   .logo-container {
     margin-bottom: 0;
   }
-  h2{
+  /* h2{
     font-size: 1.5rem !important;
-  }
+  } */
 }
 

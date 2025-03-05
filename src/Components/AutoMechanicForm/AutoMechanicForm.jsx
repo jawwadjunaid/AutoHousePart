@@ -66,7 +66,7 @@ const AutoMechanicForm = () => {
        {/* Open Hours Section */}
 <div className="open-hours">
   <h3>
-    <FiClock className="clock-icon" /> Open Hours
+    <FiClock className="clock-icon" /> Business Hours
   </h3>
   <div className="hours-list">
     
