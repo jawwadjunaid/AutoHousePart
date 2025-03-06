@@ -344,12 +344,22 @@
   .nav1-links{
     top: 5rem;
   }
+  .services-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-left: 0;
+    height: auto;
+    width: unset;
+    
+  }
+  
   
 }
 @media screen  and (max-width:600px) {
   .navbar1{
     z-index: 11;
+  
   }
+  
   .navlogo-container {
     width: 60%;
     align-items: center;
@@ -358,6 +368,13 @@
     z-index: 11;
     gap: 1.25rem;
     top: 3.875rem;
+  }
+  .services-dropdown:hover .dropdown-menu {
+    display: block;
+    margin-left: 0;
+    height: unset;
+    width: unset;
+    
   }
 }
 

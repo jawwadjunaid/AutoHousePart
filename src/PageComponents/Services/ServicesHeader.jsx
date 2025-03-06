@@ -3,7 +3,7 @@ import './ServicesHeader.css';
 const ServicesHeader = () => {
   return (
     <div className="Services-section">
-      <h1>Services And Maintenance</h1>
+      <h1>Services and Maintenance</h1>
       
     </div>
   );

@@ -310,9 +310,13 @@ position: relative;
 }
 @media screen and (max-width:480px) {
   .tips-carousel{
-    height: 70vh;
+    height: auto;
+    margin-bottom: 2rem;
   }
   .slick-track{
     padding-left: 0;
+  }
+  .tip-card{
+    min-height: 12rem;
   }
 }

@@ -47,6 +47,14 @@ h2, h3, h4, h5, h6 {
   font-family: Anybody;
   font-size: 2.513rem;
 }
+@media screen and (max-width:767px){
+  h2, h3, h4, h5, h6 {
+    font-size:1.8rem !important;
+  }
+  h1{
+    font-size:1.8rem !important;  
+  }
+}
 
 /* "Poppins" font-family for Paragraphs */
 p ,

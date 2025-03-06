@@ -3,7 +3,7 @@ import './EngineHeader.css';
 const EngineHeader = () => {
   return (
     <div className="EngineHeader-section">
-    <h1>Engine And Transmission</h1>
+    <h1>Engine and Transmission</h1>
     
   </div>
   )
