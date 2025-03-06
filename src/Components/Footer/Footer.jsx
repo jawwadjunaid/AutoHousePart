@@ -81,8 +81,11 @@ const Footer = () => {
 
       {/* Bottom Section */}
       <div className="footer-bottom">
-      <p>Copyright © 2025 Onewave Marketing | Powered by<b/>
-      <a href="https://onewavemarketing.com/"> Onewave Marketing</a></p>
+      <p className="copyrightFotter">
+  Copyright © 2025 Autohouse <br /> <br />
+  Powered by &nbsp;&nbsp;&nbsp; 
+  <a href="https://onewavemarketing.com/">Onewave Marketing</a>
+</p>
 
         <div className="footer-links">
           <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
