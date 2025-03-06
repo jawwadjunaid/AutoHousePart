@@ -32,7 +32,7 @@ const Navbar = () => {
 
       {/* Phone Icon for Mobile View */}
       {isMobile && (
-        <div className="phone-icon" style={{color:"white"}} onClick={() => window.location.href = "tel:+7135232363"}>
+        <div className="phone-icon" style={{color:"white"}} onClick={() => window.location.href = "tel:+1 (713) 523-2363"}>
           <FiPhone size={24} />
         </div>
       )}
