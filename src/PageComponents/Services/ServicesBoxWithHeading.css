@@ -121,10 +121,14 @@
 }
 @media (max-width: 48rem) {
     .service-title{
-    padding: 0;
-    width: 66%;
+      padding: 0;
+      width: 66%;
+      
+    }
+    /* .service-heading{
+    font-size: 1.5rem !important;
 
-  }
+  } */
   .services-header {
     flex-direction: column;
     text-align: center;

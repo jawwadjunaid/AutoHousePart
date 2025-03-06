@@ -3,7 +3,7 @@ import './AcHeader.css';
 const AcHeader = () => {
   return (
     <div className="AcHeader-section">
-    <h1>AC And Heater</h1>
+    <h1>AC and Heater</h1>
     
   </div>
   )

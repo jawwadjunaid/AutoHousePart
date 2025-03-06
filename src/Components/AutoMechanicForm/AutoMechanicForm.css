@@ -116,8 +116,8 @@
   font-size: 0.875rem;
 }
 
-h2 {
-  font-size: 3rem !important;
+.contact-Heading {
+  font-size: 3rem ;
   font-weight: bold;
   margin: .625rem 0;
 }

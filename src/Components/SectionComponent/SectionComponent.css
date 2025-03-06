@@ -102,10 +102,7 @@
 /* Mobile Responsiveness */
 @media (max-width: 767px) {
   .section-container {
-    height: auto;
-
-
-    
+    height: auto; 
   }
 
   .image-section {
@@ -163,5 +160,8 @@
   }
   .content-section{
     width: 100%;
+  }
+  .text-section h1 {
+    font-size: 1.8rem;
   }
 }

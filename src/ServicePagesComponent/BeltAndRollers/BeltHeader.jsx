@@ -3,7 +3,7 @@ import './BeltHeader.css';
 const BeltHeader = () => {
   return (
     <div className="BeltHeader-section">
-      <h1>Belt And Rollers</h1>
+      <h1>Belt and Rollers</h1>
       
     </div>
   )

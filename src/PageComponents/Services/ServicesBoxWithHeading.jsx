@@ -27,7 +27,7 @@ const ServicesBoxWithHeading = () => {
         <div className="services-container">
             <div className="service-title">
 
-            <h2 className='services-header'>Comprehensive Auto Services for Vehicles in Houston, Texas</h2>
+            <h2 className='services-header service-heading'>Comprehensive Auto Services for Vehicles in Houston, Texas</h2>
             <p className='services-header service-description'>
             We take pride in offering an extensive range of services designed to keep your vehicle in peak condition. Our team is equipped with the knowledge and tools to get the job done right. We ensure your vehicle performs at its best, mile after mile.
             </p>
