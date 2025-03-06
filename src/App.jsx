@@ -11,6 +11,7 @@ import SectionComponent from "./Components/SectionComponent/SectionComponent";
 import ServicesSection from "./Components/ServiceSection/ServicesSection";
 import Subscribe from "./Components/Subscribe/Subscribe";
 
+
 import ThreeCardSection from "./Components/ThreeCardSection/ThreeCardSection";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Services from "./Pages/Services/Services";
@@ -29,49 +30,45 @@ import ReviewComponent from "./ReviewComponent/ReviewComponent";
 import ScrollToTop from "./Components/ScrolltoTop/ScrolltoTop";
 import MapComponent from "./Components/MapComponent/MapComponent";
 
-
-
-
 function App() {
-  
   return (
-    <Router>
-       <ScrollToTop/>
-      <Navbar1 />
-      <Routes>
-        <Route path="/" element={
-          <>
-            <HeroComponent />
-            <SectionComponent />
-            <RedBanner />
-            <ServicesSection />
-            <ThreeCardSection />
-            <TipsCarousel />
-            <Subscribe />
-            <Testimonials/>
-            <AutoMechanicForm />
-            <MapComponent/>
-            <CarLogos />
-          </>
-        } />
-        <Route path="/aboutus" element={<AboutUs />} />
-        
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/Services" element={<Services/>}/>
-        <Route path="/car-oil-change" element={<CarOilChange />} />
-        <Route path="/brakes" element={<Brakes />} />
-        <Route path="/steering-suspension" element={<SteeringAndSuspension />} />
-        <Route path="/coolant-system" element={<CoolantSystem />} />
-        <Route path="/engine-transmission" element={<EngineTransmission />} />
-        <Route path="/computer-diagnostics" element={<ComputerDaignostic />} />
-        <Route path="/ac-heater" element={<AcAndHeater />} />
-        <Route path="/electrical-problems" element={<ElectricalProblems />} />
-        <Route path="/belt-rollers" element={<BeltRollers />} />
-        <Route path="/Reviews" element={<ReviewComponent/>}/>
-
-      </Routes>
-      <Footer />
-    </Router>
+    
+      <Router>
+        <ScrollToTop/>
+        <Navbar1 />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <HeroComponent />
+              <SectionComponent />
+              <RedBanner />
+              <ServicesSection />
+              <ThreeCardSection />
+              <TipsCarousel />
+              <Subscribe />
+              <Testimonials/>
+              <AutoMechanicForm />
+              <MapComponent/>
+              <CarLogos />
+            </>
+          } />
+          <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/Services" element={<Services/>}/>
+          <Route path="/car-oil-change" element={<CarOilChange />} />
+          <Route path="/brakes" element={<Brakes />} />
+          <Route path="/steering-suspension" element={<SteeringAndSuspension />} />
+          <Route path="/coolant-system" element={<CoolantSystem />} />
+          <Route path="/engine-transmission" element={<EngineTransmission />} />
+          <Route path="/computer-diagnostics" element={<ComputerDaignostic />} />
+          <Route path="/ac-heater" element={<AcAndHeater />} />
+          <Route path="/electrical-problems" element={<ElectricalProblems />} />
+          <Route path="/belt-rollers" element={<BeltRollers />} />
+          <Route path="/Reviews" element={<ReviewComponent/>}/>
+        </Routes>
+        <Footer />
+      </Router>
+  
   );
 }
 

@@ -47,7 +47,7 @@
 
 .dropdown-menu {
   display: none;
-  margin-top: -0.32rem;
+  margin-top: -0.62rem;
   position: absolute;
   top: 1.2rem; /* 30px */
   left: 0;
@@ -60,7 +60,7 @@
 
 .services-dropdown:hover .dropdown-menu {
   display: block;
-  margin-left: 4rem;
+  margin-left: 5rem;
   height: auto;
   width: 45.2rem;
   
@@ -221,6 +221,12 @@
 
   .Navlogo {
     height: 2.5rem; /* 40px */
+  }
+}
+@media screen and (max-width: 600px) {
+  .dropdown-menu {
+    max-height: 60vh; /* Adjust height as needed */
+    overflow-y: auto;
   }
 }
 
