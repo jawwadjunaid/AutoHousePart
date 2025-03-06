@@ -83,7 +83,7 @@ const Footer = () => {
       <div className="footer-bottom">
       <p className="copyrightFotter">
   Copyright © 2025 Autohouse Switzerland<br /> <br />
-  Powered by &nbsp;&nbsp;&nbsp; 
+  Powered by &nbsp;
   <a href="https://onewavemarketing.com/">Onewave Marketing</a>
 </p>
 
