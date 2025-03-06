@@ -7,7 +7,7 @@
   padding: 1rem;
   border-radius: 0.625rem;
   color: white;
-  z-index: 12; /* Layer above other components */
+   /* Layer above other components */
   margin-top: -9.375rem; /* Overlap upper component */
   width: 55%; /* Adjusted width */
   margin-left: auto;
