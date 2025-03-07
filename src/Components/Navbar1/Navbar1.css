@@ -223,12 +223,6 @@
     height: 2.5rem; /* 40px */
   }
 }
-@media screen and (max-width: 600px) {
-  .dropdown-menu {
-    max-height: 60vh; /* Adjust height as needed */
-    overflow-y: auto;
-  }
-}
 
 /* Center Navigation Links */
 .nav1-links {
@@ -362,7 +356,7 @@
 }
 @media screen  and (max-width:600px) {
   .navbar1{
-    z-index: 11;
+    z-index: 1;
   
   }
   
