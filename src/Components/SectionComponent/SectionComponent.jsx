@@ -3,7 +3,7 @@ import "./SectionComponent.css"; // Import CSS file
 import { Link } from "react-router-dom";
 import bestChoice from "../../assets/images/images/bestChoice.png"; // Badge as image
 
-const SectionComponent = () => {
+const SectionComponent = ({hideReadMore}) => {
   return (
     <div className="section-container">
       <div className="image-section custom-image-section">
@@ -27,15 +27,15 @@ const SectionComponent = () => {
         </p>
 
         {/* Buttons */}
-       
-
-<div className="button-container">
+  {!hideReadMore &&(
+    <div className="button-container">
   <Link to="/aboutus">
-    <button className="read-more-btn">Read More</button>
+  <button className="read-more-btn">Read More</button>
   </Link>
-</div>
-
-      </div>
+       </div>
+                  )}
+  
+         </div>
       </div>
     </div>
   );

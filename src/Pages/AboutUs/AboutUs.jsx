@@ -14,7 +14,7 @@ const AboutUs = () => {
   return (
     <>
     <AboutUsHeader/>
-    <SectionComponent/>
+    <SectionComponent hideReadMore={true} />
     <AboutUsHeroSection/>
     <AboutusContent3/>   
     <Testimonials/>
