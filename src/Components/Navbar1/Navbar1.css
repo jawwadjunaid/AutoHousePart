@@ -383,8 +383,8 @@
   .nav1-links li {
     margin: 0;
     padding: 0;
-    width: 90%;
-    margin-right: 20px;
+    width: 88%;
+    padding-right: 15px;
     margin-top: 1px;
     
   }
@@ -399,7 +399,7 @@
     text-align: center;
     margin-left: 0.5rem;
     align-items: center;
-    padding-left: 0.3rem;
+    
   }
   .nav1-links.open {
     min-height: 40vh; /* Pura screen cover kare */
