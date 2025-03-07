@@ -7,32 +7,28 @@
   .ElectricalBoxWithHeading-title{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 5rem;
+    padding: 2rem 3rem;
     width: 85%;
     margin: 0 auto;
-    color: #FFFFFF;
-    
+    color: white;
+    margin-bottom: 1rem;    
   }
   .ElectricalBoxWithHeading-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* max-width: 430px;
-    margin: 0 auto; */
-    text-align: left;
     width: 100%;
     flex-wrap: wrap;
-    
-    gap: 1.25rem; /* Adjust spacing */
+    gap: 1.25rem; /* 20px */
   }
  
   
   .ElectricalBoxWithHeading-header h2 {
-    font-size: 1rem !important;
+    font-size: 2rem;
     color: #ffffff;
     text-align: left;
     flex: 1;
-    min-width: 300px;
+    min-width: 18.75rem; /* 300px */
   }
   
   .ElectricalBoxWithHeading-header p {
@@ -73,7 +69,7 @@
   }
   
   .ElectricalBoxWithHeading-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-0.3125rem);
   }
   
   .ElectricalBoxWithHeading-card .ElectricalBoxWithHeading-content {
@@ -91,7 +87,7 @@
     padding: 0.625rem 1.2225rem;
     border: none;
     text-align: center;
-    font-size: 0.938rem;
+    font-size: 0.938rem !important;
     font-family:  sans-serif;
     font-weight: bold;
     border-radius: 5px;
@@ -100,13 +96,12 @@
     margin-bottom: 0.938rem;
     position: relative;
   }
-  .Ac-box-title{
+  .ElectricalBoxWithHeading-title{
     color: #ffffff;
   }
   .ElectricalBoxWithHeading-card .ElectricalBoxWithHeading-content p {
     font-size: 0.9rem;
     color: #000000;
-    background-color: #cccccc69;
     background-color: #ccccccdc;
     border-radius: .25rem;
   padding: .75rem .5rem;
@@ -164,4 +159,12 @@
       font-size: 0.85rem;
     }
   }
-  
+  @media screen and (max-width:600px) {
+    .ElectricalBoxWithHeading-card {
+      max-width: 100%;
+    }
+    .ElectricalBoxWithHeading-title {
+      padding: 0;
+      width: 100%;
+    }
+  }

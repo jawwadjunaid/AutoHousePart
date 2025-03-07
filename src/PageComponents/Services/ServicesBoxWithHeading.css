@@ -91,7 +91,7 @@
   color: white;
   padding: 0.625rem 1.2225rem;
   border: none;
-  font-size: 0.938rem;
+  font-size: 0.938rem !important;
   font-family:  sans-serif;
   font-weight: bold;
   border-radius: 5px;
