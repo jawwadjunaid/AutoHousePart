@@ -55,4 +55,9 @@
   .btn:hover {
     background: darkred;
   }
-  
+  @media screen and (max-width:600px) {
+    .Aboutushero-content{
+      max-width: 90%;
+    }
+    
+  }
