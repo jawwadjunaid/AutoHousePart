@@ -20,7 +20,7 @@ const AboutUsSubscriptionBox = () => {
       </div>
       <div className="subscription-form">
         <input type="email" placeholder="Email" />
-        <button>Subscribe <span>▼</span></button>
+        <button>Subscribe </button>
       </div>
     </div>
   );
