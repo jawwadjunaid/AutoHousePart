@@ -33,13 +33,13 @@ const testimonials = [
   },
 ];
 
-const Testimonials = () => {
+const Testimonials = ({ hideMoreReviews }) => {
   const location = useLocation(); // Get current page path
   const isHomePage = location.pathname === "/"; // Check if it's the home page
 
   return (
     <div className={`testimonials-container ${isHomePage ? "home-bg" : "default-bg"}`}>
-      <p className="description" style={{fontWeight:"800", fontSize:"0.875"}}>─── &nbsp; Testimonials &nbsp; ───</p>
+      <p className="description" style={{fontWeight:"800", fontSize:"0.875"}}>─── &nbsp; TESTIMONIALS &nbsp; ───</p>
       <h2>What Clients Say About Us</h2>
       <div className="testimonials-grid">
         {testimonials.map((item, index) => (
@@ -61,9 +61,11 @@ const Testimonials = () => {
       
       {/* Add More Reviews Button */}
       <div className="reviews-button-container">
+      {!hideMoreReviews && (
         <Link to="/Reviews" className="reviews-button">
           More Reviews
         </Link>
+      )}
       </div>
     </div>
   );

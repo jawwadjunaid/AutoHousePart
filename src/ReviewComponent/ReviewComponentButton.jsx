@@ -41,7 +41,7 @@ const ReviewComponentButton = () => {
      
     </div>
 
-    <Testimonials/>
+    <Testimonials hideMoreReviews={true}/>
     </>
     
   );

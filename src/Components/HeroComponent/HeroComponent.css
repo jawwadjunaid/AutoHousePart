@@ -110,6 +110,18 @@
 
 }
 
+@media (max-width: 912px) {
+  .hero-container {
+  height: 60vh;
+  }
+
+}
+@media (max-width: 1366px) {
+  .hero-container {
+    height: 60vh;
+    }
+}
+
 @media (max-width: 600px) {
   .hero-container{
     height: auto;
