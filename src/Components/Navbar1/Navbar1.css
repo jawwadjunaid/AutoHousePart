@@ -206,7 +206,7 @@
     display: flex !important;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 102%;
   }
 
   .dropdown-menu li {
@@ -364,6 +364,10 @@
   .navlogo-container {
     width: 60%;
     align-items: center;
+    
+  }
+  .dropdown-menu{
+    padding-left: 1rem;
   }
   
   /* Reduce extra space between nav items */
@@ -379,6 +383,10 @@
   .nav1-links li {
     margin: 0;
     padding: 0;
+    width: 90%;
+    margin-right: 20px;
+    margin-top: 1px;
+    
   }
   
   .services-dropdown:hover .dropdown-menu {
