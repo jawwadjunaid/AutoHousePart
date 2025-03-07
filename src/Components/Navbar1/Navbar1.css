@@ -78,7 +78,7 @@
 }
 
 .dropdown-menu a:hover {
-  color: #ffc107;
+  color: #C00104;
 }
 
 
@@ -190,7 +190,7 @@
 }
 
 .dropdown-item:hover {
-  background-color: #333;
+  background-color: #0A0A0A;
 }
 
 
@@ -387,9 +387,18 @@
     height: auto;
     width: auto;
   }
+  .dropdown-menu{
+    text-align: center;
+    margin-left: 0.5rem;
+    align-items: center;
+    padding-left: 0.3rem;
+  }
+  .nav1-links.open {
+    min-height: 40vh; /* Pura screen cover kare */
+    padding-bottom: 3rem; /* Neeche thoda extra space */
 }
 
-
+}
 
 
 @media screen and (min-width: 767px) and (max-width:850px) {
