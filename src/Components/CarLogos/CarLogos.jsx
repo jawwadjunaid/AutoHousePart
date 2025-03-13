@@ -10,7 +10,7 @@ import bmw from "../../assets/CarLogos/1_BMW.svg";
 import mini from "../../assets/CarLogos/2_MINI.svg";
 import porsche from "../../assets/CarLogos/9_Porsche.svg";
 import jaguar from "../../assets/CarLogos/8_Jaguar.svg";
-import landrover from "../../assets/CarLogos/7_LandRover.svg";
+import landrover from "../../assets/CarLogos/7_Landrover.svg";
 import audi from "../../assets/CarLogos/4_Audi.svg";
 import mercedes from "../../assets/CarLogos/3_Mercedes.svg";
 import volkswagen from "../../assets/CarLogos/5_Volkswagen.svg";
