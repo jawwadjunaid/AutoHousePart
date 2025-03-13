@@ -3,7 +3,7 @@ import './ElectricalHeader.css';
 const ElectricalHeader = () => {
   return (
     <div className="ElectricalHeader-section">
-    <h1>Electrical problems</h1>
+    <h1>Electrical Problems</h1>
     
   </div>
   )
