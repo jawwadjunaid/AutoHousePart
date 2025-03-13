@@ -71,7 +71,7 @@ const Navbar = () => {
               <li><Link to="/steering-suspension" onClick={closeMenu}>STEERING AND SUSPENSION</Link></li>
               <li><Link to="/coolant-system" onClick={closeMenu}>COOLANT SYSTEM</Link></li>
               <li><Link to="/engine-transmission" onClick={closeMenu}>ENGINE AND TRANSMISSION</Link></li>
-              <li><Link to="/computer-diagnostics" onClick={closeMenu}>COMPUTER AND DIAGNOSTICS</Link></li>
+              <li><Link to="/computer-diagnostics" onClick={closeMenu}>COMPUTER DIAGNOSTICS</Link></li>
               <li><Link to="/ac-heater" onClick={closeMenu}>AC AND HEATER</Link></li>
               <li><Link to="/electrical-problems" onClick={closeMenu}>ELECTRICAL PROBLEMS</Link></li>
               <li><Link to="/belt-rollers" onClick={closeMenu}>BELT AND ROLLERS</Link></li>
