@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 // Lazy load the ErrorPage component
 const ErrorPage = lazy(() => import('./Pages/ErrorPage/ErrorPage'));
 
+// Import Components
 import AutoMechanicForm from "./Components/AutoMechanicForm/AutoMechanicForm";
 import CarLogos from "./Components/CarLogos/CarLogos";
 import TipsCarousel from "./Components/CarouselSlider/TipsCarousel";
@@ -18,7 +19,7 @@ import ThreeCardSection from "./Components/ThreeCardSection/ThreeCardSection";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Services from "./Pages/Services/Services";
 import Contact from './Pages/ContactUs/ContactUs';
-import CarOilChange from './ServicePages/CarOilChange/CarOilChange'
+import CarOilChange from './ServicePages/CarOilChange/CarOilChange';
 import Brakes from "./ServicePages/Brakes/Brakes";
 import SteeringAndSuspension from "./ServicePages/SteeringAndSuspension/SteeringAndSuspension";
 import CoolantSystem from "./ServicePages/CoolantSystem/CoolantSystem";
@@ -35,7 +36,7 @@ import MapComponent from "./Components/MapComponent/MapComponent";
 function App() {
   return (
     <Router>
-      <ScrollToTop/>
+      <ScrollToTop />
       <Navbar1 />
       <Routes>
         <Route path="/" element={
