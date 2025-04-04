@@ -1,4 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import React, { lazy, Suspense } from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+
+// Lazy load the ErrorPage component
+const ErrorPage = lazy(() => import('./Pages/ErrorPage/ErrorPage'));
 
 import AutoMechanicForm from "./Components/AutoMechanicForm/AutoMechanicForm";
 import CarLogos from "./Components/CarLogos/CarLogos";
@@ -10,8 +14,6 @@ import RedBanner from "./Components/RedBanner/RedBanner";
 import SectionComponent from "./Components/SectionComponent/SectionComponent";
 import ServicesSection from "./Components/ServiceSection/ServicesSection";
 import Subscribe from "./Components/Subscribe/Subscribe";
-
-
 import ThreeCardSection from "./Components/ThreeCardSection/ThreeCardSection";
 import AboutUs from "./Pages/AboutUs/AboutUs";
 import Services from "./Pages/Services/Services";
@@ -32,43 +34,48 @@ import MapComponent from "./Components/MapComponent/MapComponent";
 
 function App() {
   return (
-    
-      <Router>
-        <ScrollToTop/>
-        <Navbar1 />
-        <Routes>
-          <Route path="/" element={
-            <>
-              <HeroComponent />
-              <SectionComponent />
-              <RedBanner />
-              <ServicesSection />
-              <ThreeCardSection />
-              <TipsCarousel />
-              <Subscribe />
-              <Testimonials/>
-              <AutoMechanicForm />
-              <MapComponent/>
-              <CarLogos />
-            </>
-          } />
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/Services" element={<Services/>}/>
-          <Route path="/car-oil-change" element={<CarOilChange />} />
-          <Route path="/brakes" element={<Brakes />} />
-          <Route path="/steering-suspension" element={<SteeringAndSuspension />} />
-          <Route path="/coolant-system" element={<CoolantSystem />} />
-          <Route path="/engine-transmission" element={<EngineTransmission />} />
-          <Route path="/computer-diagnostics" element={<ComputerDaignostic />} />
-          <Route path="/ac-heater" element={<AcAndHeater />} />
-          <Route path="/electrical-problems" element={<ElectricalProblems />} />
-          <Route path="/belt-rollers" element={<BeltRollers />} />
-          <Route path="/Reviews" element={<ReviewComponent/>}/>
-        </Routes>
-        <Footer />
-      </Router>
-  
+    <Router>
+      <ScrollToTop/>
+      <Navbar1 />
+      <Routes>
+        <Route path="/" element={
+          <>
+            <HeroComponent />
+            <SectionComponent />
+            <RedBanner />
+            <ServicesSection />
+            <ThreeCardSection />
+            <TipsCarousel />
+            <Subscribe />
+            <Testimonials/>
+            <AutoMechanicForm />
+            <MapComponent/>
+            <CarLogos />
+          </>
+        } />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/Services" element={<Services/>}/>
+        <Route path="/car-oil-change" element={<CarOilChange />} />
+        <Route path="/brakes" element={<Brakes />} />
+        <Route path="/steering-suspension" element={<SteeringAndSuspension />} />
+        <Route path="/coolant-system" element={<CoolantSystem />} />
+        <Route path="/engine-transmission" element={<EngineTransmission />} />
+        <Route path="/computer-diagnostics" element={<ComputerDaignostic />} />
+        <Route path="/ac-heater" element={<AcAndHeater />} />
+        <Route path="/electrical-problems" element={<ElectricalProblems />} />
+        <Route path="/belt-rollers" element={<BeltRollers />} />
+        <Route path="/Reviews" element={<ReviewComponent/>}/>
+        <Route path="/404-notfound" element={
+          <Suspense fallback={<div style={{textAlign: 'center', padding: '50px'}}>Loading...</div>}>
+            <ErrorPage />
+          </Suspense>
+        } />
+        {/* This is the catch-all route - it redirects any undefined route to your 404 page */}
+        <Route path="*" element={<Navigate to="/404-notfound" replace />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
