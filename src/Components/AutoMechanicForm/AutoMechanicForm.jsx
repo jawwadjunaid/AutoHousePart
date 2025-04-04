@@ -115,7 +115,7 @@ const AutoMechanicForm = () => {
 
           <div className="Recaptcha">
             {/* reCAPTCHA Widget */}
-            <ReCAPTCHA sitekey="YOUR_RECAPTCHA_SITE_KEY" onChange={setRecaptchaToken} />
+            <ReCAPTCHA sitekey="6LeI3fsqAAAAACAaajrxhx6qCq-7Wef8w8qDxhNo" onChange={setRecaptchaToken} />
           </div>
           
           <button type="submit">Contact Us</button>
