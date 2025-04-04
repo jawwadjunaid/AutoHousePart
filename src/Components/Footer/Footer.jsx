@@ -88,7 +88,7 @@ const Footer = () => {
 </p>
 
         <div className="footer-links">
-         <br/> <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+         {/* <br/> <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a> */}
         </div>
       </div>
     </footer>
